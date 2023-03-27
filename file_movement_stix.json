@@ -1,0 +1,291 @@
+{
+    "type": "bundle",
+    "id": "bundle--281fe97a-35d8-4b84-be2e-253047cc6275",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5fa",
+            "name": "shifter_proxy",
+            "identity_class": "events",
+            "created": "2021-01-01T21:12:38.295Z",
+            "modified": "2021-01-01T21:12:38.295Z"
+        },
+        {
+            "id": "observed-data--8b261b85-9817-4d1a-8eb4-63d7c1024066",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5fa",
+            "created": "2021-01-14T21:12:35.830Z",
+            "modified": "2021-01-14T21:12:35.830Z",
+            "objects": {
+                "0": {
+                    "type": "network-traffic",
+                    "dst_port": 8000,
+                    "src_byte_count": 1251,
+                    "dst_ref": "1",
+                    "src_packets": 4,
+                    "dst_byte_count": 1251,
+                    "dst_packets": 4,
+                    "src_port": 39616,
+                    "src_ref": "8",
+                    "protocols": [
+                        "tcp",
+                        "ipv4"
+                    ]
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "127.0.0.1"
+                },
+                "2": {
+                    "type": "x-ecs-process",
+                    "args": [
+                        "/opt/streamfwd/bin/streamfwd"
+                    ]
+                },
+                "3": {
+                    "type": "process",
+                    "name": "streamfwd",
+                    "pid": 1446,
+                    "binary_ref": "5",
+                    "creator_user_ref": "9",
+                    "opened_connection_refs": [
+                        "0"
+                    ]
+                },
+                "4": {
+                    "type": "x-oca-event",
+                    "process_ref": "3",
+                    "host_ref": "7",
+                    "duration": 9229638,
+                    "kind": "event",
+                    "module": "system",
+                    "start": "2021-01-14T12:34:00.021Z",
+                    "action": "network_flow",
+                    "end": "2021-01-14T12:34:00.030Z",
+                    "category": [
+                        "network_traffic"
+                    ],
+                    "dataset": "socket",
+                    "user_ref": "9",
+                    "network_ref": "0"
+                },
+                "5": {
+                    "type": "file",
+                    "name": "streamfwd",
+                    "parent_directory_ref": "6"
+                },
+                "6": {
+                    "type": "directory",
+                    "path": "/opt/streamfwd/bin"
+                },
+                "7": {
+                    "type": "x-oca-asset",
+                    "hostname": "bgu-farsight2",
+                    "os_name": "Ubuntu",
+                    "os_version": "18.04.5 LTS (Bionic Beaver)",
+                    "os_platform": "ubuntu",
+                    "name": "bgu-farsight2",
+                    "architecture": "x86_64",
+                    "host_id": "903daa5f5b044309a3587ae40c8fe066"
+                },
+                "8": {
+                    "type": "ipv4-addr",
+                    "value": "127.0.0.1"
+                },
+                "9": {
+                    "type": "user-account",
+                    "user_id": "root",
+                    "account_login": "root"
+                },
+                "10": {
+                    "type": "x-ecs-user",
+                    "user_id": "0"
+                },
+                "11": {
+                    "type": "x-ecs-network",
+                    "community_id": "1://wg3pTnzzE7uuSD7lFtJfZ+bwM=",
+                    "direction": "inbound"
+                }
+            },
+            "first_observed": "2021-01-14T12:34:00.520Z",
+            "last_observed": "2021-01-14T12:34:00.520Z",
+            "number_observed": 1
+        },
+		{
+            "id": "observed-data--4054384e-5f99-4bf0-acd4-8f746cbedcdd",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2021-01-14T21:31:34.950Z",
+            "modified": "2021-01-14T21:31:34.950Z",
+            "objects": {
+                "0": {
+                    "type": "x-oca-event",
+                    "action": "Process Create",
+                    "outcome": "Process Creation Success",
+                    "category": [
+                        "System"
+                    ],
+                    "provider": "Microsoft Windows Security Event Log",
+                    "agent": "WindowsAuthServer @ ALONFREUND-1865",
+                    "created": "2021-01-14T12:34:46.000Z",
+                    "nt_ref": "4",
+                    "user_ref": "9",
+                    "host_ref": "5",
+                    "original_ref": "12",
+                    "file_ref": "13",
+                    "code": 1,
+                    "process_ref": "10",
+                    "parent_process_ref": "18"
+                },
+                "1": {
+                    "type": "x-qradar",
+                    "qid": 5001828,
+                    "category_id": 8110,
+                    "high_level_category_id": 8000,
+                    "log_source_id": 212,
+                    "device_type": 12,
+                    "direction": "R2R",
+                    "credibility": 5,
+                    "relevance": 1,
+                    "cre_event_list": [
+                        "100265",
+                        "100221",
+                        "101204",
+                        "101432",
+                        "101012",
+                        "100272",
+                        "100647",
+                        "100227"
+                    ],
+                    "domain_id": 0,
+                    "domain_name": "Default Domain"
+                },
+                "2": {
+                    "type": "x-ibm-finding",
+                    "start": "2021-01-14T12:34:58.939Z",
+                    "end": "2021-01-14T12:35:58.939Z",
+                    "src_ip_ref": "3",
+                    "dst_ip_ref": "7",
+                    "src_application_user_ref": "9",
+                    "event_count": 1,
+                    "finding_type": "event",
+                    "magnitude": 2,
+                    "severity": 2,
+                    "src_geolocation": "NorthAmerica.UnitedStates",
+                    "dst_geolocation": "NorthAmerica.UnitedStates",
+                    "rule_names": [
+                        "BB:DeviceDefinition: Operating System",
+                        "Destination Asset Weight is Low",
+                        "ECBB:CategoryDefinition: Destination IP is a Third Country/Region",
+                        "BB:CategoryDefinition: Source IP is a Third Country/Region",
+                        "QVTI: Populate Hashes to Check",
+                        "Load Basic Building Blocks",
+                        "BB:CategoryDefinition: Process Creation Event",
+                        "Source Asset Weight is Low"
+                    ]
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "9.147.31.113",
+                    "resolves_to_refs": [
+                        "6"
+                    ]
+                },
+                "4": {
+                    "type": "network-traffic",
+                    "src_ref": "3",
+                    "src_port": 0,
+                    "dst_ref": "7",
+                    "dst_port": 0,
+                    "protocols": [
+                        "reserved"
+                    ]
+                },
+                "5": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "3",
+                        "11"
+                    ],
+                    "mac_refs": [
+                        "6"
+                    ]
+                },
+                "6": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "9.147.31.113",
+                    "resolves_to_refs": [
+                        "8"
+                    ]
+                },
+                "8": {
+                    "type": "mac-addr",
+                    "value": "00:00:00:00:00:00"
+                },
+                "9": {
+                    "type": "user-account",
+                    "user_id": "ALONFREUND"
+                },
+                "10": {
+                    "type": "process",
+                    "creator_user_ref": "9",
+                    "binary_ref": "14",
+                    "parent_ref": "18",
+                    "command_line": "\"C:\\WINDOWS\\SysWOW64\\DllHost.exe\" /Processid:{776DBC8D-7347-478C-8D71-791E12EF49D8}",
+                    "name": "dllhost.exe",
+                    "pid": 26324
+                },
+                "11": {
+                    "type": "ipv4-addr",
+                    "value": "0.0.0.0"
+                },
+                "12": {
+                    "type": "artifact",
+                    "payload_bin": "PDEzPkphbiAxNCAxNDozNDo0OCBBTE9ORlJFVU5ELTE4NjUgQWdlbnREZXZpY2U9V2luZG93c0xvZwlBZ2VudExvZ0ZpbGU9TWljcm9zb2Z0LVdpbmRvd3MtU3lzbW9uL09wZXJhdGlvbmFsCVBsdWdpblZlcnNpb249Ny4yLjkuNzIJU291cmNlPU1pY3Jvc29mdC1XaW5kb3dzLVN5c21vbglDb21wdXRlcj1BTE9ORlJFVU5ELTE4NjVTREUJT3JpZ2luYXRpbmdDb21wdXRlcj1BTE9ORlJFVU5ELTE4NjVTREUJVXNlcj1TWVNURU0JRG9tYWluPU5UIEFVVEhPUklUWQlFdmVudElEPTEJRXZlbnRJRENvZGU9MQlFdmVudFR5cGU9NAlFdmVudENhdGVnb3J5PTEJUmVjb3JkTnVtYmVyPTE4NjE3MjEJVGltZUdlbmVyYXRlZD0xNjEwNjI3Njg2CVRpbWVXcml0dGVuPTE2MTA2Mjc2ODYJTGV2ZWw9SW5mb3JtYXRpb25hbAlLZXl3b3Jkcz0weDgwMDAwMDAwMDAwMDAwMDAJVGFzaz1TeXNtb25UYXNrLVNZU01PTl9DUkVBVEVfUFJPQ0VTUwlPcGNvZGU9SW5mbwlNZXNzYWdlPVByb2Nlc3MgQ3JlYXRlOiBSdWxlTmFtZTogLSBVdGNUaW1lOiAyMDIxLTAxLTE0IDEyOjM0OjQ2LjExNyBQcm9jZXNzR3VpZDogezI1M2FjZjY3LTNhNjYtNjAwMC02ZjcwLTAxMDAwMDAwMGIwMH0gUHJvY2Vzc0lkOiAyNjMyNCBJbWFnZTogQzpcV2luZG93c1xTeXNXT1c2NFxkbGxob3N0LmV4ZSBGaWxlVmVyc2lvbjogMTAuMC4xOTA0MS41NDYgKFdpbkJ1aWxkLjE2MDEwMS4wODAwKSBEZXNjcmlwdGlvbjogQ09NIFN1cnJvZ2F0ZSBQcm9kdWN0OiBNaWNyb3NvZnTCriBXaW5kb3dzwq4gT3BlcmF0aW5nIFN5c3RlbSBDb21wYW55OiBNaWNyb3NvZnQgQ29ycG9yYXRpb24gT3JpZ2luYWxGaWxlTmFtZTogZGxsaG9zdC5leGUgQ29tbWFuZExpbmU6ICJDOlxXSU5ET1dTXFN5c1dPVzY0XERsbEhvc3QuZXhlIiAvUHJvY2Vzc2lkOns3NzZEQkM4RC03MzQ3LTQ3OEMtOEQ3MS03OTFFMTJFRjQ5RDh9IEN1cnJlbnREaXJlY3Rvcnk6IEM6XFdJTkRPV1Ncc3lzdGVtMzJcIFVzZXI6IEF6dXJlQURcQUxPTkZSRVVORCBMb2dvbkd1aWQ6IHsyNTNhY2Y2Ny0zNWQ4LTVmZTgtMzRhYy02MjE4MDAwMDAwMDB9IExvZ29uSWQ6IDB4MTg2MkFDMzQgVGVybWluYWxTZXNzaW9uSWQ6IDIgSW50ZWdyaXR5TGV2ZWw6IE1lZGl1bSBIYXNoZXM6IE1ENT02RjNDOTQ4NUY4Rjk3QUMwNEM4RTQzRUY0NDYzQTY4QyxTSEEyNTY9M0VENjlDQUFCMDM1MjU4RTAwOEVGQkNGNDBEQjMwNTg5MUI0MEJBMDJDQTI3MzdFMjBERUZBN0MyRDRBRkFGNyxJTVBIQVNIPUI2QTZDNTI0N0VGQkQyNjEwRTNERUE0NDY0OUQ3MDQxIFBhcmVudFByb2Nlc3NHdWlkOiB7MjUzYWNmNjctMjA1OS01ZmU1LTBmMDAtMDAwMDAwMDAwYjAwfSBQYXJlbnRQcm9jZXNzSWQ6IDExNjQgUGFyZW50SW1hZ2U6IEM6XFdpbmRvd3NcU3lzdGVtMzJcc3ZjaG9zdC5leGUgUGFyZW50Q29tbWFuZExpbmU6IEM6XFdJTkRPV1Ncc3lzdGVtMzJcc3ZjaG9zdC5leGUgLWsgRGNvbUxhdW5jaCAtcAo="
+                },
+                "13": {
+                    "type": "file",
+                    "hashes": {
+                        "MD5": "6F3C9485F8F97AC04C8E43EF4463A68C"
+                    }
+                },
+                "14": {
+                    "type": "file",
+                    "name": "dllhost.exe",
+                    "parent_directory_ref": "15"
+                },
+                "15": {
+                    "type": "directory",
+                    "path": "C:\\Windows\\SysWOW64"
+                },
+                "16": {
+                    "type": "file",
+                    "name": "svchost.exe",
+                    "parent_directory_ref": "17"
+                },
+                "17": {
+                    "type": "directory",
+                    "path": "C:\\Windows\\System32"
+                },
+                "18": {
+                    "type": "process",
+                    "binary_ref": "16",
+                    "command_line": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p",
+                    "pid": 1164
+                },
+                "19": {
+                    "type": "x-ibm-windows",
+                    "imphash": "B6A6C5247EFBD2610E3DEA44649D7041"
+                }
+            },
+            "first_observed": "2021-01-14T12:34:58.939Z",
+            "last_observed": "2021-01-14T12:35:58.939Z",
+            "number_observed": 1
+        }
+    ]
+}
