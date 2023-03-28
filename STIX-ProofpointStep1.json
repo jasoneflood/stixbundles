@@ -1,0 +1,63 @@
+{
+    "type": "bundle",
+    "id": "bundle--65b8b0e8-3e97-4749-bc42-75b98842e32b",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "id": "identity--d06281b8-b746-447b-bc22-15eaf23dee91",
+            "name": "proofpoint_async",
+            "type": "identity",
+            "identity_class": "system",
+            "created": "2023-03-26T14:32:28.694Z",
+            "modified": "2023-03-26T14:32:29.694Z"
+        },
+        {
+            "id": "observed-data--495f50ac-b43f-4e9f-952c-38c88d2b8cf9",
+            "type": "observed-data",
+            "created_by_ref": "identity--d06281b8-b746-447b-bc22-15eaf23dee91",
+            "created": "2023-03-26T14:32:27.034Z",
+            "modified": "2023-03-26T14:32:27.034Z",
+            "objects": {
+                "0": {
+                    "type": "url",
+                    "value": "http://baneand0x.com"
+                },
+                "1": {
+                    "type": "x-proofpoint-msgevents",
+                    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+                    "ID": "448cceab-52ce-4638-9ad2-843c9b038c7b",
+                    "senderIP": "7",
+                    "GUID": "IEXA9uKty7y0XtTtXfEGlXdg1pZcutRU"
+                },
+                "2": {
+                    "type": "ipv4-addr",
+                    "value": "172.16.17.32"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "2"
+                },
+                "4": {
+                    "type": "email-addr",
+                    "value": "davesmith@baneand0x.com"
+                },
+                "5": {
+                    "type": "email-message",
+                    "sender_ref": "4",
+                    "to_refs": "6"
+                },
+                "6": {
+                    "type": "email-addr",
+                    "value": "Frank-Adams@baneandox.com"
+                },
+                "7": {
+                    "type": "ipv4-addr",
+                    "value": "45.81.243.34"
+                }
+            },
+            "first_observed": "2023-03-26T14:32:27.034Z",
+            "last_observed": "2023-03-26T14:32:29.034Z",
+            "number_observed": 1
+        }
+    ]
+}
