@@ -1,0 +1,666 @@
+[
+  {
+    "name": "Proofpoint - detected phishing URL in mail",
+    "description": "A known phishing URL has been detected in an email.",
+    "score": "medium",
+    "original_time": 1679832567000,
+    "mitre_ids": ["TA0001"],
+    "severity": 0.5,
+    "cumulative_score": 0.5,
+    "detection_source_type_name": "Proofpoint",
+    "observable_refs": ["observed-data--d11332c3-af8e-411f-939f-549b8bf71380", "observed-data--d11332c3-af8e-411f-939f-549b8bf71397", "x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb417"],
+    "properties": [
+      {
+        "name": "id",
+        "value": "x-ibm-finding--1b9f373-709f-5922-b19d-c536ad70e008"
+      },
+      {
+        "name": "detection_source_type_name",
+        "value": "Proofpoint"
+      },
+      {
+        "name": "detection_source_type_category",
+        "value": "EDR"
+      },
+      {
+        "name": "severity",
+        "value": 0.7
+      },
+      {
+        "name": "cumulative_score",
+        "value": 0.7
+      },
+      {
+        "name": "credibility",
+        "value": 1.0
+      },
+      {
+        "name": "original_time",
+        "value": "1679832567000"
+      },
+      {
+        "name": "observable_ref_list",
+        "value": "[{observable_ref=observed-data--d11332c3-af8e-411f-939f-549b8bf71380,time_observed=2023-03-26T12:09:27.7699973Z},{observable_ref=observed-data--f784555c-4b7c-4b50-8110-8fe0925ce743,time_observed=2023-03-26T12:09:27.7699973Z},{observable_ref=x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb417,time_observed=2023-03-26T12:09:27.7699973Z}]"
+      }
+    ],
+    "explainability": [
+            {
+                "scores": [
+                    {
+                        "severity": "0.5",
+                        "category": "finding_parameter",
+                        "description": "Proofpoint URL filtering",
+                        "module_name": "RULE_ENGINE",
+                        "rule_id": "Proofpoint"
+                    }
+                ]
+            }
+    ],
+    "incident_artifacts": [
+	   {
+        "value": "frank-adams@baneandox.com",
+        "type": 20,
+        "generic_properties": [
+          {
+            "name": "observable_ref",
+            "value": "observed-data--d11332c3-af8e-411f-939f-549b8bf71380"
+          }
+        ]
+      },
+      {
+        "value": "https://baneand0xe.com",
+        "type": 3,
+        "generic_properties": [
+          {
+            "name": "observable_ref",
+            "value": "observed-data--f784555c-4b7c-4b50-8110-8fe0925ce743"
+          }
+        ]
+      },
+	  {
+        "value": "frank-adams-pc.baneandox.com",
+        "type": 25,
+        "generic_properties": [
+          {
+            "name": "observable_ref",
+            "value": "x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb417"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Download from Suspicious Domain",
+    "description": "Detects download of certain file types from hosts in suspicious domains.",
+    "score": "medium",
+    "severity": 0.5,
+    "cumulative_score": 0.5,
+    "detection_source_type_name": "Crowdstrike",
+    "original_time": 1679832622000,
+    "mitre_ids": ["TA0002"],
+    "external_mitre_ids": [],
+    "observable_refs": [
+      "observed-data--a054c753-6787-5a09-850f-a67d2cf585fd"
+    ],
+    "properties": [
+      {
+        "name": "external_alert_id",
+        "value": "da637649185698214647_-2139933047"
+      },
+      {
+        "name": "external_detection_id",
+        "value": "d60f5b90-ecd8-4d77-8186-a801597ec762"
+      },
+      {
+        "name": "finding_type",
+        "value": "Phishing"
+      },
+      {
+        "name": "time_observed",
+        "value": "1679832622000"
+      },
+      {
+        "name": "customer_id",
+        "value": "BAO"
+      },
+      {
+        "name": "device_id",
+        "value": "11ae255fa5abb6bfb35d9ce1c542ea525335ab7b"
+      },
+      {
+        "name": "detection_source_type_name",
+        "value": "Crowdstrike"
+      },
+      {
+        "name": "detection_source_type_category",
+        "value": "EDR"
+      },
+      {
+        "name": "severity",
+        "value": 0.7
+      },
+      {
+        "name": "credibility",
+        "value": 1.0
+      },
+      {
+        "name": "observable_ref_list",
+        "value": "[{observable_ref=observed-data--a054c753-6787-5a09-850f-a67d2cf585fd,time_observed=2023-03-26T12:10:22.7699973Z}]"
+      }
+    ],
+    "explainability": [
+            {
+                "scores": [
+                    {
+                        "severity": "0.5",
+                        "category": "finding_parameter",
+                        "description": "Crowdstrike: Suspicious Domain",
+                        "module_name": "RULE_ENGINE",
+                        "rule_id": "Crowdstrike"
+                    }
+                ]
+            }
+    ],
+    "incident_artifacts": [
+      {
+        "value": "https://baneand0xe.com",
+        "type": 3,
+        "generic_properties": [
+          {
+            "name": "observable_ref",
+            "value": "observed-data--a054c753-6787-5a09-850f-a67d2cf585fd"
+          }
+        ],
+        "explainability": [
+          { 
+            "severity": "0.8",
+            "context": "url",
+            "create_date": 1679832622000,
+            "scores": [     
+                {           
+                    "severity": "0.8",
+                    "category": "Threat Intelligence",
+                    "description": "X-Force Threat Intelligence",
+                    "module_name": "TIS"
+                 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Malware detected by Falcon Crowdstrike ML",
+    "description": "This file meets the File Analysis ML algorithm's high-confidence threshold for malware.",
+    "score": "medium",
+    "severity": 0.5,
+    "cumulative_score": 0.5,
+    "detection_source_type_name": "Crowdstrike",
+    "original_time": 1679832625000,
+    "mitre_ids": ["TA0003","TA0004","TA0005"],
+    "external_mitre_ids": [],
+    "observable_refs": [
+      "file--a054c753-6787-5a09-850f-a67d2cf585fd"
+    ],
+    "properties": [
+      {
+        "name": "external_alert_id",
+        "value": "da637649185698214647_-2139933047"
+      },
+      {
+        "name": "external_detection_id",
+        "value": "d60f5b90-ecd8-4d77-8186-a801597ec762"
+      },
+      {
+        "name": "finding_type",
+        "value": "Malware"
+      },
+      {
+        "name": "time_observed",
+        "value": "1679832625000"
+      },
+      {
+        "name": "customer_id",
+        "value": "BAO"
+      },
+      {
+        "name": "device_id",
+        "value": "11ae255fa5abb6bfb35d9ce1c542ea525335ab7b"
+      },
+      {
+        "name": "detection_source_type_name",
+        "value": "Crowdstrike"
+      },
+      {
+        "name": "detection_source_type_category",
+        "value": "EDR"
+      },
+      {
+        "name": "severity",
+        "value": 0.7
+      },
+      {
+        "name": "credibility",
+        "value": 1.0
+      },
+      {
+        "name": "observable_ref_list",
+        "value": "[{observable_ref=file--a054c753-6787-5a09-850f-a67d2cf585fd,time_observed=2023-03-22T14:37:42.7699973Z}]"
+      }
+    ],
+    "explainability": [
+            {
+                "scores": [
+                    {
+                        "severity": "0.5",
+                        "category": "finding_parameter",
+                        "description": "Crowdstrike: Malware detected",
+                        "module_name": "RULE_ENGINE",
+                        "rule_id": "Crowdstrike"
+                    }
+                ]
+            }
+    ],
+    "incident_artifacts": [
+      {
+        "value": "7e37ab34ecdcc3e77e24522ddfd4852d",
+        "type": 13,
+        "generic_properties": [
+          {
+            "name": "observable_ref",
+            "value": "file--57f6532e-3ee1-4f84-973f-9431e98bb416"
+          },
+          {
+            "name": "id",
+            "value": "file--57f6532e-3ee1-4f84-973f-9431e98bb416"
+          }
+        ],
+        "explainability": [
+          { 
+            "severity": "0.8",
+            "context": "file",
+            "create_date": 1679832625000,
+            "scores": [     
+                {           
+                    "severity": "0.8",
+                    "category": "Threat Intelligence",
+                    "description": "X-Force Threat Intelligence",
+                    "module_name": "TIS"
+                 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Windows Network Enumeration",
+    "description": "A Network scan has been run from a compromised host preceded by Detected a Service Binary Path Changed followed by a User or Group Added preceded by Policy violation with process launched from Temp directory containing Success Audit: Windows Network Enumeration",
+    "score": "high",
+    "severity": 0.8,
+    "cumulative_score": 0.8,
+    "detection_source_type_name": "QRadar",
+    "original_time": 1679832955000,
+    "mitre_ids": ["TA0007"],
+    "external_mitre_ids": [],
+    "observable_refs": [
+      "x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb417"
+    ],
+    "properties": [
+      {
+        "name": "external_alert_id",
+        "value": "da637649185698214647_-2139933045"
+      },
+      {
+        "name": "external_detection_id",
+        "value": "d60f5b90-ecd8-4d77-8186-a8015976c767"
+      },
+      {
+        "name": "finding_type",
+        "value": "Malware"
+      },
+      {
+        "name": "time_observed",
+        "value": "1679832955000"
+      },
+      {
+        "name": "customer_id",
+        "value": "QOX"
+      },
+      {
+        "name": "device_id",
+        "value": "11ae255fa5abb6bfb35d9ce1c542ea525335ab7b"
+      },
+      {
+        "name": "detection_source_type_name",
+        "value": "QRadar"
+      },
+      {
+        "name": "detection_source_type_category",
+        "value": "SIEM"
+      },
+      {
+        "name": "severity",
+        "value": 7.5
+      },
+      {
+        "name": "credibility",
+        "value": 1.0
+      },
+      {
+        "name": "observable_ref_list",
+        "value": "[{observable_ref=x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb417,time_observed=2023-03-26T12:15:55.7699973Z}]"
+      }
+    ],
+    "explainability": [
+            {
+                "scores": [
+                    {
+                        "severity": "0.5",
+                        "category": "finding_parameter",
+                        "description": "QRadar: Windows Network Enumeration",
+                        "module_name": "RULE_ENGINE",
+                        "rule_id": "QRadar"
+                    }
+                ]
+            }
+    ],
+    "incident_artifacts": [
+       {
+        "value": "frank-adams-pc.baneandox.com",
+        "type": 25,
+        "generic_properties": [
+          {
+            "name": "observable_ref",
+            "value": "x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb417"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "A Network Host Has Been Accessed from a Compromised Host",
+    "description": "A Network Host Has Been Accessed from a Compromised Host preceded by Detected a Service Binary Path Changed followed by a User or Group Added preceded by Network Traffic From a Compromised Host preceded by Policy violation with process launched from Temp directory containing Success Audit: A network host was accessed",
+    "score": "high",
+    "severity": 0.8,
+    "cumulative_score": 0.8,
+    "detection_source_type_name": "QRadar",
+    "original_time": 1679833030000,
+    "mitre_ids": ["TA0008","T1021"],
+    "external_mitre_ids": [],
+    "observable_refs": [
+      "x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb417","x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb418"
+    ],
+    "properties": [
+      {
+        "name": "external_alert_id",
+        "value": "da637649185698214647_-2139933045"
+      },
+      {
+        "name": "external_detection_id",
+        "value": "d60f5b90-ecd8-4d77-8186-a8015976c767"
+      },
+      {
+        "name": "finding_type",
+        "value": "Malware"
+      },
+      {
+        "name": "time_observed",
+        "value": "1679833030000"
+      },
+      {
+        "name": "customer_id",
+        "value": "BAO"
+      },
+      {
+        "name": "device_id",
+        "value": "11ae255fa5abb6bfb35d9ce1c542ea525335ab7b"
+      },
+      {
+        "name": "detection_source_type_name",
+        "value": "QRadar"
+      },
+      {
+        "name": "detection_source_type_category",
+        "value": "SIEM"
+      },
+      {
+        "name": "severity",
+        "value": 7.5
+      },
+      {
+        "name": "credibility",
+        "value": 1.0
+      },
+      {
+        "name": "observable_ref_list",
+        "value": "[{observable_ref=x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb417,time_observed=2023-03-26T12:17:10.7699973Z},{observable_ref=x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb418,time_observed=2023-03-26T12:17:10.7699973Z}]"
+      }
+    ],
+    "explainability": [
+            {
+                "scores": [
+                    {
+                        "severity": "7.5",
+                        "category": "finding_parameter",
+                        "description": "QRadar: A Network Host Has Been Accessed from a Compromised Host",
+                        "module_name": "RULE_ENGINE",
+                        "rule_id": "QRadar"
+                    }
+                ]
+            }
+    ],
+    "incident_artifacts": [
+       {
+        "value": "frank-adams-pc.baneandox.com",
+        "type": 25,
+        "generic_properties": [
+          {
+            "name": "observable_ref",
+            "value": "x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb417"
+          }
+        ]
+      },
+	  {
+        "value": "sales-database.baneandox.com",
+        "type": 25,
+        "generic_properties": [
+          {
+            "name": "observable_ref",
+            "value": "x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb418"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Abnormal queries to cloud data store",
+    "description": "Abnormal queries to cloud data store preceded by Network Traffic From a Compromised Host preceded by Policy violation with process launched from Temp directory containing Success Audit: Abnormal queries to cloud data store",
+    "score": "high",
+    "severity": 0.8,
+    "cumulative_score": 0.8,
+    "detection_source_type_name": "QRadar",
+    "original_time": 1679833203000,
+    "mitre_ids": ["TA0009"],
+    "external_mitre_ids": [],
+    "observable_refs": [
+      "x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb417","x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb418"
+    ],
+    "properties": [
+      {
+        "name": "external_alert_id",
+        "value": "ba637649185698214647_-2139933045"
+      },
+      {
+        "name": "external_detection_id",
+        "value": "b60f5b90-ecd8-4d77-8186-a8015976c767"
+      },
+      {
+        "name": "finding_type",
+        "value": "Malware"
+      },
+      {
+        "name": "time_observed",
+        "value": "1679833203000"
+      },
+      {
+        "name": "customer_id",
+        "value": "BAO"
+      },
+      {
+        "name": "device_id",
+        "value": "11ae255fa5abb6bfb35d9ce1c542ea525335ab7b"
+      },
+      {
+        "name": "detection_source_type_name",
+        "value": "QRadar"
+      },
+      {
+        "name": "detection_source_type_category",
+        "value": "SIEM"
+      },
+      {
+        "name": "severity",
+        "value": 7.5
+      },
+      {
+        "name": "credibility",
+        "value": 1.0
+      },
+      {
+        "name": "observable_ref_list",
+        "value": "[{observable_ref=x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb417,time_observed=2023-03-26T12:20:03.7699973Z},{observable_ref=x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb418,time_observed=2023-03-26T12:20:03.7699973Z}]"
+      }
+    ],
+    "explainability": [
+            {
+                "scores": [
+                    {
+                        "severity": "7.5",
+                        "category": "finding_parameter",
+                        "description": "QRadar: Abnormal queries to cloud data store",
+                        "module_name": "RULE_ENGINE",
+                        "rule_id": "QRadar"
+                    }
+                ]
+            }
+    ],
+    "incident_artifacts": [
+       {
+        "value": "frank-adams-pc.baneandox.com",
+        "type": 25,
+        "generic_properties": [
+          {
+            "name": "observable_ref",
+            "value": "x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb417"
+          }
+        ]
+      },
+	  {
+        "value": "sales-database.baneandox.com",
+        "type": 25,
+        "generic_properties": [
+          {
+            "name": "observable_ref",
+            "value": "x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb418"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Data Exfiltration to Unsanctioned Apps",
+    "description": "Data Exfiltration to Unsanctioned Apps preceded by Abnormal queries to cloud data store preceded by Network Traffic From a Compromised Host preceded by Policy violation with process launched from Temp directory containing Success Audit: Data Exfiltration to Unsanctioned Apps",
+    "score": "high",
+    "severity": 1.0,
+    "cumulative_score": 1.0,
+    "detection_source_type_name": "QRadar",
+    "original_time": 1679833271000,
+    "mitre_ids": ["TA0010"],
+    "external_mitre_ids": [],
+    "observable_refs": [
+      "x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb417","x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb418"
+    ],
+    "properties": [
+      {
+        "name": "external_alert_id",
+        "value": "ba637649185698214647_-2139933045"
+      },
+      {
+        "name": "external_detection_id",
+        "value": "b60f5b90-ecd8-4d77-8186-a8015976c767"
+      },
+      {
+        "name": "finding_type",
+        "value": "Malware"
+      },
+      {
+        "name": "time_observed",
+        "value": "1679833271000"
+      },
+      {
+        "name": "customer_id",
+        "value": "BAO"
+      },
+      {
+        "name": "device_id",
+        "value": "11ae255fa5abb6bfb35d9ce1c542ea525335ab7b"
+      },
+      {
+        "name": "detection_source_type_name",
+        "value": "QRadar"
+      },
+      {
+        "name": "detection_source_type_category",
+        "value": "SIEM"
+      },
+      {
+        "name": "severity",
+        "value": 7.5
+      },
+      {
+        "name": "credibility",
+        "value": 1.0
+      },
+      {
+        "name": "observable_ref_list",
+        "value": "[{observable_ref=x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb417,time_observed=2023-03-26T12:21:11.7699973Z},{observable_ref=observed-data--87f6532e-3ee1-4f84-973f-9431e98bb420,time_observed=2023-03-26T12:21:11.7699973Z}]"
+      }
+    ],
+    "explainability": [
+            {
+                "scores": [
+                    {
+                        "severity": "7.5",
+                        "category": "finding_parameter",
+                        "description": "QRadar: Abnormal queries to cloud data store",
+                        "module_name": "RULE_ENGINE",
+                        "rule_id": "QRadar"
+                    }
+                ]
+            }
+    ],
+    "incident_artifacts": [
+       {
+        "value": "frank-adams-pc.baneandox.com",
+        "type": 25,
+        "generic_properties": [
+          {
+            "name": "observable_ref",
+            "value": "x-oca-asset--87f6532e-3ee1-4f84-973f-9431e98bb417"
+          }
+        ]
+      },
+	  {
+        "value": "128.210.157.251",
+        "type": 1,
+        "generic_properties": [
+          {
+            "name": "observable_ref",
+            "value": "observed-data--87f6532e-3ee1-4f84-973f-9431e98bb420"
+          }
+        ]
+      }
+    ]
+  }
+]
