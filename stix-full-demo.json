@@ -1,0 +1,557 @@
+{
+	"type": "bundle",
+    "id": "bundle--281fe97a-35d8-4b84-be2e-253047cc6274",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "name": "shifter_proxy",
+            "identity_class": "events",
+            "created": "2023-03-22T21:12:38.295Z",
+            "modified": "2023-03-22T21:12:38.295Z"
+        },
+		{
+  "id": "observed-data--e2717c9d-4eb6-41fe-90b2-dead702e36d3",
+  "type": "observed-data",
+  "created": "2023-03-26T12:10:22.335Z",
+  "objects": {
+    "0": {
+      "code": 1,
+      "type": "x-oca-event",
+      "agent": "WindowsWebClient @ Frank-Adams-PC",
+      "action": "File Download",
+      "created": "2023-03-26T12:15:55.950Z",
+      "outcome": "File Download Success",
+      "category": [
+        "Web"
+      ],
+      "file_ref": "6",
+      "host_ref": "1",
+      "provider": "Crowdstrike",
+      "user_ref": "11",
+      "machine_id": "6a813bbd845c2bf3115e24c40fd9a902a3047e8b",
+      "original_ref": "12"
+    },
+    "1": {
+      "type": "domain-name",
+      "value": "baneandox.com"
+    },
+    "2": {
+      "type": "ipv4-addr",
+      "value": "139.45.197.253"
+    },
+    "3": {
+      "type": "network-traffic",
+      "dst_ref": "2",
+      "src_ref": "5",
+      "dst_port": 443,
+      "src_port": 50990,
+      "protocols": [
+        "tcp"
+      ]
+    },
+    "4": {
+      "type": "url",
+      "value": "baneand0x.com"
+    },
+    "5": {
+      "type": "ipv4-addr",
+      "value": "10.10.20.10"
+    },
+    "6": {
+      "name": "ice9f70e104c07.bin",
+      "type": "file",
+      "hashes": {
+        "MD5": "7e37ab34ecdcc3e77e24522ddfd4852d",
+        "SHA-256": "02ef73bd2458627ed7b397ec26ee2de2e92c71a0e7588f78734761d8edbdcd9f"
+      },
+      "parent_directory_ref": "8"
+    },
+    "7": {
+      "pid": 1824,
+      "name": "svchost.exe",
+      "type": "process",
+      "created": "2023-03-26T12:10:36.071Z",
+      "binary_ref": "6",
+      "parent_ref": "10",
+      "command_line": "svchost.exe -k netsvcs -p -s BITS",
+      "creator_user_ref": "11"
+    },
+    "8": {
+      "path": "c:\\windows\\system32",
+      "type": "directory"
+    },
+    "9": {
+      "name": "services.exe",
+      "type": "file"
+    },
+    "10": {
+      "pid": 740,
+      "name": "services.exe",
+      "type": "process",
+      "created": "2023-03-26T12:09:45.925Z",
+      "binary_ref": "9"
+    },
+    "11": {
+      "type": "user-account",
+      "user_id": "frank-adams@baneandox.com",
+      "account_login": "frank-adams@baneandox.com"
+    },
+    "12": {
+      "type": "artifact",
+      "payload_bin": "ImlkIjogImVkNjM3NTgyOTQ4MjIzOTY2MDIzXy0xNzA2Njg5NDE4IiwgImluY2lkZW50SWQiOiAxNDIwLCAic2V2ZXJpdHkiOiAiTG93IiwgInN0YXR1cyI6ICJOZXciLCAiaW52ZXN0aWdhdGlvblN0YXRlIjogIkxvZ0V2ZW50IiwgImRldGVjdGlvblNvdXJjZSI6ICJDdXN0b21EZXRlY3Rpb24iLCAiZGV0ZWN0b3JJZCI6ICJhNzA4OGUwMy1jMzY3LTRjYzItYmM1MC0yZWViMzJkYjczNmIiLCAiY2F0ZWdvcnkiOiAiRXZlbnQiLCAidGl0bGUiOiAiSFRUUFMgYWN0aXZpdHkiLCAiZGVzY3JpcHRpb24iOiAiSFRUUFMgYWN0aXZpdHkiLCAiYWxlcnRDcmVhdGlvblRpbWUiOiAiMjAyMy0wMy0yNlQxMjowMToyNS4zNDY2Mjg4WiIsICJmaXJzdEV2ZW50VGltZSI6ICIyMDIzLTAzLTI2VDEyOjAxOjI1LjQ2Njk0MTlaIiwgImxhc3RFdmVudFRpbWUiOiAiMjAyMy0wMy0yNlQxMjowMToyNS40NjY5NDE5WiIsICJsYXN0VXBkYXRlVGltZSI6ICIyMDIzLTAzLTI2VDA0OjEyOjUwLjI0WiIsICJtYWNoaW5lSWQiOiAiNmE4MTNiYmQ4NDVjMmJmMzExNWUyNGM0MGZkOWE5MDJhMzA0N2U4YiIsICJjb21wdXRlckRuc05hbWUiOiAiZnJhbmstYWRhbXMtcGMuYmFuZWFuZG94LmNvbSIsICJyYmFjR3JvdXBOYW1lIjogIlhEUiBCQU8gZ3JvdXAiLCAiYWFkVGVuYW50SWQiOiAiOTBkMDczMTMtMTczOS00MjgzLThhOTQtMWFkZDkzYmZkMGViIiwgIm1pdHJlVGVjaG5pcXVlcyI6IFtdLCAicmVsYXRlZFVzZXIiOiB7CgkidXNlck5hbWUiOiAiZnJhbmstYWRhbXNAYmFuZWFuZG94LmNvbSIsCgkiZG9tYWluTmFtZSI6ICJiYW5lYW4weC5jb20iCn0sICJjb21tZW50cyI6IFtdLCAiZXZpZGVuY2UiOiBbewoJImVudGl0eVR5cGUiOiAiUHJvY2VzcyIsCgkiZXZpZGVuY2VDcmVhdGlvblRpbWUiOiAiMjAyMy0wMy0yNlQxMjowMToyNS40NVoiLAoJInNoYTEiOiAiNTQ1ZWMxMWRlZTY0MmRlNjMzZWIyYzZmNmZmYzkwY2NlNGRlY2Y4ZCIsCgkic2hhMjU2IjogImNlOWY3MGUxMDRjMDdkOTJmYzA1ZmJkNjAwMDgzOWZkNmE4N2ZmMDEwZTcwNjM5NmY4N2RkNjc5MjQ0ZWQ5N2IiLAoJImZpbGVOYW1lIjogIndzY3JpcHQuZXhlIiwKCSJmaWxlUGF0aCI6ICJDOlxcV2luZG93c1xcU3lzdGVtMzIiLAoJInByb2Nlc3NJZCI6IDkwMjgsCgkiZG93bmxvYWRfZGlyIjogIkM6XFxVc2Vyc1xcRnJhbmstQWRhbXNcXEFwcERhdGFcXFJvYW1pbmdcXE1pY3Jvc29mdFxcV2luZG93c1xcezVhNzM1ZTU0LTYzZTQtNGE1Ni02NGEyLTdjNzk3MzU3N2U0Yn1cXCIsCgkiZG93bmxvYWRUaW1lIjogIjIwMjMtMDMtMjZUMTI6MDE6NTJaIiwKCSJwYXJlbnRQcm9jZXNzSWQiOiAyMTU2LAoJInBhcmVudFByb2Nlc3NDcmVhdGlvblRpbWUiOiAiMjAyMy0wMy0yNlQxMjowMToyNVoiLAoJInBhcmVudFByb2Nlc3NGaWxlTmFtZSI6ICJzdmNob3N0LmV4ZSIsCgkicGFyZW50UHJvY2Vzc0ZpbGVQYXRoIjogImM6XFx3aW5kb3dzXFxzeXN0ZW0zMiIsCgkiYWNjb3VudE5hbWUiOiAiZnJhbmstYWRhbXNAYmFuZWFuZG94LmNvbSIsCgkiZG9tYWluTmFtZSI6ICJiYW5lYW5kMHguY29tIiwKCSJ1c2VyU2lkIjogIlMtMS01LTE4LTE4ODExMzE0NDQtMjQ3Mzg5MTMzNS0zNDcwMjY2LTUwMCIKfSwgewoJImVudGl0eVR5cGUiOiAiVXNlciIsCgkiZXZpZGVuY2VDcmVhdGlvblRpbWUiOiAiMjAyMy0wMy0yNlQxMjowMTo1Mi40NVoiLAoJImFjY291bnROYW1lIjogImZyYW5rLWFkYW1zQGJhbmVhbmRveC5jb20iLAoJInVybCI6ICJodHRwczovL2JhbmVhbmQweC5jb20iLAoJInVzZXJTaWQiOiAiUy0xLTUtMTgtMTg4MTEzMTQ0NC0yNDczODkxMzM1LTM0NzAyNjYtNTAwIgp9LCB7CgkiZW50aXR5VHlwZSI6ICJGaWxlRG93bmxvYWQiLAoJImV2aWRlbmNlQ3JlYXRpb25UaW1lIjogIjIwMjMtMDMtMjZUMTI6MDE6NTIuNDVaIiwKCSJzaGExIjogIjAxMGRiMDc0NjFlNDViNDFjODg2MTkyZGY2ZmQ0MjViYThkNDJkODIiLAoJInNoYTI1NiI6ICI2NDNlYzU4ZTgyZTAyNzJjOTdjMmE1OWY2MDIwOTcwZDg4MWFmMTljMGFkNTAyOWRiOWM5NThjMTNiNjU1OGM3IiwKCSJmaWxlTmFtZSI6ICJpY2U5ZjcwZTEwNGMwNy5iaW4iLAoJImZpbGVQYXRoIjogImM6XFx3aW5kb3dzXFxzeXN0ZW0zMiIsCgkicHJvY2Vzc0lkIjogMjE1NiwKCSJwcm9jZXNzQ29tbWFuZExpbmUiOiAic3ZjaG9zdC5leGUgLWsgbmV0c3ZjcyAtcCAtcyBTY2hlZHVsZSIsCgkicHJvY2Vzc0NyZWF0aW9uVGltZSI6ICIyMDIyLTA5LTEzVDEyOjAxOjI1WiIsCgkicGFyZW50UHJvY2Vzc0lkIjogNzQwLAoJInBhcmVudFByb2Nlc3NDcmVhdGlvblRpbWUiOiAiMjAyMy0wMy0yNlQxMjowMTo0NVoiLAoJInBhcmVudFByb2Nlc3NGaWxlTmFtZSI6ICJzZXJ2aWNlcy5leGUiLAoJImFjY291bnROYW1lIjogInN5c3RlbSIsCgkiZG9tYWluTmFtZSI6ICJudCBhdXRob3JpdHkiLAoJInVzZXJTaWQiOiAiUy0xLTUtMTgiCn1dLCAibWFjaGluZURhdGEiOiAie1wiQG9kYXRhLmNvbnRleHRcIjpcImh0dHBzOi8vYXBpLnNlY3VyaXR5Y2VudGVyLndpbmRvd3MuY29tL2FwaS8kbWV0YWRhdGEjTWFjaGluZXMvJGVudGl0eVwiLFwiaWRcIjpcIjZhODEzYmJkODQ1YzJiZjMxMTVlMjRjNDBmZDlhOTAyYTMwNDdlOGJcIixcImNvbXB1dGVyRG5zTmFtZVwiOlwiZnJhbmstYWRhbXMtcGMuYmFuZWFuZG94LmNvbVwiLFwiZmlyc3RTZWVuXCI6XCIyMDIzLTAzLTI2VDEyOjAxOjAxLjQ4MzcwNDRaXCIsXCJsYXN0U2VlblwiOlwiMjAyMy0wMy0yNlQxMjowMTo0My4xMjY4MzYzWlwiLFwib3NQbGF0Zm9ybVwiOlwiV2luZG93czEwXCIsXCJvc1ZlcnNpb25cIjpudWxsLFwib3NQcm9jZXNzb3JcIjpcIng2NFwiLFwidmVyc2lvblwiOlwiMjAwNFwiLFwibGFzdElwQWRkcmVzc1wiOlwiMTAuMTAuMjAuMTBcIixcImxhc3RFeHRlcm5hbElwQWRkcmVzc1wiOlwiMTcyLjE2LjEwMC4xMVwiLFwiYWdlbnRWZXJzaW9uXCI6XCIxMC43NzQwLjE5MDQxLjk4NVwiLFwib3NCdWlsZFwiOjE5MDQxLFwiaGVhbHRoU3RhdHVzXCI6XCJBY3RpdmVcIixcImRldmljZVZhbHVlXCI6XCJOb3JtYWxcIixcInJiYWNHcm91cElkXCI6MTg3MixcInJiYWNHcm91cE5hbWVcIjpcIlhEUiBCQU8gZ3JvdXBcIixcInJpc2tTY29yZVwiOlwiTWVkaXVtXCIsXCJleHBvc3VyZUxldmVsXCI6XCJNZWRpdW1cIixcImlzQWFkSm9pbmVkXCI6ZmFsc2UsXCJhYWREZXZpY2VJZFwiOm51bGwsXCJtYWNoaW5lVGFnc1wiOltcIk1TUyBRb1hcIl0sXCJkZWZlbmRlckF2U3RhdHVzXCI6XCJVcGRhdGVkXCIsXCJvbmJvYXJkaW5nU3RhdHVzXCI6XCJPbmJvYXJkZWRcIixcIm9zQXJjaGl0ZWN0dXJlXCI6XCI2NC1iaXRcIixcImlwQWRkcmVzc2VzXCI6W3tcImlwQWRkcmVzc1wiOlwiMTAuMTAuMjAuMTBcIixcIm1hY0FkZHJlc3NcIjpcIjAwMEMyOTQxRDQ4N1wiLFwidHlwZVwiOlwiRXRoZXJuZXRcIixcIm9wZXJhdGlvbmFsU3RhdHVzXCI6XCJVcFwifSx7XCJpcEFkZHJlc3NcIjpcImZlODA6OjM0ZjQ6YTk3ODozNDg5OmMyMjZcIixcIm1hY0FkZHJlc3NcIjpcIjAwMEMyOTQxRDQ4N1wiLFwidHlwZVwiOlwiRXRoZXJuZXRcIixcIm9wZXJhdGlvbmFsU3RhdHVzXCI6XCJVcFwifV0sXCJ2bU1ldGFkYXRhXCI6bnVsbH0iCn0="
+    }
+  },
+  "modified": "2023-03-26T12:12:07.335Z",
+  "last_observed": "2023-03-26T12:12:07.335Z",
+  "created_by_ref": "identity--3079a446-1a08-40d0-a1bb-e998f369b1e6",
+  "first_observed": "2023-03-26T12:12:07.335Z",
+  "number_observed": 1
+},
+{
+  "id": "observed-data--287f2859-d67b-4c41-855c-5d07917c7972",
+  "type": "observed-data",
+  "created": "2023-03-26T12:12:50.857Z",
+  "objects": {
+    "0": {
+      "id": "CIDD706957",
+      "type": "x-mss"
+    },
+    "1": {
+      "id": "PR0000000044749",
+      "ip": "10.1.34.5",
+      "name": "Crowdstrike",
+      "type": "x-mss-device",
+      "vendor": "2188",
+      "version": "Undefined"
+    },
+    "2": {
+      "type": "artifact",
+      "payload_bin": "ewoJImlkIjogImVkNjM3NTgyOTQ4MjIzOTY2MDIzXy0xNzA2Njg5NDE4IiwKCSJpbmNpZGVudElkIjogMTQyMCwKCSJzZXZlcml0eSI6ICJNZWRpdW0iLAoJInN0YXR1cyI6ICJOZXciLAoJImludmVzdGlnYXRpb25TdGF0ZSI6ICJVbnN1cHBvcnRlZEFsZXJ0VHlwZSIsCgkiZGV0ZWN0aW9uU291cmNlIjogIkN1c3RvbURldGVjdGlvbiIsCgkiZGV0ZWN0b3JJZCI6ICJhNzA4OGUwMy1jMzY3LTRjYzItYmM1MC0yZWViMzJkYjczNmIiLAoJImNhdGVnb3J5IjogIlN1c3BpY2lvdXNBY3Rpdml0eSIsCgkidGl0bGUiOiAiV2luZG93cyBzaGVsbCBmaWxlIHdyaXRlIHRvIHN1c3BpY2lvdXMgZm9sZGVyIiwKCSJkZXNjcmlwdGlvbiI6ICJDb3VsZCBiZSBpbmRpY2F0aXZlIG9mIG1hbGljaW91cyBwZXJzaXN0ZW5jZSBtZWNoYW5pc21zLiIsCgkiYWxlcnRDcmVhdGlvblRpbWUiOiAiMjAyMy0wMy0yNlQxMjoxMjo1MC4zNDY2Mjg4WiIsCgkiZmlyc3RFdmVudFRpbWUiOiAiMjAyMy0wMy0yNlQxMjowNzo1Mi40NjY5NDE5WiIsCgkibGFzdEV2ZW50VGltZSI6ICIyMDIzLTAzLTI2VDEyOjEyOjUwLjQ2Njk0MTlaIiwKCSJsYXN0VXBkYXRlVGltZSI6ICIyMDIzLTAzLTI2VDEyOjEyOjUwLjI0WiIsCgkibWFjaGluZUlkIjogIjZhODEzYmJkODQ1YzJiZjMxMTVlMjRjNDBmZDlhOTAyYTMwNDdlOGIiLAoJImNvbXB1dGVyRG5zTmFtZSI6ICJmcmFuay1hZGFtcy1wYy5iYW5lYW5kb3guY29tIiwKCSJyYmFjR3JvdXBOYW1lIjogIlhEUiBCQU8gZ3JvdXAiLAoJImFhZFRlbmFudElkIjogIjkwZDA3MzEzLTE3MzktNDI4My04YTk0LTFhZGQ5M2JmZDBlYiIsCgkibWl0cmVUZWNobmlxdWVzIjogW10sCgkicmVsYXRlZFVzZXIiOiB7CgkJInVzZXJOYW1lIjogIlMtMS01LTE4IiwKCQkiZG9tYWluTmFtZSI6ICJiYW5lYW5kb3guY29tIgoJfSwKCSJjb21tZW50cyI6IFtdLAoJImV2aWRlbmNlIjogW3siZW50aXR5VHlwZSI6ICJQcm9jZXNzIiwiZXZpZGVuY2VDcmVhdGlvblRpbWUiOiAiMjAyMy0wMy0yNlQxMjoxMjo1MC40NVoiLCJzaGExIjogIjU0NWVjMTFkZWU2NDJkZTYzM2ViMmM2ZjZmZmM5MGNjZTRkZWNmOGQiLAoJCQkJInNoYTI1NiI6ICJjZTlmNzBlMTA0YzA3ZDkyZmMwNWZiZDYwMDA4MzlmZDZhODdmZjAxMGU3MDYzOTZmODdkZDY3OTI0NGVkOTdiIiwKCQkJCSJmaWxlTmFtZSI6ICJ3c2NyaXB0LmV4ZSIsCgkJCQkiZmlsZVBhdGgiOiAiQzpcXFdpbmRvd3NcXFN5c3RlbTMyIiwKCQkJCSJwcm9jZXNzSWQiOiA5MDI4LAoJCQkJInByb2Nlc3NDb21tYW5kTGluZSI6ICJ3c2NyaXB0LmV4ZSAvL2IgL2U6anNjcmlwdCBDOlxcVXNlcnNcXEZyYW5rLUFkYW1zXFxBcHBEYXRhXFxSb2FtaW5nXFxNaWNyb3NvZnRcXFdpbmRvd3NcXHs1YTczNWU1NC02M2U0LTRhNTYtNjRhMi03Yzc5NzM1NzdlNGJ9XFxjcmFzaHBhZC5sb2cgMTI4LjIxMC4xNTcuMjUxIDgwIiwKCQkJCSJwcm9jZXNzQ3JlYXRpb25UaW1lIjogIjIwMjMtMDMtMjZUMTI6MDc6NTJaIiwKCQkJCSJwYXJlbnRQcm9jZXNzSWQiOiAyMTU2LAoJCQkJInBhcmVudFByb2Nlc3NDcmVhdGlvblRpbWUiOiAiMjAyMy0wMy0yNlQxMjowNjoyNVoiLAoJCQkJInBhcmVudFByb2Nlc3NGaWxlTmFtZSI6ICJzdmNob3N0LmV4ZSIsCgkJCQkicGFyZW50UHJvY2Vzc0ZpbGVQYXRoIjogImM6XFx3aW5kb3dzXFxzeXN0ZW0zMiIsCgkJCQkiYWNjb3VudE5hbWUiOiAiUy0xLTUtMTgiLCJkb21haW5OYW1lIjogImJhbmVhbmRveC5jb20iLCJ1c2VyU2lkIjogIlMtMS01LTE4LTE4ODExMzE0NDQtMjQ3Mzg5MTMzNS0zNDcwMjY2LTUwMCJ9LCB7ImVudGl0eVR5cGUiOiAiVXNlciIsImV2aWRlbmNlQ3JlYXRpb25UaW1lIjogIjIwMjItMDctMTRUMDQ6MTI6NTIuNDVaIiwiYWNjb3VudE5hbWUiOiAiUy0xLTUtMTgiLCJkb21haW5OYW1lIjogImJhbmVhbmRveC5jb20sInVzZXJTaWQgIjoiUyAtIDEgLSA1IC0gMTggLSAxODgxMTMxNDQ0IC0gMjQ3Mzg5MTMzNSAtIDM0NzAyNjYgLSA1MDAgIn0seyJlbnRpdHlUeXBlICI6IlByb2Nlc3MgIiwiZXZpZGVuY2VDcmVhdGlvblRpbWUgIjoiMjAyMyAtIDAzIC0gMjYgVDA0OiAxMjogNTIuNDUgWiAiLCJzaGExICI6IjAxMCBkYjA3NDYxZTQ1YjQxYzg4NjE5MmRmNmZkNDI1YmE4ZDQyZDgyICIsInNoYTI1NiAiOiI2NDMgZWM1OGU4MmUwMjcyYzk3YzJhNTlmNjAyMDk3MGQ4ODFhZjE5YzBhZDUwMjlkYjljOTU4YzEzYjY1NThjNyAiLCJmaWxlTmFtZSAiOiJzdmNob3N0LmV4ZSAiLCJmaWxlUGF0aCAiOiJjOiBcXHdpbmRvd3NcXCBzeXN0ZW0zMiAiLCJwcm9jZXNzSWQgIjoyMTU2LCJwcm9jZXNzQ29tbWFuZExpbmUgIjoic3ZjaG9zdC5leGUgLSBrIG5ldHN2Y3MgLSBwIC0gcyBTY2hlZHVsZSAiLCJwcm9jZXNzQ3JlYXRpb25UaW1lICI6IjIwMjMgLSAwMyAtIDI2IFQxMjogMTA6IDI1IFogIiwicGFyZW50UHJvY2Vzc0lkICI6NzQwLCJwYXJlbnRQcm9jZXNzQ3JlYXRpb25UaW1lICI6IjIwMjMgLSAwMyAtIDI2IFQxMjogMDk6IDQ1IFogIiwicGFyZW50UHJvY2Vzc0ZpbGVOYW1lICI6InNlcnZpY2VzLmV4ZSAiLCJhY2NvdW50TmFtZSAiOiJzeXN0ZW0gIiwiZG9tYWluTmFtZSAiOiJudCBhdXRob3JpdHkgIiwidXNlclNpZCAiOiJTIC0gMSAtIDUgLSAxOCAifV0sIm1hY2hpbmVEYXRhICI6IiB7XCJAb2RhdGEuY29udGV4dFwiOlwiaHR0cHM6Ly9hcGkuc2VjdXJpdHljZW50ZXIud2luZG93cy5jb20vYXBpLyRtZXRhZGF0YSNNYWNoaW5lcy8kZW50aXR5XCIsXCJpZFwiOlwiNmE4MTNiYmQ4NDVjMmJmMzExNWUyNGM0MGZkOWE5MDJhMzA0N2U4YlwiLFwiY29tcHV0ZXJEbnNOYW1lXCI6XCJmcmFuay1hZGFtcy1wYy5iYW5lYW5kb3guY29tXCIsXCJmaXJzdFNlZW5cIjpcIjIwMjMtMDMtMjZUMTI6MDA6MDEuNDgzNzA0NFpcIixcImxhc3RTZWVuXCI6XCIyMDIzLTAzLTI2VDEzOjE4OjQzLjEyNjgzNjNaXCIsXCJvc1BsYXRmb3JtXCI6XCJXaW5kb3dzMTBcIixcIm9zVmVyc2lvblwiOm51bGwsXCJvc1Byb2Nlc3NvclwiOlwieDY0XCIsXCJ2ZXJzaW9uXCI6XCIyMDA0XCIsXCJsYXN0SXBBZGRyZXNzXCI6XCIxMC4xMC4yMC4xMFwiLFwibGFzdEV4dGVybmFsSXBBZGRyZXNzXCI6XCIxNzIuMTYuMTAwLjExXCIsXCJhZ2VudFZlcnNpb25cIjpcIjEwLjc3NDAuMTkwNDEuOTg1XCIsXCJvc0J1aWxkXCI6MTkwNDEsXCJoZWFsdGhTdGF0dXNcIjpcIkFjdGl2ZVwiLFwiZGV2aWNlVmFsdWVcIjpcIk5vcm1hbFwiLFwicmJhY0dyb3VwSWRcIjoxODcyLFwicmJhY0dyb3VwTmFtZVwiOlwiWERSIEJBTyBncm91cFwiLFwicmlza1Njb3JlXCI6XCJNZWRpdW1cIixcImV4cG9zdXJlTGV2ZWxcIjpcIk1lZGl1bVwiLFwiaXNBYWRKb2luZWRcIjpmYWxzZSxcImFhZERldmljZUlkXCI6bnVsbCxcIm1hY2hpbmVUYWdzXCI6W1wiTVNTIFFvWFwiXSxcImRlZmVuZGVyQXZTdGF0dXNcIjpcIlVwZGF0ZWRcIixcIm9uYm9hcmRpbmdTdGF0dXNcIjpcIk9uYm9hcmRlZFwiLFwib3NBcmNoaXRlY3R1cmVcIjpcIjY0LWJpdFwiLFwiaXBBZGRyZXNzZXNcIjpbe1wiaXBBZGRyZXNzXCI6XCIxMC4xMC4yMC4xMFwiLFwibWFjQWRkcmVzc1wiOlwiMDAwQzI5NDFENDg3XCIsXCJ0eXBlXCI6XCJFdGhlcm5ldFwiLFwib3BlcmF0aW9uYWxTdGF0dXNcIjpcIlVwXCJ9LHtcImlwQWRkcmVzc1wiOlwiZmU4MDo6MzRmNDphOTc4OjM0ODk6YzIyNlwiLFwibWFjQWRkcmVzc1wiOlwiMDAwQzI5NDFENDg3XCIsXCJ0eXBlXCI6XCJFdGhlcm5ldFwiLFwib3BlcmF0aW9uYWxTdGF0dXNcIjpcIlVwXCJ9XSxcInZtTWV0YWRhdGFcIjpudWxsfSIKCQkJCX0="
+    },
+    "3": {
+      "type": "x-oca-event",
+      "action": "Windows Shell File Write to Suspicious Folder",
+      "ip_refs": [
+        "7"
+      ],
+      "file_ref": "4",
+      "host_ref": "6",
+      "user_ref": "5",
+      "original_ref": "2"
+    },
+    "4": {
+      "name": "ice9f70e104c07.bin",
+      "type": "file",
+      "hashes": {
+        "MD5": "7e37ab34ecdcc3e77e24522ddfd4852d",
+        "SHA-256": "02ef73bd2458627ed7b397ec26ee2de2e92c71a0e7588f78734761d8edbdcd9f"
+      }
+    },
+    "5": {
+      "type": "user-account",
+      "user_id": "frank-adams@baneandox.com"
+    },
+    "6": {
+      "type": "x-oca-asset",
+      "ip_refs": [
+        "7"
+      ],
+      "hostname": "frank-adams-pc.baneandox.com"
+    },
+    "7": {
+      "type": "ipv4-addr",
+      "value": "10.10.20.10"
+    }
+  },
+  "modified": "2023-03-26T04:12:50.857Z",
+  "last_observed": "2023-03-26T04:12:50.857Z",
+  "created_by_ref": "identity--3079a446-1a08-40d0-a1bb-e998f369b1e6",
+  "first_observed": "2023-03-26T04:12:50.857Z",
+  "number_observed": 1
+},
+{
+  "id": "observed-data--41376883-01d2-4ed7-9f11-80349bce4a1b",
+  "type": "observed-data",
+  "created": "2023-03-26T12:13:20.874Z",
+  "objects": {
+    "0": {
+      "id": "CIDD706957",
+      "type": "x-mss-customer"
+    },
+    "1": {
+      "id": "PR0000000037382",
+      "ip": "198.23.124.4",
+      "name": "bao-us-pa1",
+      "type": "x-mss-device",
+      "vendor": "49",
+      "version": "Palo Alto 9.1.8"
+    },
+    "2": {
+      "type": "network-traffic",
+      "dst_ref": "6",
+      "src_ref": "5",
+      "dst_port": 80,
+      "src_port": 49888,
+      "protocols": [
+        "tcp"
+      ]
+    },
+    "3": {
+      "type": "artifact",
+      "payload_bin": "TWFyIDI2IDEyOjEzOjEzIDEwLjEwLjIwLjEgIDEsMjAyMy8wMy8yNiAxMjoxMzoxMiwwMDc5NTEwMDAwMzU1OTIsVFJBRkZJQyxlbmQsMjMwNSwyMDIzLzAzLzI2IDEyOjEzOjEyLDEwLjEwLjIwLjEwLDEyOC4yMTAuMTU3LjI1MSwwLjAuMC4wLDAuMC4wLjAsUEEtdG8tQ1AtcW94LCwsd2ViLWJyb3dzaW5nLHZzeXMxLFByaXZhdGUsVlBOLGV0aGVybmV0MS8yLHR1bm5lbC4yLE1TUyBMb2cgRm9yd2FyZGluZywyMDI2LzAzLzI2IDEyOjI0OjEyLDIxMzM1MCwxLDQ5ODg4LDgwLDAsMCwweDcwLHRjcCxhbGxvdywzNTMyLDc1NCwyNzc4LDE0LDIwMjYvMDMvMjYgMTI6MjQ6MDAsMCxwcml2YXRlLWlwLWFkZHJlc3NlcywwLDgyNTY5NDgzMTksMHgwLDEwLjEwLjAuMC0xMC4zMS4yNTUuMjU1LDEwLjEwLjAuMC0xMC4zMS4yNTUuMjU1LDAsNyw3LHRjcC1maW4sMCwwLDAsMCwseGZyLXVzLXBhMSxmcm9tLXBvbGljeSwsLDAsLDAsLE4vQSwwLDAsMCwwLGQ0YzM0ZmRlLWU5MDctNDU4Ny1iMmU3LTc4ZjA2YjIxMGQzYywwLDAsLCwsLCws"
+    },
+    "4": {
+      "type": "x-oca-event",
+      "action": "ACCEPT",
+      "ip_refs": [
+        "5",
+        "6"
+      ],
+      "host_ref": "7",
+      "network_ref": "2",
+      "original_ref": "3"
+    },
+    "5": {
+      "type": "ipv4-addr",
+      "value": "10.10.20.10"
+    },
+    "6": {
+      "type": "ipv4-addr",
+      "value": "128.210.157.251"
+    },
+    "7": {
+      "type": "x-oca-asset",
+      "ip_refs": [
+        "5"
+      ]
+    }
+  },
+  "modified": "2023-03-26T12:13:20.874Z",
+  "last_observed": "2023-03-26T12:13:20.874Z",
+  "created_by_ref": "identity--c8241623-3a47-4afc-80cb-36593f29642d",
+  "first_observed": "2023-03-26T12:13:20.874Z",
+  "number_observed": 1
+},
+{
+  "id": "observed-data--9054384e-5f99-4bf0-acd4-8f746cbedce2",
+  "type": "observed-data",
+  "created": "2023-03-26T12:15:55.950Z",
+  "objects": {
+    "0": {
+      "code": 1,
+      "type": "x-oca-event",
+      "agent": "WindowsAuthServer @ frank-adams-pc",
+      "action": "Process Create",
+      "created": "2023-03-26T12:15:55.950Z",
+      "outcome": "Process Creation Success",
+      "category": [
+        "System"
+      ],
+      "file_ref": "6",
+      "host_ref": "2",
+      "provider": "Microsoft Windows Security Event Log",
+      "user_ref": "3",
+      "process_ref": "4",
+      "original_ref": "5",
+      "parent_process_ref": "11"
+    },
+    "1": {
+      "type": "ipv4-addr",
+      "value": "10.10.20.10",
+      "resolves_to_refs": [
+        "12"
+      ]
+    },
+    "2": {
+      "type": "x-oca-asset",
+      "ip_refs": [
+        "1"
+      ]
+    },
+    "3": {
+      "type": "user-account",
+      "user_id": "frank-adams@baneandox.com"
+    },
+    "4": {
+      "pid": 26326,
+      "name": "net.exe",
+      "type": "process",
+      "binary_ref": "7",
+      "parent_ref": "11",
+      "command_line": "\"C:\\WINDOWS\\SysWOW64\\net.exe\" view",
+      "creator_user_ref": "3"
+    },
+    "5": {
+      "type": "artifact",
+      "payload_bin": "PDEzPk1hciAyNiAxMjoxNTo0OCBmcmFuay1hZGFtcy1wYyBBZ2VudERldmljZT1XaW5kb3dzTG9nICAgQWdlbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5kb3dzLVN5c21vbi9PcGVyYXRpb25hbCAgIFBsdWdpblZlcnNpb249Ny4yLjkuNzIgIFNvdXJjZT1NaWNyb3NvZnQtV2luZG93cy1TeXNtb24gQ29tcHV0ZXI9ZnJhbmstYWRhbXMtcGMgT3JpZ2luYXRpbmdDb21wdXRlcj1mcmFuay1hZGFtcy1wYyBVc2VyPVNZU1RFTSAgRG9tYWluPU5UIEFVVEhPUklUWSBFdmVudElEPTEgICBFdmVudElEQ29kZT0xICAgRXZlbnRUeXBlPTQgRXZlbnRDYXRlZ29yeT0xIFJlY29yZE51bWJlcj0xODYxNzIxICAgIFRpbWVHZW5lcmF0ZWQ9MTY3OTgzMjk0OCAgICBUaW1lV3JpdHRlbj0xNjc5ODMyOTQ4ICBMZXZlbD1JbmZvcm1hdGlvbmFsIEtleXdvcmRzPTB4ODAwMDAwMDAwMDAwMDAwMCBUYXNrPVN5c21vblRhc2stU1lTTU9OX0NSRUFURV9QUk9DRVNTICAgT3Bjb2RlPUluZm8gTWVzc2FnZT1Qcm9jZXNzIENyZWF0ZTogUnVsZU5hbWU6IC0gVXRjVGltZTogMjAyMy0wMy0yNiAxMjoxNTo0Ni4xMTcgUHJvY2Vzc0d1aWQ6IHsyNTNhY2Y2Ny0zYTY2LTYwMDAtNmY3MC0wMTAwMDAwMDBiMDB9IFByb2Nlc3NJZDogMjYzMjQgSW1hZ2U6IEM6XFdpbmRvd3NcU3lzV09XNjRcbmV0LmV4ZSBGaWxlVmVyc2lvbjogMTAuMC4xOTA0MS41NDYgKFdpbkJ1aWxkLjE2MDEwMS4wODAwKSBEZXNjcmlwdGlvbjogQ09NIFN1cnJvZ2F0ZSBQcm9kdWN0OiBNaWNyb3NvZnTCriBXaW5kb3dzwq4gT3BlcmF0aW5nIFN5c3RlbSBDb21wYW55OiBNaWNyb3NvZnQgQ29ycG9yYXRpb24gT3JpZ2luYWxGaWxlTmFtZTogbmV0LmV4ZSBDb21tYW5kTGluZTogIkM6XFdJTkRPV1NcU3lzV09XNjRcbmV0LmV4ZSB2aWV3IiBDdXJyZW50RGlyZWN0b3J5OiBDOlxXSU5ET1dTXHN5c3RlbTMyXCBVc2VyOiBBenVyZUFEXFMtMS01LTggTG9nb25HdWlkOiB7MjUzYWNmNjctMzVkOC01ZmU4LTM0YWMtNjIxODAwMDAwMDAwfSBMb2dvbklkOiAweDE4NjJBQzM0IFRlcm1pbmFsU2Vzc2lvbklkOiAyIEludGVncml0eUxldmVsOiBNZWRpdW0gSGFzaGVzOiBNRDU9M0YzQzk0ODVGOEY5N0FDMDRDOEU0M0VGNDQ2M0E2OEQsU0hBMjU2PTNFRDY5Q0FBQjAzNTI1OEUwMDhFRkJDRjQwREIzMDU4OTFCNDBCQTAyQ0EyNzM3RTIwREVGQTdDMkQ0QUZBRjcsSU1QSEFTSD1CNkE2QzUyNDdFRkJEMjYxMEUzREVBNDQ2NDlENzA0MSBQYXJlbnRQcm9jZXNzR3VpZDogezI1M2FjZjY3LTIwNTktNWZlNS0wZjAwLTAwMDAwMDAwMGIwMH0gUGFyZW50UHJvY2Vzc0lkOiAxMTY0IFBhcmVudEltYWdlOiBDOlxXaW5kb3dzXFN5c3RlbTMyXHN2Y2hvc3QuZXhlIFBhcmVudENvbW1hbmRMaW5lOiBDOlxXSU5ET1dTXHN5c3RlbTMyXHN2Y2hvc3QuZXhlIC1rIERjb21MYXVuY2ggLXA="
+    },
+    "6": {
+      "type": "file",
+      "hashes": {
+        "MD5": "3F3C9485F8F97AC04C8E43EF4463A68D"
+      }
+    },
+    "7": {
+      "name": "net.exe",
+      "type": "file",
+      "parent_directory_ref": "8"
+    },
+    "8": {
+      "path": "C:\\Windows\\SysWOW64",
+      "type": "directory"
+    },
+    "9": {
+      "name": "svchost.exe",
+      "type": "file",
+      "parent_directory_ref": "10"
+    },
+    "10": {
+      "path": "C:\\Windows\\System32",
+      "type": "directory"
+    },
+    "11": {
+      "pid": 1164,
+      "type": "process",
+      "binary_ref": "9",
+      "command_line": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p"
+    },
+    "12": {
+      "type": "domain-name",
+      "value": "frank-adams-pc.baneandox.com"
+    }
+  },
+  "modified": "2023-03-26T12:15:55.950Z",
+  "last_observed": "2023-03-26T12:15:55.950Z",
+  "created_by_ref": "identity--3079a446-1a08-40d0-a1bb-e998f369b1e6",
+  "first_observed": "2023-03-26T12:15:55.950Z",
+  "number_observed": 1
+},
+{
+  "id": "observed-data--3054384e-5f99-4bf0-acd4-8f746cbedce2",
+  "type": "observed-data",
+  "created": "2023-03-26T12:17:10.940Z",
+  "objects": {
+    "0": {
+      "code": 1,
+      "type": "x-oca-event",
+      "agent": "WindowsAuthServer @ frank-adams-pc",
+      "action": "Process Create",
+      "nt_ref": "2",
+      "created": "2023-03-26T12:17:10.940Z",
+      "outcome": "Process Creation Success",
+      "category": [
+        "System"
+      ],
+      "file_ref": "7",
+      "host_ref": "3",
+      "provider": "Microsoft Windows Security Event Log",
+      "user_ref": "4",
+      "process_ref": "5",
+      "original_ref": "6",
+      "parent_process_ref": "12"
+    },
+    "1": {
+      "type": "ipv4-addr",
+      "value": "10.10.20.10",
+      "resolves_to_refs": [
+        "13"
+      ]
+    },
+    "2": {
+      "type": "network-traffic",
+      "dst_ref": "14",
+      "src_ref": "1",
+      "dst_port": 5985,
+      "src_port": 23178,
+      "protocols": [
+        "tcp"
+      ]
+    },
+    "3": {
+      "type": "x-oca-asset",
+      "ip_refs": [
+        "1"
+      ]
+    },
+    "4": {
+      "type": "user-account",
+      "user_id": "frank-adams@baneandox.com"
+    },
+    "5": {
+      "pid": 26329,
+      "name": "wsmprovhost.exe",
+      "type": "process",
+      "binary_ref": "8",
+      "parent_ref": "12",
+      "command_line": "\"C:\\WINDOWS\\SysWOW64\\wsmprovhost.exe\" connect sales-database.baneandox.com",
+      "creator_user_ref": "4"
+    },
+    "6": {
+      "type": "artifact",
+      "payload_bin": "PDEzPk1hciAyNiAxMjoxNzoxMiBmcmFuay1hZGFtcy1wYyBBZ2VudERldmljZT1XaW5kb3dzTG9nICAgQWdlbnRMb2dGaWxlPU1pY3Jvc29mdC1XaW5kb3dzLVN5c21vbi9PcGVyYXRpb25hbCAgIFBsdWdpblZlcnNpb249Ny4yLjkuNzIgIFNvdXJjZT1NaWNyb3NvZnQtV2luZG93cy1TeXNtb24gQ29tcHV0ZXI9ZnJhbmstYWRhbXMtcGMgT3JpZ2luYXRpbmdDb21wdXRlcj1mcmFuay1hZGFtcy1wYyBVc2VyPVNZU1RFTSAgRG9tYWluPU5UIEFVVEhPUklUWSBFdmVudElEPTEgICBFdmVudElEQ29kZT0xICAgRXZlbnRUeXBlPTQgRXZlbnRDYXRlZ29yeT0xIFJlY29yZE51bWJlcj0xODYxNzIxICAgIFRpbWVHZW5lcmF0ZWQ9MTY3OTgzMzAzMCAgICBUaW1lV3JpdHRlbj0xNjc5ODMzMDMwICBMZXZlbD1JbmZvcm1hdGlvbmFsIEtleXdvcmRzPTB4ODAwMDAwMDAwMDAwMDAwMCBUYXNrPVN5c21vblRhc2stU1lTTU9OX0NSRUFURV9QUk9DRVNTICAgT3Bjb2RlPUluZm8gTWVzc2FnZT1Qcm9jZXNzIENyZWF0ZTogUnVsZU5hbWU6IC0gVXRjVGltZTogMjAyMy0wMy0yNiAxMjoxNzoxMi4xMTcgUHJvY2Vzc0d1aWQ6IHsyNTNhY2Y2Ny0zYTY2LTYwMDAtNmY3MC0wMTAwMDAwMDBiMDB9IFByb2Nlc3NJZDogMjYzMjQgSW1hZ2U6IEM6XFdpbmRvd3NcU3lzV09XNjRcbmV0LmV4ZSBGaWxlVmVyc2lvbjogMTAuMC4xOTA0MS41NDYgKFdpbkJ1aWxkLjE2MDEwMS4wODAwKSBEZXNjcmlwdGlvbjogQ09NIFN1cnJvZ2F0ZSBQcm9kdWN0OiBNaWNyb3NvZnTCriBXaW5kb3dzwq4gT3BlcmF0aW5nIFN5c3RlbSBDb21wYW55OiBNaWNyb3NvZnQgQ29ycG9yYXRpb24gT3JpZ2luYWxGaWxlTmFtZTogbmV0LmV4ZSBDb21tYW5kTGluZTogIkM6XFdJTkRPV1NcU3lzV09XNjRcbmV0LmV4ZSB2aWV3IiBDdXJyZW50RGlyZWN0b3J5OiBDOlxXSU5ET1dTXHN5c3RlbTMyXCBVc2VyOiBBenVyZUFEXGZyYW5rLWFkYW1zTG9nb25HdWlkOiB7MjUzYWNmNjctMzVkOC01ZmU4LTM0YWMtNjIxODAwMDAwMDAwfSBMb2dvbklkOiAweDE4NjJBQzM0IFRlcm1pbmFsU2Vzc2lvbklkOiAyIEludGVncml0eUxldmVsOiBNZWRpdW0gSGFzaGVzOiBNRDU9NkYzQzk0ODVGOEY5N0FDMDRDOEU0M0VGNDQ2M0E2OEMsU0hBMjU2PTNFRDY5Q0FBQjAzNTI1OEUwMDhFRkJDRjQwREIzMDU4OTFCNDBCQTAyQ0EyNzM3RTIwREVGQTdDMkQ0QUZBRjcsSU1QSEFTSD1CNkE2QzUyNDdFRkJEMjYxMEUzREVBNDQ2NDlENzA0MSBQYXJlbnRQcm9jZXNzR3VpZDogezI1M2FjZjY3LTIwNTktNWZlNS0wZjAwLTAwMDAwMDAwMGIwMH0gUGFyZW50UHJvY2Vzc0lkOiAxMTY0IFBhcmVudEltYWdlOiBDOlxXaW5kb3dzXFN5c3RlbTMyXHN2Y2hvc3QuZXhlIFBhcmVudENvbW1hbmRMaW5lOiBDOlxXSU5ET1dTXHN5c3RlbTMyXHN2Y2hvc3QuZXhlIC1rIERjb21MYXVuY2ggLXA="
+    },
+    "7": {
+      "type": "file",
+      "hashes": {
+        "MD5": "2F3C9485F8F97AC04C8E43EF4463A68D"
+      }
+    },
+    "8": {
+      "name": "wsmprovhost.exe",
+      "type": "file",
+      "parent_directory_ref": "9"
+    },
+    "9": {
+      "path": "C:\\Windows\\SysWOW64",
+      "type": "directory"
+    },
+    "10": {
+      "name": "svchost.exe",
+      "type": "file",
+      "parent_directory_ref": "11"
+    },
+    "11": {
+      "path": "C:\\Windows\\System32",
+      "type": "directory"
+    },
+    "12": {
+      "pid": 1164,
+      "type": "process",
+      "binary_ref": "9",
+      "command_line": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p"
+    },
+    "13": {
+      "type": "domain-name",
+      "value": "frank-adams-pc.baneandox.com"
+    },
+    "14": {
+      "type": "ipv4-addr",
+      "value": "172.20.18.20",
+      "resolves_to_refs": [
+        "15"
+      ]
+    },
+    "15": {
+      "type": "domain-name",
+      "value": "sales-database.baneandox.com"
+    }
+  },
+  "modified": "2023-03-26T12:17:10.940Z",
+  "last_observed": "2023-03-26T12:17:10.940Z",
+  "created_by_ref": "identity--3079a446-1a08-40d0-a1bb-e998f369b1e6",
+  "first_observed": "2023-03-26T12:17:10.940Z",
+  "number_observed": 1
+},
+{
+  "id": "observed-data--e5d9f23d-8eaf-467e-a785-90c528f2693c",
+  "type": "observed-data",
+  "created": "2023-03-26T12:20:03.830Z",
+  "objects": {
+    "0": {
+      "type": "user-account",
+      "user_id": "frank-adams@baneandox.com"
+    },
+    "1": {
+      "type": "ipv4-addr",
+      "value": "172.20.18.20"
+    },
+    "2": {
+      "type": "network-traffic",
+      "dst_ref": "1",
+      "src_ref": "3",
+      "dst_port": 3306,
+      "src_port": 44494,
+      "protocols": [
+        "tcp",
+        "ipv4"
+      ]
+    },
+    "3": {
+      "type": "ipv4-addr",
+      "value": "10.10.20.10"
+    }
+  },
+  "modified": "2023-03-26T12:20:03.830Z",
+  "last_observed": "2023-03-26T12:20:03.830Z",
+  "created_by_ref": "identity--c8241623-3a47-4afc-80cb-36593f29642d",
+  "first_observed": "2023-03-26T12:20:03.830Z",
+  "x_com_guardium": {
+    "db_user": "frank-adams@baneandox.com",
+    "new_outlier": "false",
+    "service_name": "172.20.18.20:5.6.27",
+    "temp_outlier": "false",
+    "anomaly_score": 100,
+    "error_outlier": "false",
+    "source_program": "MYSQL CLIENT",
+    "high_volume_outlier": "true"
+  },
+  "number_observed": 1
+},
+{
+  "id": "observed-data--89543845-acd4-8f746cbedce2",
+  "type": "observed-data",
+  "created": "2023-03-26T12:21:11.750Z",
+  "objects": {
+    "0": {
+      "code": 1,
+      "type": "x-oca-event",
+      "agent": "SecurityComplianceCenter",
+      "action": "Data Transfer",
+      "nt_ref": "2",
+      "created": "2023-03-26T12:21:11.750Z",
+      "outcome": "Success",
+      "category": [
+        "ThreatManagement"
+      ],
+      "host_ref": "3",
+      "provider": "SecurityComplianceCenter",
+      "user_ref": "4"
+    },
+    "1": {
+      "type": "ipv4-addr",
+      "value": "172.20.18.20",
+      "resolves_to_refs": [
+        "5"
+      ]
+    },
+    "2": {
+      "type": "network-traffic",
+      "dst_ref": "6",
+      "src_ref": "1",
+      "dst_port": 443,
+      "src_port": 127690,
+      "protocols": [
+        "tcp"
+      ]
+    },
+    "3": {
+      "type": "x-oca-asset",
+      "ip_refs": [
+        "1"
+      ],
+      "hostname": "sales-database.baneandox.com"
+    },
+    "4": {
+      "type": "user-account",
+      "user_id": "frank-adams@baneandox.com"
+    },
+    "5": {
+      "type": "domain-name",
+      "value": "sales-database.baneandox.com"
+    },
+    "6": {
+      "type": "ipv4-addr",
+      "value": "128.210.157.251"
+    }
+  },
+  "modified": "2023-03-26T12:21:11.750Z",
+  "last_observed": "2023-03-26T12:21:11.750Z",
+  "created_by_ref": "identity--c8241623-3a47-4afc-80cb-36593f29642d",
+  "first_observed": "2023-03-26T12:21:11.750Z",
+  "number_observed": 1
+}
+		
+		]
+}

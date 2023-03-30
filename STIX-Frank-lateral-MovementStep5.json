@@ -1,0 +1,60 @@
+{
+	"type": "bundle",
+    "id": "bundle--281fe97a-35d8-4b84-be2e-253047cc6274",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "name": "shifter_proxy",
+            "identity_class": "events",
+            "created": "2023-03-22T21:12:38.295Z",
+            "modified": "2023-03-22T21:12:38.295Z"
+        },
+		{
+            "id": "observed-data--e5d9f23d-8eaf-467e-a785-90c528f2693c",
+            "created": "2023-03-22T21:12:35.830Z",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "first_observed": "2023-03-22T21:12:35.830Z",
+            "last_observed": "2023-03-22T21:12:35.830Z",
+            "modified": "2023-03-22T21:12:35.830Z",
+            "number_observed": 1,
+            "objects": {
+                "0": {
+                    "type": "user-account",
+                    "user_id": "Frank-Adams@baneandox.com"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "10.10.20.10"
+                },
+                "2": {
+                    "dst_port": 3306,
+                    "dst_ref": "1",
+                    "src_port": 44494,
+                    "src_ref": "3",
+                    "type": "network-traffic",
+                    "protocols": [
+                        "tcp",
+                        "ipv4"
+                    ]
+                },
+                "3": {
+                    "type": "ipv4-addr",
+                    "value": "9.148.24.172"
+                }
+            },
+            "type": "observed-data",
+            "x_com_guardium": {
+                "anomaly_score": 100,
+                "db_user": "Admin",
+                "error_outlier": "false",
+                "high_volume_outlier": "true",
+                "new_outlier": "false",
+                "service_name": "9.147.31.42:5.6.27",
+                "source_program": "MYSQL \u201cCLIENT\u201c",
+                "temp_outlier": "false"
+            }
+        }
+		]
+}
