@@ -1,0 +1,228 @@
+{
+  "type": "bundle",
+  "id": "bundle--258c4b63-6b04-4a0e-985d-f64a3a8c8ec7",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "identity",
+      "id": "identity--33fa3e56-6511-40de-bc69-c5ffeb3838f9",
+      "created": "2020-02-03T15:44:40.150Z",
+      "modified": "2020-02-03T15:44:40.150Z",
+      "name": "threat demo",
+      "identity_class": "program"
+    },
+    {
+      "type": "observed-data",
+      "id": "observed-data--ed82dd61-cc41-485b-b608-d278469e6259",
+      "created_by_ref": "identity--33fa3e56-6511-40de-bc69-c5ffeb3838f9",
+      "created": "2020-02-03T15:44:40.150Z",
+      "modified": "2020-02-03T15:44:40.150Z",
+      "first_observed": "2020-02-03T15:44:40.150Z",
+      "last_observed": "2023-08-24T15:44:40.150Z",
+      "number_observed": 1,
+      "objects": {
+        "0": {
+          "type": "ipv4-addr",
+          "value": "68.109.83.22"
+        },
+        "1": {
+          "type": "ipv4-addr",
+          "value": "192.168.0.15"
+        },
+        "2": {
+          "type": "url",
+          "value": "http://mihannevis.com/joes/NAZALgEyGj7b3jNYzbypYX8a/manifest.js"
+        },
+        "3": {
+          "type": "url",
+          "value": "me-faccebook-tr.com"
+        },
+        "4": {
+          "type": "url",
+          "value": "http://kbfvzoboss.bid/alien/fre.php"
+        },
+        "5": {
+          "type": "ipv4-addr",
+          "value": "45.128.134.14"
+        },
+        "6": {
+          "type": "network-traffic",
+          "start": "2020-02-03T15:44:40.150Z",
+          "end": "2020-02-03T15:44:40.150Z",
+          "is_active": false,
+          "src_ref": "0",
+          "dst_ref": "1",
+          "src_port": 58767,
+          "dst_port": 443,
+          "protocols": [
+            "ip",
+            "tcp",
+            "tls"
+          ],
+          "src_byte_count": 125194360,
+          "dst_byte_count": 122956560
+        },
+        "7": {
+          "type": "url",
+          "value": "faceb00k-verify-account-dept.com"
+        },
+        "8": {
+          "type": "url",
+          "value": "pb36hu4spl6cyjdfhing7h3pw6dhpk32ifemawkujj4gp33ejzdq3did.onion"
+        },
+        "9": {
+          "type": "file-hash",
+          "value": "9b27388be292aea50d62cfebd130a9832f0d676feb28771d70d3e30bdb117f3a"
+        },
+        "10": {
+          "type": "url",
+          "value": "http://www.awsyscloud.com"
+        },
+        "11": {
+          "type": "ipv4-addr",
+          "value": "67.229.97.229"
+        },
+        "12": {
+          "type": "file-hash",
+          "value": "26a196afc8e6aff6fc6c46734bf228cb"
+        },
+        "13": {
+          "type": "url",
+          "value": "agegamepay.com"
+        },
+        "14": {
+          "type": "file-hash",
+          "value": "2862c9bff365dc8d51ba0c4953869d5d"
+        },
+        "15": {
+          "type": "url",
+          "value": "http://67.229.97.229/pass_sqzr.jsp"
+        },
+        "16": {
+          "type": "ipv4-addr",
+          "value": "119.28.139.120"
+        },
+        "17": {
+          "type": "ipv4-addr",
+          "value": "119.28.139.20"
+        },
+        "18": {
+          "type": "ipv4-addr",
+          "value": "66.42.98.220"
+        },
+        "19": {
+          "type": "file-hash",
+          "value": "493574e9b1cc618b1a967ba9dabec474bb239777a3d81c11e49e7bb9c71c0c4e"
+        },
+        "20": {
+          "type": "file-hash",
+          "value": "6943fbb194317d344ca9911b7abb11b684d3dca4c29adcbcff39291822902167"
+        },
+        "21": {
+          "type": "file-hash",
+          "value": "85297097f6dbe8a52974a43016425d4adaa61f3bdb5fcdd186bfda2255d56b3d"
+        },
+        "22": {
+          "type": "file-hash",
+          "value": "99c5dbeb545af3ef1f0f9643449015988c4e02bf8a7164b5d6c86f67e6dc2d28"
+        },
+        "23": {
+          "type": "url",
+          "value": "exchange.longmusic.com"
+        },
+        "24": {
+          "type": "url",
+          "value": "alibaba.zzux.com"
+        },
+        "25": {
+          "type": "url",
+          "value": "office365-management.net"
+        },
+        "26": {
+          "type": "file-hash",
+          "value": "75e49120a0238749827196cebb7559a37a2422f8"
+        },
+        "27": {
+          "type": "file-hash",
+          "value": "b06dc2342230b7ad67d9f18589bca482263c0a0ef4876cc141e3afcc09a47dc8"
+        },
+        "28": {
+          "type": "file-hash",
+          "value": "c2a88cc3418b488d212b36172b089b0d329fa6e4a094583b757fdd3c5398efe1"
+        },
+        "29": {
+          "type": "url",
+          "value": "sophosdefence.com"
+        },
+        "30": {
+          "type": "ipv4-addr",
+          "value": "220.202.152.47"
+        },
+        "31": {
+          "type": "file-hash",
+          "value": "d18330c627f034226bfa2fcd5a38748496c3ae9b9877aadd763ead65a7c1bbd3"
+        },
+        "32": {
+          "type": "file-hash",
+          "value": "9b5be5ce331e1300b36b6929901d8bfccd2fdaa44382b9ef3695779d5fa21b06"
+        },
+        "33": {
+          "type": "file-hash",
+          "value": "bfeb6efee4891de135431091079e659631376953a46065f7e44335df10d16425"
+        },
+        "34": {
+          "type": "file-hash",
+          "value": "87bfbbc345b4f3a59cf90f46b47fc063adcd415614afe4af7afc950a0dfcacc2"
+        },
+        "35": {
+          "type": "file-hash",
+          "value": "4a30275f14f80c6e11d5a253d7d004eda98651010e0aa47f744cf4105d1676ab"
+        },
+        "36": {
+          "type": "url",
+          "value": "sophosdefence1.com"
+        },
+        "37": {
+          "type": "url",
+          "value": "odsakjmdnhsaj.com"
+        },
+        "38": {
+          "type": "url",
+          "value": "simplifiedhomesales.com"
+        },
+        "39": {
+          "type": "file-hash",
+          "value": "203fed7435fb3f8428e57c798b17f30c4eba7b649c0ebf842cbba39499817739"
+        },
+        "40": {
+          "type": "url",
+          "value": "mytest.com"
+        },
+        "41": {
+          "type": "file-hash",
+          "value": "240fe01d9fcce5aae311e906b8311a1975f8c1431b83618f3d11aeaff10aede3"
+        },
+        "42": {
+          "type": "url",
+          "value": "chckl.co.uk"
+        },
+        "43": {
+          "type": "url",
+          "value": "idbrokerwebex.com"
+        },
+        "44": {
+          "type": "ip",
+          "value": "185.250.151.72"
+        },
+        "45": {
+          "type": "file-hash",
+          "value": "65149e036fff06026d80ac9ad4d156332822dc93142cf1a122b1841ec8de34b5"
+        },
+        "46": {
+          "type": "file-hash",
+          "value": "94faa76502bb4342ed7cc3207b3158027807a01575436e2b683d4816842ed65d"
+        }
+      }
+    }
+  ]
+}
