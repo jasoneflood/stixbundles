@@ -190,7 +190,8 @@
 					"ip_refs": [
 						"7"
 					],
-					"hostname": "frank-adams-pc.baneandox.com"
+					"hostname": "frank-adams-pc.baneandox.com",
+					"host_id": "903daa5f5b044309a3587ae40c8fe066"
 				},
 				"7": {
 					"type": "ipv4-addr",
