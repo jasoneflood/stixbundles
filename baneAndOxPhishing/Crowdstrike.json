@@ -190,8 +190,7 @@
 					"ip_refs": [
 						"7"
 					],
-					"hostname": "frank-adams-pc.baneandox.com",
-					"host_id": "903daa5f5b044309a3587ae40c8fe066"
+					"hostname": "frank-adams-pc.baneandox.com"
 				},
 				"7": {
 					"type": "ipv4-addr",
@@ -201,7 +200,7 @@
 					"type": "x-ibm-finding",
 					"severity": 100,
 					"file_ref": "4",
-					"name": "Known Phishing Malware associated with data exfiltration",
+					"name": "Windows Shell File Write to Suspicious Folder",
 					"ttp_tagging_refs": [
 						"9",
 						"11"
