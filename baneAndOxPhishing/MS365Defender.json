@@ -17,24 +17,38 @@
 			"created": "2023-04-16T12:09:27.034Z",
 			"modified": "2023-04-16T12:09:27.034Z",
 			"objects": {
-				"0": {
+			    "0": {
+                    "code": 1,
+                    "type": "x-oca-event",
+                    "agent": "WindowsEmailClient @ Frank-Adams-PC",
+                    "action": "Email Received",
+                    "created": "2023-04-16T13:09:27.034Z",
+                    "outcome": "Success",
+                    "category": [
+                        "Email"
+                    ],
+                    "url_ref": "1",
+                    "nt_ref": "3",
+                    "host_ref": "1",
+                    "provider": "MS365Defender"
+                },
+					"1": {
 					"type": "url",
 					"value": "https://baneand0xe.com"
 				},
-				"1": {
-					"type": "x-msatp-msgevents",
-					"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-					"ID": "448cceab-52ce-4638-9ad2-843c9b038c7b",
-					"senderIP": "7",
-					"GUID": "IEXA9uKty7y0XtTtXfEGlXdg1pZcutRU"
-				},
 				"2": {
 					"type": "ipv4-addr",
-					"value": "172.16.17.32"
+					"value": "10.10.20.10"
 				},
-				"3": {
+					"3": {
 					"type": "network-traffic",
-					"src_ref": "2"
+					"src_ref": "7",
+                    "dst_ref": "2",
+                    "dst_port": 80,
+                    "src_port": 49888,
+                    "protocols": [
+                        "tcp"
+                    ]
 				},
 				"4": {
 					"type": "email-addr",
@@ -83,8 +97,13 @@
 						"mitre-attack-ext": {
 							"technique_name": "Phishing: Spearphishing Link (T1566.002)"
 						}
-					}
-				}
+					}					
+				},
+				"12": {
+                    "type": "x-oca-asset",
+                    "hostanme": "frank-adams-pc.baneandox.com",
+                    "ip_refs": ["2"]
+                }
 			},
 			"first_observed": "2023-04-16T12:09:27.034Z",
 			"last_observed": "2023-04-16T12:09:29.034Z",
