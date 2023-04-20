@@ -105,6 +105,7 @@
 				},
 				"2": {
 					"type": "x-oca-asset",
+                    "hostname": "frank-adams-pc.baneandox.com",
 					"ip_refs": [
 						"1"
 					]
@@ -242,6 +243,7 @@
 				},
 				"3": {
 					"type": "x-oca-asset",
+                    "hostname": "frank-adams-pc.baneandox.com",
 					"ip_refs": [
 						"1"
 					]
@@ -290,13 +292,12 @@
 				"12": {
 					"pid": 1164,
 					"type": "process",
-					"binary_ref": "9",
+					"binary_ref": "10",
 					"command_line": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p"
 				},
 				"13": {
-					"type": "x-oca-asset",
-					"hostname": "frank-adams-pc.baneandox.com",
-					"host_id": "903daa5f5b044309a3587ae40c8fe066"
+					"type": "domain-name",
+					"value": "frank-adams-pc.baneandox.com"
 				},
 				"14": {
 					"type": "ipv4-addr",
@@ -306,9 +307,8 @@
 					]
 				},
 				"15": {
-					"type": "x-oca-asset",
-					"hostname": "sales-database.baneandox.com",
-					"host_id": "903daa5f5b044309a3587ae40c8fe077"
+					"type": "domain-name",
+					"value": "sales-database.baneandox.com"
 				},
 				"16": {
 					"type": "x-ibm-finding",
@@ -476,9 +476,8 @@
 					"user_id": "frank-adams@baneandox.com"
 				},
 				"5": {
-					"type": "x-oca-asset",
-					"hostname": "sales-database.baneandox.com",
-					"host_id": "903daa5f5b044309a3587ae40c8fe077"
+					"type": "domain-name",
+					"value": "sales-database.baneandox.com"
 				},
 				"6": {
 					"type": "ipv4-addr",
