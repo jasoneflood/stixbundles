@@ -38,16 +38,17 @@
 						"7"
 					],
 					"file_ref": "4",
-					"host_ref": "6",
+					"directory_ref": "6",
+					"host_ref": "7",
 					"user_ref": "5",
 					"original_ref": "2"
 				},
 				"4": {
-					"name": "ice9f70e104c07.bin",
+					"name": "mshta.exe",
 					"type": "file",
 					"hashes": {
-						"MD5": "7e37ab34ecdcc3e77e24522ddfd4852d",
-						"SHA-256": "02ef73bd2458627ed7b397ec26ee2de2e92c71a0e7588f78734761d8edbdcd9f"
+						"MD5": "f328fdcff05bf02c2c986d52aed8bc2a",
+						"SHA-256": "e616c5ce71886652c13e2e1fa45a653b44d492b054f16b15a38418b8507f57c7"
 					}
 				},
 				"5": {
@@ -55,27 +56,31 @@
 					"user_id": "BaneOx-1\\Frank-Adams"
 				},
 				"6": {
+					"path": "c:\\windows\\system32\\",
+					"type": "directory"
+				},
+				"7": {
 					"type": "x-oca-asset",
 					"ip_refs": [
-						"7"
+						"8"
 					],
 					"hostname": "frank-adams-pc.baneandox.com"
 				},
-				"7": {
+				"8": {
 					"type": "ipv4-addr",
 					"value": "192.168.100.128"
 				},
-				"8": {
+				"9": {
 					"type": "x-ibm-finding",
 					"severity": 100,
 					"file_ref": "4",
 					"name": "Windows Shell File Write to Suspicious Folder",
 					"ttp_tagging_refs": [
-						"9",
-						"11"
+						"10",
+						"12"
 					]
 				},
-				"9": {
+				"10": {
 					"type": "x-ibm-ttp-tagging",
 					"extensions": {
 						"mitre-attack-ext": {
@@ -83,14 +88,14 @@
 						}
 					},
 					"kill_chain_phases": [
-						"10"
+						"11"
 					]
 				},
-				"10": {
+				"11": {
 					"type": "kill-chain-phase",
 					"phase_name": "Execution"
 				},
-				"11": {
+				"12": {
 					"type": "x-ibm-ttp-tagging",
 					"extensions": {
 						"mitre-attack-ext": {
@@ -134,16 +139,17 @@
 						"7"
 					],
 					"file_ref": "4",
-					"host_ref": "6",
+					"directory_ref": "6",
+					"host_ref": "7",
 					"user_ref": "5",
 					"original_ref": "2"
 				},
 				"4": {
-					"name": "ice9f70e104c07.bin",
+					"name": "mshta.exe",
 					"type": "file",
 					"hashes": {
-						"MD5": "7e37ab34ecdcc3e77e24522ddfd4852d",
-						"SHA-256": "02ef73bd2458627ed7b397ec26ee2de2e92c71a0e7588f78734761d8edbdcd9f"
+						"MD5": "f328fdcff05bf02c2c986d52aed8bc2a",
+						"SHA-256": "e616c5ce71886652c13e2e1fa45a653b44d492b054f16b15a38418b8507f57c7"
 					}
 				},
 				"5": {
@@ -151,27 +157,31 @@
 					"user_id": "BaneOx-1\\Frank-Adams"
 				},
 				"6": {
-					"type": "x-oca-asset",
-					"ip_refs": [
-						"7"
-					],
-					"hostname": "frank-adams-pc.baneandox.com"
+					"path": "c:\\windows\\system32\\",
+					"type": "directory"
 				},
 				"7": {
-					"type": "ipv4-addr",
-					"value": "192.168.100.128"
+					"type": "x-oca-asset",
+					"ip_refs": [
+						"8"
+					],
+					"hostname": "dc.baneandox.com"
 				},
 				"8": {
+					"type": "ipv4-addr",
+					"value": "192.168.1.4"
+				},
+				"9": {
 					"type": "x-ibm-finding",
 					"severity": 100,
 					"file_ref": "4",
 					"name": "Windows Shell File Write to Suspicious Folder",
 					"ttp_tagging_refs": [
-						"9",
-						"11"
+						"10",
+						"12"
 					]
 				},
-				"9": {
+				"10": {
 					"type": "x-ibm-ttp-tagging",
 					"extensions": {
 						"mitre-attack-ext": {
@@ -179,14 +189,14 @@
 						}
 					},
 					"kill_chain_phases": [
-						"10"
+						"11"
 					]
 				},
-				"10": {
+				"11": {
 					"type": "kill-chain-phase",
 					"phase_name": "Execution"
 				},
-				"11": {
+				"12": {
 					"type": "x-ibm-ttp-tagging",
 					"extensions": {
 						"mitre-attack-ext": {
@@ -230,16 +240,17 @@
 						"7"
 					],
 					"file_ref": "4",
-					"host_ref": "6",
+					"directory_ref": "6",
+					"host_ref": "7",
 					"user_ref": "5",
 					"original_ref": "2"
 				},
 				"4": {
-					"name": "ice9f70e104c07.bin",
+					"name": "mshta.exe",
 					"type": "file",
 					"hashes": {
-						"MD5": "7e37ab34ecdcc3e77e24522ddfd4852d",
-						"SHA-256": "02ef73bd2458627ed7b397ec26ee2de2e92c71a0e7588f78734761d8edbdcd9f"
+						"MD5": "f328fdcff05bf02c2c986d52aed8bc2a",
+						"SHA-256": "e616c5ce71886652c13e2e1fa45a653b44d492b054f16b15a38418b8507f57c7"
 					}
 				},
 				"5": {
@@ -247,27 +258,31 @@
 					"user_id": "BaneOx-1\\Frank-Adams"
 				},
 				"6": {
+					"path": "c:\\windows\\system32\\",
+					"type": "directory"
+				},
+				"7": {
 					"type": "x-oca-asset",
 					"ip_refs": [
-						"7"
+						"8"
 					],
 					"hostname": "frank-adams-pc.baneandox.com"
 				},
-				"7": {
+				"8": {
 					"type": "ipv4-addr",
 					"value": "192.168.100.128"
 				},
-				"8": {
+				"9": {
 					"type": "x-ibm-finding",
 					"severity": 100,
 					"file_ref": "4",
 					"name": "Windows Shell File Write to Suspicious Folder",
 					"ttp_tagging_refs": [
-						"9",
-						"11"
+						"10",
+						"12"
 					]
 				},
-				"9": {
+				"10": {
 					"type": "x-ibm-ttp-tagging",
 					"extensions": {
 						"mitre-attack-ext": {
@@ -275,14 +290,14 @@
 						}
 					},
 					"kill_chain_phases": [
-						"10"
+						"11"
 					]
 				},
-				"10": {
+				"11": {
 					"type": "kill-chain-phase",
 					"phase_name": "Execution"
 				},
-				"11": {
+				"12": {
 					"type": "x-ibm-ttp-tagging",
 					"extensions": {
 						"mitre-attack-ext": {
