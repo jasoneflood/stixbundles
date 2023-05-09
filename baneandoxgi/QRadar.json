@@ -54,7 +54,7 @@
 				},
 				"5": {
 					"type": "ipv4-addr",
-					"value": "10.10.20.10"
+					"value": "10.10.20.11"
 				},
 				"6": {
 					"type": "ipv4-addr",
@@ -81,7 +81,7 @@
 				"0": {
 					"code": 1,
 					"type": "x-oca-event",
-					"agent": "WindowsAuthServer @ frank-adams-pc",
+					"agent": "WindowsAuthServer @ john-clarke-pc",
 					"action": "Process Create",
 					"created": "2023-04-16T12:15:55.950Z",
 					"outcome": "Process Creation Success",
@@ -98,21 +98,21 @@
 				},
 				"1": {
 					"type": "ipv4-addr",
-					"value": "10.10.20.10",
+					"value": "10.10.20.11",
 					"resolves_to_refs": [
 						"12"
 					]
 				},
 				"2": {
 					"type": "x-oca-asset",
-                    "hostname": "frank-adams-pc.baneandox.com",
+                    "hostname": "john-clarke-pc.baneandox.com",
 					"ip_refs": [
 						"1"
 					]
 				},
 				"3": {
 					"type": "user-account",
-					"user_id": "frank-adams@baneandox.com"
+					"user_id": "john-clarke@baneandox.com"
 				},
 				"4": {
 					"pid": 26326,
@@ -159,7 +159,7 @@
 				},
 				"12": {
 					"type": "domain-name",
-					"value": "frank-adams-pc.baneandox.com"
+					"value": "john-clarke-pc.baneandox.com"
 				},
 				"13": {
 					"type": "x-ibm-finding",
@@ -208,7 +208,7 @@
 				"0": {
 					"code": 1,
 					"type": "x-oca-event",
-					"agent": "WindowsAuthServer @ frank-adams-pc",
+					"agent": "WindowsAuthServer @ john-clarke-pc",
 					"action": "Process Create",
 					"nt_ref": "2",
 					"created": "2023-04-16T12:17:10.940Z",
@@ -226,7 +226,7 @@
 				},
 				"1": {
 					"type": "ipv4-addr",
-					"value": "10.10.20.10",
+					"value": "10.10.20.11",
 					"resolves_to_refs": [
 						"13"
 					]
@@ -243,14 +243,14 @@
 				},
 				"3": {
 					"type": "x-oca-asset",
-                    "hostname": "frank-adams-pc.baneandox.com",
+                    "hostname": "john-clarke-pc.baneandox.com",
 					"ip_refs": [
 						"1"
 					]
 				},
 				"4": {
 					"type": "user-account",
-					"user_id": "frank-adams@baneandox.com"
+					"user_id": "john-clarke@baneandox.com"
 				},
 				"5": {
 					"pid": 26329,
@@ -297,18 +297,18 @@
 				},
 				"13": {
 					"type": "domain-name",
-					"value": "frank-adams-pc.baneandox.com"
+					"value": "john-clarke-pc.baneandox.com"
 				},
 				"14": {
 					"type": "ipv4-addr",
-					"value": "172.20.18.20",
+					"value": "172.20.19.20",
 					"resolves_to_refs": [
 						"15"
 					]
 				},
 				"15": {
 					"type": "domain-name",
-					"value": "sales-database.baneandox.com"
+					"value": "hr-database.baneandox.com"
 				},
 				"16": {
 					"type": "x-ibm-finding",
@@ -350,83 +350,6 @@
 			"number_observed": 1
 		},
 		{
-			"id": "observed-data--e5d9f23d-8eaf-467e-a785-90c528f2693c",
-			"type": "observed-data",
-			"created": "2023-04-16T12:20:03.830Z",
-			"objects": {
-				"0": {
-					"type": "user-account",
-					"user_id": "frank-adams@baneandox.com"
-				},
-				"1": {
-					"type": "ipv4-addr",
-					"value": "172.20.18.20"
-				},
-				"2": {
-					"type": "network-traffic",
-					"dst_ref": "1",
-					"src_ref": "3",
-					"dst_port": 3306,
-					"src_port": 44494,
-					"protocols": [
-						"tcp",
-						"ipv4"
-					]
-				},
-				"3": {
-					"type": "ipv4-addr",
-					"value": "10.10.20.10"
-				},
-				"4": {
-					"type": "x-ibm-finding",
-					"severity": 100,
-					"name": "Abnormal queries to cloud data store",
-					"ttp_tagging_refs": [
-						"5",
-						"7"
-					]
-				},
-				"5": {
-					"type": "x-ibm-ttp-tagging",
-					"extensions": {
-						"mitre-attack-ext": {
-							"tactic_name": "Collection"
-						}
-					},
-					"kill_chain_phases": [
-						"6"
-					]
-				},
-				"6": {
-					"type": "kill-chain-phase",
-					"phase_name": "Collection"
-				},
-				"7": {
-					"type": "x-ibm-ttp-tagging",
-					"extensions": {
-						"mitre-attack-ext": {
-							"technique_name": "Data from Cloud Storage Object (T1530)"
-						}
-					}
-				}
-			},
-			"modified": "2023-04-16T12:20:03.830Z",
-			"last_observed": "2023-04-16T12:20:03.830Z",
-			"created_by_ref": "identity--c8241623-3a47-4afc-80cb-36593f29642d",
-			"first_observed": "2023-04-16T12:20:03.830Z",
-			"x_com_guardium": {
-				"db_user": "frank-adams@baneandox.com",
-				"new_outlier": "false",
-				"service_name": "172.20.18.20:5.6.27",
-				"temp_outlier": "false",
-				"anomaly_score": 100,
-				"error_outlier": "false",
-				"source_program": "MYSQL CLIENT",
-				"high_volume_outlier": "true"
-			},
-			"number_observed": 1
-		},
-		{
 			"id": "observed-data--89543845-acd4-8f746cbedce2",
 			"type": "observed-data",
 			"created": "2023-04-16T12:21:11.750Z",
@@ -448,7 +371,7 @@
 				},
 				"1": {
 					"type": "ipv4-addr",
-					"value": "172.20.18.20",
+					"value": "172.20.19.20",
 					"resolves_to_refs": [
 						"5"
 					]
@@ -468,20 +391,20 @@
 					"ip_refs": [
 						"1"
 					],
-					"hostname": "sales-database.baneandox.com",
+					"hostname": "hr-database.baneandox.com",
 					"host_id": "903daa5f5b044309a3587ae40c8fe077"
 				},
 				"4": {
 					"type": "user-account",
-					"user_id": "frank-adams@baneandox.com"
+					"user_id": "john-clarke@baneandox.com"
 				},
 				"5": {
 					"type": "domain-name",
-					"value": "sales-database.baneandox.com"
+					"value": "hr-database.baneandox.com"
 				},
 				"6": {
 					"type": "ipv4-addr",
-					"value": "128.210.157.251"
+					"value": "85.2.185.70"
 				},
 				"7": {
 					"type": "x-ibm-finding",
