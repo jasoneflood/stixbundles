@@ -20,7 +20,7 @@
 			    "0": {
                     "code": 1,
                     "type": "x-oca-event",
-                    "agent": "WindowsEmailClient @ Frank-Adams-PC",
+                    "agent": "WindowsEmailClient @ John-Clarke-PC",
                     "action": "Email Received",
                     "created": "2023-04-16T13:09:27.034Z",
                     "outcome": "Success",
@@ -38,7 +38,7 @@
 				},
 				"2": {
 					"type": "ipv4-addr",
-					"value": "10.10.20.10"
+					"value": "10.10.20.11"
 				},
 					"3": {
 					"type": "network-traffic",
@@ -52,7 +52,7 @@
 				},
 				"4": {
 					"type": "email-addr",
-					"value": "davesmith@baneand0xe.com"
+					"value": "jasonflood@baneand0xe.com"
 				},
 				"5": {
 					"type": "email-message",
@@ -61,7 +61,7 @@
 				},
 				"6": {
 					"type": "email-addr",
-					"value": "frank-adams@baneandox.com"
+					"value": "john-clarke@baneandox.com"
 				},
 				"7": {
 					"type": "ipv4-addr",
@@ -101,7 +101,7 @@
 				},
 				"12": {
                     "type": "x-oca-asset",
-                    "hostanme": "frank-adams-pc.baneandox.com",
+                    "hostanme": "john-clarke-pc.baneandox.com",
                     "ip_refs": ["2"]
                 }
 			},
