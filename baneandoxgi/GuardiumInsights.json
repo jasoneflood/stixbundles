@@ -21,14 +21,14 @@
 				},
 				"1": {
 					"type": "ipv4-addr",
-					"value": "172.20.19.20"
+					"value": "9.55.205.68"
 				},
 				"2": {
 					"type": "network-traffic",
 					"dst_ref": "1",
 					"src_ref": "3",
-					"dst_port": 3306,
-					"src_port": 44494,
+					"dst_port": 15569,
+					"src_port": 11392,
 					"protocols": [
 						"tcp",
 						"ipv4"
@@ -76,9 +76,9 @@
 			"created_by_ref": "identity--c8241623-3a47-4afc-80cb-36593f29642d",
 			"first_observed": "2023-04-16T12:20:03.830Z",
 			"x_com_guardium": {
-				"db_user": "john-clarke@baneandox.com",
+				"db_user": "INGABERG",
 				"new_outlier": "false",
-				"service_name": "172.20.19.20:5.6.27",
+				"service_name": "9.55.205.68:5.6.27",
 				"temp_outlier": "false",
 				"anomaly_score": 100,
 				"error_outlier": "false",
