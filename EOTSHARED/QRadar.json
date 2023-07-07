@@ -7,13 +7,13 @@
 			"id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
 			"name": "shifter_proxy",
 			"identity_class": "events",
-			"created": "2023-05-29T13:01:38.295Z",
-			"modified": "2023-05-29T13:01:38.295Z"
+			"created": "2023-07-06T13:01:38.295Z",
+			"modified": "2023-07-06T13:01:38.295Z"
 		},
 		{
 			"id": "observed-data--41376883-01d2-4ed7-9f11-80349bce4a1b",
 			"type": "observed-data",
-			"created": "2023-05-29T12:13:20.874Z",
+			"created": "2023-07-06T12:13:20.874Z",
 			"objects": {
 				"0": {
 					"id": "CIDD706957",
@@ -67,23 +67,23 @@
 					]
 				}
 			},
-			"modified": "2023-05-29T12:13:20.874Z",
-			"last_observed": "2023-05-29T12:13:20.874Z",
+			"modified": "2023-07-06T12:13:20.874Z",
+			"last_observed": "2023-07-06T12:13:20.874Z",
 			"created_by_ref": "identity--c8241623-3a47-4afc-80cb-36593f29642d",
-			"first_observed": "2023-05-29T12:13:20.874Z",
+			"first_observed": "2023-07-06T12:13:20.874Z",
 			"number_observed": 1
 		},
 		{
 			"id": "observed-data--9054384e-5f99-4bf0-acd4-8f746cbedce2",
 			"type": "observed-data",
-			"created": "2023-05-29T12:15:55.950Z",
+			"created": "2023-07-06T12:15:55.950Z",
 			"objects": {
 				"0": {
 					"code": 1,
 					"type": "x-oca-event",
 					"agent": "WindowsAuthServer @ frank-adams-pc",
 					"action": "Process Create",
-					"created": "2023-05-29T12:15:55.950Z",
+					"created": "2023-07-06T12:15:55.950Z",
 					"outcome": "Process Creation Success",
 					"category": [
 						"System"
@@ -194,16 +194,16 @@
 					}
 				}
 			},
-			"modified": "2023-05-29T12:15:55.950Z",
-			"last_observed": "2023-05-29T12:15:55.950Z",
+			"modified": "2023-07-06T12:15:55.950Z",
+			"last_observed": "2023-07-06T12:15:55.950Z",
 			"created_by_ref": "identity--3079a446-1a08-40d0-a1bb-e998f369b1e6",
-			"first_observed": "2023-05-29T12:15:55.950Z",
+			"first_observed": "2023-07-06T12:15:55.950Z",
 			"number_observed": 1
 		},
 		{
 			"id": "observed-data--3054384e-5f99-4bf0-acd4-8f746cbedce2",
 			"type": "observed-data",
-			"created": "2023-05-29T12:17:10.940Z",
+			"created": "2023-07-06T12:17:10.940Z",
 			"objects": {
 				"0": {
 					"code": 1,
@@ -211,7 +211,7 @@
 					"agent": "WindowsAuthServer @ frank-adams-pc",
 					"action": "Process Create",
 					"nt_ref": "2",
-					"created": "2023-05-29T12:17:10.940Z",
+					"created": "2023-07-06T12:17:10.940Z",
 					"outcome": "Process Creation Success",
 					"category": [
 						"System"
@@ -343,16 +343,16 @@
 					}
 				}
 			},
-			"modified": "2023-05-29T12:17:10.940Z",
-			"last_observed": "2023-05-29T12:17:10.940Z",
+			"modified": "2023-07-06T12:17:10.940Z",
+			"last_observed": "2023-07-06T12:17:10.940Z",
 			"created_by_ref": "identity--3079a446-1a08-40d0-a1bb-e998f369b1e6",
-			"first_observed": "2023-05-29T12:17:10.940Z",
+			"first_observed": "2023-07-06T12:17:10.940Z",
 			"number_observed": 1
 		},
 		{
 			"id": "observed-data--e5d9f23d-8eaf-467e-a785-90c528f2693c",
 			"type": "observed-data",
-			"created": "2023-05-29T12:20:03.830Z",
+			"created": "2023-07-06T12:20:03.830Z",
 			"objects": {
 				"0": {
 					"type": "user-account",
@@ -410,10 +410,10 @@
 					}
 				}
 			},
-			"modified": "2023-05-29T12:20:03.830Z",
-			"last_observed": "2023-05-29T12:20:03.830Z",
+			"modified": "2023-07-06T12:20:03.830Z",
+			"last_observed": "2023-07-06T12:20:03.830Z",
 			"created_by_ref": "identity--c8241623-3a47-4afc-80cb-36593f29642d",
-			"first_observed": "2023-05-29T12:20:03.830Z",
+			"first_observed": "2023-07-06T12:20:03.830Z",
 			"x_com_guardium": {
 				"db_user": "frank-adams@baneandox.com",
 				"new_outlier": "false",
@@ -429,7 +429,7 @@
 		{
 			"id": "observed-data--89543845-acd4-8f746cbedce2",
 			"type": "observed-data",
-			"created": "2023-05-29T12:21:11.750Z",
+			"created": "2023-07-06T12:21:11.750Z",
 			"objects": {
 				"0": {
 					"code": 1,
@@ -437,7 +437,7 @@
 					"agent": "SecurityComplianceCenter",
 					"action": "Data Transfer",
 					"nt_ref": "2",
-					"created": "2023-05-29T12:21:11.750Z",
+					"created": "2023-07-06T12:21:11.750Z",
 					"outcome": "Success",
 					"category": [
 						"ThreatManagement"
@@ -516,10 +516,10 @@
 					}
 				}
 			},
-			"modified": "2023-05-29T12:21:11.750Z",
-			"last_observed": "2023-05-29T12:21:11.750Z",
+			"modified": "2023-07-06T12:21:11.750Z",
+			"last_observed": "2023-07-06T12:21:11.750Z",
 			"created_by_ref": "identity--c8241623-3a47-4afc-80cb-36593f29642d",
-			"first_observed": "2023-05-29T12:21:11.750Z",
+			"first_observed": "2023-07-06T12:21:11.750Z",
 			"number_observed": 1
 		}
 
