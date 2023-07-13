@@ -1,0 +1,25 @@
+ 
+ 
+ EOTSHARED PM2
+ curl -v -k -H 'Content-Type: application/json' -u 516e340f0323583aaa08933e288bec15:32f63143e02d4610bdb89bdce56a583b -X POST   https://deployment-jpcrz13m.xdr.security.ibm.com/api/respond/rest/orgs/201/incidents -d @./case_creation_file.json
+ 
+ curl -v -k -H 'Content-Type: application/json' -u 516e340f0323583aaa08933e288bec15:32f63143e02d4610bdb89bdce56a583b -X POST  https://deployment-jpcrz13m.xdr.security.ibm.com/api/respond/rest/orgs/201/incidents/2096/findings -d @./all_findings_new.json
+ 
+
+G6/PM1 Environment
+ 
+ curl -v -k -H 'Content-Type: application/json' -u e4b2ed78c3de5318b7b32a3bcc01bb05:7be87aed601a4a3d90f78627ddb10901 -X POST   https://deployment-g6qyliz9.xdr.security.ibm.com/api/respond/rest/orgs/202/incidents -d @./case_creation_file.json
+ 
+ curl -v -k -H 'Content-Type: application/json' -u e4b2ed78c3de5318b7b32a3bcc01bb05:7be87aed601a4a3d90f78627ddb10901 -X POST  https://deployment-g6qyliz9.xdr.security.ibm.com/api/respond/rest/orgs/202/incidents/2131/findings -d @./all_findings_new.json
+ 
+
+
+
+YFR
+ 
+ curl -v -k -H 'Content-Type: application/json' -u 679450091f78559396b5af0b91fff2e8:f65ddeff6e174283bd7d88c0433e9d6f -X POST   https://deployment-yfrujyoe.xdr.security.ibm.com/api/respond/rest/orgs/204/incidents -d @./case_creation_file.json
+ 
+ curl -v -k -H 'Content-Type: application/json' -u 679450091f78559396b5af0b91fff2e8:f65ddeff6e174283bd7d88c0433e9d6f -X POST  https://deployment-yfrujyoe.xdr.security.ibm.com/api/respond/rest/orgs/204/incidents/3127/findings -d @./all_findings_new.json
+ 
+ 
+ 
