@@ -205,7 +205,7 @@
 					"created": "2023-07-26T12:10:36.071Z",
 					"binary_ref": "6",
 					"parent_ref": "10",
-					"command_line": "Winrar.exe a rat.rar C:\Windows\Users\Frank-Adams\Documents\",
+					"command_line": "Winrar.exe a rat.rar "C:\Windows\Users\Frank-Adams\Documents\" ",
 					"creator_user_ref": "11"
 				},
 				"8": {
