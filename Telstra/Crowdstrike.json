@@ -582,11 +582,8 @@
         },
         {
             "id": "observed-data--500ad81a-581f-46f8-8f89-80a1d16fcfa3",
-            "number_observed": 1,
-            "first_observed": "2021-02-03T08:57:03.61376Z",
-            "last_observed": "2021-02-03T08:57:03.61376Z",
+             "type": "observed-data",
             "created": "2023-09-18T11:06:15.000Z",
-            "modified": "2023-09-18T11:06:15.000Z",
             "objects": {
                 "0": {
                     "value": "192.168.1.106",
@@ -614,9 +611,35 @@
                         "SHA-1": "834d876b47ae8e595ae417a370cd47cc8e061131"
                     },
                     "type": "file"
-                }
+                },
+                "6": {
+					"type": "x-ibm-ttp-tagging",
+					"extensions": {
+						"mitre-attack-ext": {
+							"tactic_name": "Execution"
+						}
+					},
+					"kill_chain_phases": [
+						"7"
+					]
+				},
+				"7": {
+					"type": "kill-chain-phase",
+					"phase_name": "Execution"
+				},
+				"8": {
+					"type": "x-ibm-ttp-tagging",
+					"extensions": {
+						"mitre-attack-ext": {
+							"technique_name": "User Execution: Malicious File (T1204.002)"
+						}
+					}
+				}
             },
-            "type": "observed-data"
+            "modified": "2023-09-18T11:06:15.000Z",
+            "last_observed": "2021-02-03T08:57:03.61376Z",
+            "first_observed": "2021-02-03T08:57:03.61376Z",
+            "number_observed": 1,
         },
         {
             "id": "observed-data--6b1e35dd-8412-46f1-801c-a51c9baedc94",
