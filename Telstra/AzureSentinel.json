@@ -501,7 +501,40 @@
                     },
                     "type": "file"
                 }
-            },
+            "6": {
+					"type": "x-ibm-finding",
+					"severity": 100,
+					"file_ref": "6",
+					"name": "Known Malware associated with data exfiltration",
+					"ttp_tagging_refs": [
+						"7",
+						"9"
+					]
+				},
+				"7": {
+					"type": "x-ibm-ttp-tagging",
+					"extensions": {
+						"mitre-attack-ext": {
+							"tactic_name": "Execution"
+						}
+					},
+					"kill_chain_phases": [
+						"8"
+					]
+				},
+				"8": {
+					"type": "kill-chain-phase",
+					"phase_name": "Execution"
+				},
+				"9": {
+					"type": "x-ibm-ttp-tagging",
+					"extensions": {
+						"mitre-attack-ext": {
+							"technique_name": "User Execution: Malicious File (T1204.002)"
+						}
+					}
+				}
+			},
             "type": "observed-data"
         },
         {
