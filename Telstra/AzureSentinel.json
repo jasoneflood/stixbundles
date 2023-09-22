@@ -500,11 +500,11 @@
                         "SHA-1": "834d876b47ae8e595ae417a370cd47cc8e061131"
                     },
                     "type": "file"
-                }
+                },
             "6": {
 					"type": "x-ibm-finding",
 					"severity": 100,
-					"file_ref": "6",
+					"file_ref": "5",
 					"name": "Known Malware associated with data exfiltration",
 					"ttp_tagging_refs": [
 						"7",
