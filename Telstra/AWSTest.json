@@ -46,19 +46,19 @@
 					"name": "ruyk.bin",
 					"type": "file",
 					"hashes": {
-						"SHA-256": "da83298aae66af3e646b1d9aea2ce8b79514e4681e97faa020d403ca980534fd",
+						"SHA-1": "3780f5828fc05bf74649393169f70fafb0ffed25",
 					}
 				},
 				"5": {
 					"type": "user-account",
-					"user_id": "lipu-prosecut-honest@baneandox.com"
+					"user_id": "enc-eddie@baneandox.com"
 				},
 				"6": {
 					"type": "x-oca-asset",
 					"ip_refs": [
 						"7"
 					],
-					"hostname": "lipu-prosecut-honest-pc.baneandox.com"
+					"hostname": "enc-eddie-pc.baneandox.com"
 				},
 				"7": {
 					"type": "ipv4-addr",
