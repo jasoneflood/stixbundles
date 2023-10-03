@@ -311,15 +311,147 @@
 					"value": "sales-database.baneandox.com"
 				},
 				"16": {
+					"type": "ipv4-addr",
+					"value": "172.20.18.21",
+					"resolves_to_refs": [
+						"17"
+					]
+				},
+				"17": {
+					"type": "domain-name",
+					"value": "user-database.baneandox.com"
+				},
+				"18": {
+					"type": "ipv4-addr",
+					"value": "172.20.18.22",
+					"resolves_to_refs": [
+						"19"
+					]
+				},
+				"19": {
+					"type": "domain-name",
+					"value": "user-database.baneandox.com"
+				},
+				"20": {
+					"type": "ipv4-addr",
+					"value": "172.20.18.23",
+					"resolves_to_refs": [
+						"21"
+					]
+				},
+				"21": {
+					"type": "domain-name",
+					"value": "payments-database.baneandox.com"
+				},
+				"22": {
+					"type": "ipv4-addr",
+					"value": "172.20.18.24",
+					"resolves_to_refs": [
+						"23"
+					]
+				},
+				"23": {
+					"type": "domain-name",
+					"value": "ma-database.baneandox.com"
+				},
+				"24": {
+					"type": "ipv4-addr",
+					"value": "172.20.18.25",
+					"resolves_to_refs": [
+						"25"
+					]
+				},
+				"25": {
+					"type": "domain-name",
+					"value": "docs-database.baneandox.com"
+				},
+				"26": {
+					"type": "ipv4-addr",
+					"value": "172.20.18.26",
+					"resolves_to_refs": [
+						"27"
+					]
+				},
+				"27": {
+					"type": "domain-name",
+					"value": "cc-database.baneandox.com"
+				},
+				"28": {
+					"type": "ipv4-addr",
+					"value": "172.20.18.27",
+					"resolves_to_refs": [
+						"29"
+					]
+				},
+				"29": {
+					"type": "domain-name",
+					"value": "pi-database.baneandox.com"
+				},
+				"30": {
+					"type": "ipv4-addr",
+					"value": "172.20.18.28",
+					"resolves_to_refs": [
+						"31"
+					]
+				},
+				"31": {
+					"type": "domain-name",
+					"value": "hr-database.baneandox.com"
+				},
+				"32": {
+					"type": "ipv4-addr",
+					"value": "172.20.18.29",
+					"resolves_to_refs": [
+						"33"
+					]
+				},
+				"33": {
+					"type": "domain-name",
+					"value": "project-database.baneandox.com"
+				},
+				"34": {
+					"type": "ipv4-addr",
+					"value": "172.20.18.30",
+					"resolves_to_refs": [
+						"35"
+					]
+				},
+				"35": {
+					"type": "domain-name",
+					"value": "stakeholder-database.baneandox.com"
+				},
+				"36": {
+					"type": "ipv4-addr",
+					"value": "172.20.18.31",
+					"resolves_to_refs": [
+						"37"
+					]
+				},
+				"37": {
+					"type": "domain-name",
+					"value": "media-database.baneandox.com"
+				},
+				"38": {
+					"type": "ipv4-addr",
+					"value": "172.20.18.32",
+					"resolves_to_refs": [
+						"37"
+					]
+				},
+				"39": {
+					"type": "domain-name",
+					"value": "employee-database.baneandox.com"
+				},
+				"40": {
 					"type": "x-ibm-finding",
 					"severity": 100,
 					"name": "Remote PowerShell Session Host Process (WinRM)",
 					"ttp_tagging_refs": [
-						"17",
-						"19"
+						"41",
+						"43"
 					]
 				},
-				"17": {
+				"41": {
 					"type": "x-ibm-ttp-tagging",
 					"extensions": {
 						"mitre-attack-ext": {
@@ -327,14 +459,14 @@
 						}
 					},
 					"kill_chain_phases": [
-						"18"
+						"42"
 					]
 				},
-				"18": {
+				"42": {
 					"type": "kill-chain-phase",
 					"phase_name": "LateralMovement"
 				},
-				"19": {
+				"43": {
 					"type": "x-ibm-ttp-tagging",
 					"extensions": {
 						"mitre-attack-ext": {
