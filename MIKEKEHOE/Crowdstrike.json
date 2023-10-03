@@ -1,0 +1,242 @@
+{
+	"type": "bundle",
+	"id": "bundle--281fe97a-35d8-4b84-be2e-253047cc6274",
+	"spec_version": "2.0",
+	"objects": [{
+			"type": "identity",
+			"id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+			"name": "shifter_proxy",
+			"identity_class": "events",
+			"created": "2023-09-29T13:01:38.295Z",
+			"modified": "2023-09-29T13:01:38.295Z"
+		},
+		{
+			"id": "observed-data--e2717c9d-4eb6-41fe-90b2-dead702e36d3",
+			"type": "observed-data",
+			"created": "2023-09-29T12:10:22.335Z",
+			"objects": {
+				"0": {
+					"code": 1,
+					"type": "x-oca-event",
+					"agent": "WindowsWebClient @ Frank-Adams-PC",
+					"action": "File Download",
+					"created": "2023-09-29T12:15:55.950Z",
+					"outcome": "File Download Success",
+					"category": [
+						"Web"
+					],
+					"file_ref": "6",
+					"host_ref": "1",
+					"provider": "Crowdstrike",
+					"user_ref": "11",
+					"machine_id": "6a813bbd845c2bf3115e24c40fd9a902a3047e8b",
+					"original_ref": "12"
+				},
+				"1": {
+					"type": "domain-name",
+					"value": "baneandox.com"
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "139.45.197.253"
+				},
+				"3": {
+					"type": "network-traffic",
+					"dst_ref": "2",
+					"src_ref": "5",
+					"dst_port": 443,
+					"src_port": 50990,
+					"protocols": [
+						"tcp"
+					]
+				},
+				"4": {
+					"type": "url",
+					"value": "https://baneand0xe.com"
+				},
+				"5": {
+					"type": "ipv4-addr",
+					"value": "10.10.20.10"
+				},
+				"6": {
+					"name": "ice9f70e104c07.bin",
+					"type": "file",
+					"hashes": {
+						"MD5": "7e37ab34ecdcc3e77e24522ddfd4852d",
+						"SHA-256": "02ef73bd2458627ed7b397ec26ee2de2e92c71a0e7588f78734761d8edbdcd9f"
+					},
+					"parent_directory_ref": "8"
+				},
+				"7": {
+					"pid": 1824,
+					"name": "svchost.exe",
+					"type": "process",
+					"created": "2023-09-29T12:10:36.071Z",
+					"binary_ref": "6",
+					"parent_ref": "10",
+					"command_line": "svchost.exe -k netsvcs -p -s BITS",
+					"creator_user_ref": "11"
+				},
+				"8": {
+					"path": "c:\\windows\\system32",
+					"type": "directory"
+				},
+				"9": {
+					"name": "services.exe",
+					"type": "file"
+				},
+				"10": {
+					"pid": 740,
+					"name": "services.exe",
+					"type": "process",
+					"created": "2023-09-29T12:09:45.925Z",
+					"binary_ref": "9"
+				},
+				"11": {
+					"type": "user-account",
+					"user_id": "frank-adams@baneandox.com",
+					"account_login": "frank-adams@baneandox.com"
+				},
+				"12": {
+					"type": "artifact",
+					"payload_bin": "ImlkIjogImVkNjM3NTgyOTQ4MjIzOTY2MDIzXy0xNzA2Njg5NDE4IiwgImluY2lkZW50SWQiOiAxNDIwLCAic2V2ZXJpdHkiOiAiTG93IiwgInN0YXR1cyI6ICJOZXciLCAiaW52ZXN0aWdhdGlvblN0YXRlIjogIkxvZ0V2ZW50IiwgImRldGVjdGlvblNvdXJjZSI6ICJDdXN0b21EZXRlY3Rpb24iLCAiZGV0ZWN0b3JJZCI6ICJhNzA4OGUwMy1jMzY3LTRjYzItYmM1MC0yZWViMzJkYjczNmIiLCAiY2F0ZWdvcnkiOiAiRXZlbnQiLCAidGl0bGUiOiAiSFRUUFMgYWN0aXZpdHkiLCAiZGVzY3JpcHRpb24iOiAiSFRUUFMgYWN0aXZpdHkiLCAiYWxlcnRDcmVhdGlvblRpbWUiOiAiMjAyMy0wOS0yOVQxMjowMToyNS4zNDY2Mjg4WiIsICJmaXJzdEV2ZW50VGltZSI6ICIyMDIzLTAzLTI2VDEyOjAxOjI1LjQ2Njk0MTlaIiwgImxhc3RFdmVudFRpbWUiOiAiMjAyMy0wOS0yOVQxMjowMToyNS40NjY5NDE5WiIsICJsYXN0VXBkYXRlVGltZSI6ICIyMDIzLTA5LTI5VDA0OjEyOjUwLjI0WiIsICJtYWNoaW5lSWQiOiAiNmE4MTNiYmQ4NDVjMmJmMzExNWUyNGM0MGZkOWE5MDJhMzA0N2U4YiIsICJjb21wdXRlckRuc05hbWUiOiAiZnJhbmstYWRhbXMtcGMuYmFuZWFuZG94LmNvbSIsICJyYmFjR3JvdXBOYW1lIjogIlhEUiBCQU8gZ3JvdXAiLCAiYWFkVGVuYW50SWQiOiAiOTBkMDczMTMtMTczOS00MjgzLThhOTQtMWFkZDkzYmZkMGViIiwgIm1pdHJlVGVjaG5pcXVlcyI6IFtdLCAicmVsYXRlZFVzZXIiOiB7CgkidXNlck5hbWUiOiAiZnJhbmstYWRhbXNAYmFuZWFuZG94LmNvbSIsCgkiZG9tYWluTmFtZSI6ICJiYW5lYW4weGUuY29tIgp9LCAiY29tbWVudHMiOiBbXSwgImV2aWRlbmNlIjogW3sKCSJlbnRpdHlUeXBlIjogIlByb2Nlc3MiLAoJImV2aWRlbmNlQ3JlYXRpb25UaW1lIjogIjIwMjMtMDktMjlUMTI6MDE6MjUuNDVaIiwKCSJzaGExIjogIjU0NWVjMTFkZWU2NDJkZTYzM2ViMmM2ZjZmZmM5MGNjZTRkZWNmOGQiLAoJInNoYTI1NiI6ICJjZTlmNzBlMTA0YzA3ZDkyZmMwNWZiZDYwMDA4MzlmZDZhODdmZjAxMGU3MDYzOTZmODdkZDY3OTI0NGVkOTdiIiwKCSJmaWxlTmFtZSI6ICJ3c2NyaXB0LmV4ZSIsCgkiZmlsZVBhdGgiOiAiQzpcXFdpbmRvd3NcXFN5c3RlbTMyIiwKCSJwcm9jZXNzSWQiOiA5MDI4LAoJImRvd25sb2FkX2RpciI6ICJDOlxcVXNlcnNcXEZyYW5rLUFkYW1zXFxBcHBEYXRhXFxSb2FtaW5nXFxNaWNyb3NvZnRcXFdpbmRvd3NcXHs1YTczNWU1NC02M2U0LTRhNTYtNjRhMi03Yzc5NzM1NzdlNGJ9XFwiLAoJImRvd25sb2FkVGltZSI6ICIyMDIzLTA5LTI5VDEyOjAxOjUyWiIsCgkicGFyZW50UHJvY2Vzc0lkIjogMjE1NiwKCSJwYXJlbnRQcm9jZXNzQ3JlYXRpb25UaW1lIjogIjIwMjMtMDktMjlUMTI6MDE6MjVaIiwKCSJwYXJlbnRQcm9jZXNzRmlsZU5hbWUiOiAic3ZjaG9zdC5leGUiLAoJInBhcmVudFByb2Nlc3NGaWxlUGF0aCI6ICJjOlxcd2luZG93c1xcc3lzdGVtMzIiLAoJImFjY291bnROYW1lIjogImZyYW5rLWFkYW1zQGJhbmVhbmRveC5jb20iLAoJImRvbWFpbk5hbWUiOiAiYmFuZWFuZDB4ZS5jb20iLAoJInVzZXJTaWQiOiAiUy0xLTUtMTgtMTg4MTEzMTQ0NC0yNDczODkxMzM1LTM0NzAyNjYtNTAwIgp9LCB7CgkiZW50aXR5VHlwZSI6ICJVc2VyIiwKCSJldmlkZW5jZUNyZWF0aW9uVGltZSI6ICIyMDIzLTA5LTI5VDEyOjAxOjUyLjQ1WiIsCgkiYWNjb3VudE5hbWUiOiAiZnJhbmstYWRhbXNAYmFuZWFuZG94LmNvbSIsCgkidXJsIjogImh0dHBzOi8vYmFuZWFuZDB4ZS5jb20iLAoJInVzZXJTaWQiOiAiUy0xLTUtMTgtMTg4MTEzMTQ0NC0yNDczODkxMzM1LTM0NzAyNjYtNTAwIgp9LCB7CgkiZW50aXR5VHlwZSI6ICJGaWxlRG93bmxvYWQiLAoJImV2aWRlbmNlQ3JlYXRpb25UaW1lIjogIjIwMjMtMDktMjlUMTI6MDE6NTIuNDVaIiwKCSJzaGExIjogIjAxMGRiMDc0NjFlNDViNDFjODg2MTkyZGY2ZmQ0MjViYThkNDJkODIiLAoJInNoYTI1NiI6ICI2NDNlYzU4ZTgyZTAyNzJjOTdjMmE1OWY2MDIwOTcwZDg4MWFmMTljMGFkNTAyOWRiOWM5NThjMTNiNjU1OGM3IiwKCSJmaWxlTmFtZSI6ICJpY2U5ZjcwZTEwNGMwNy5iaW4iLAoJImZpbGVQYXRoIjogImM6XFx3aW5kb3dzXFxzeXN0ZW0zMiIsCgkicHJvY2Vzc0lkIjogMjE1NiwKCSJwcm9jZXNzQ29tbWFuZExpbmUiOiAic3ZjaG9zdC5leGUgLWsgbmV0c3ZjcyAtcCAtcyBTY2hlZHVsZSIsCgkicHJvY2Vzc0NyZWF0aW9uVGltZSI6ICIyMDIzLTA5LTI5VDEyOjAxOjI1WiIsCgkicGFyZW50UHJvY2Vzc0lkIjogNzQwLAoJInBhcmVudFByb2Nlc3NDcmVhdGlvblRpbWUiOiAiMjAyMy0wOS0yOVQxMjowMTo0NVoiLAoJInBhcmVudFByb2Nlc3NGaWxlTmFtZSI6ICJzZXJ2aWNlcy5leGUiLAoJImFjY291bnROYW1lIjogInN5c3RlbSIsCgkiZG9tYWluTmFtZSI6ICJudCBhdXRob3JpdHkiLAoJInVzZXJTaWQiOiAiUy0xLTUtMTgiCn1dLCAibWFjaGluZURhdGEiOiAie1wiQG9kYXRhLmNvbnRleHRcIjpcImh0dHBzOi8vYXBpLnNlY3VyaXR5Y2VudGVyLndpbmRvd3MuY29tL2FwaS8kbWV0YWRhdGEjTWFjaGluZXMvJGVudGl0eVwiLFwiaWRcIjpcIjZhODEzYmJkODQ1YzJiZjMxMTVlMjRjNDBmZDlhOTAyYTMwNDdlOGJcIixcImNvbXB1dGVyRG5zTmFtZVwiOlwiZnJhbmstYWRhbXMtcGMuYmFuZWFuZG94LmNvbVwiLFwiZmlyc3RTZWVuXCI6XCIyMDIzLTA5LTI5VDEyOjAxOjAxLjQ4MzcwNDRaXCIsXCJsYXN0U2VlblwiOlwiMjAyMy0wOS0yOVQxMjowMTo0My4xMjY4MzYzWlwiLFwib3NQbGF0Zm9ybVwiOlwiV2luZG93czEwXCIsXCJvc1ZlcnNpb25cIjpudWxsLFwib3NQcm9jZXNzb3JcIjpcIng2NFwiLFwidmVyc2lvblwiOlwiMjAwNFwiLFwibGFzdElwQWRkcmVzc1wiOlwiMTAuMTAuMjAuMTBcIixcImxhc3RFeHRlcm5hbElwQWRkcmVzc1wiOlwiMTcyLjE2LjEwMC4xMVwiLFwiYWdlbnRWZXJzaW9uXCI6XCIxMC43NzQwLjE5MDQxLjk4NVwiLFwib3NCdWlsZFwiOjE5MDQxLFwiaGVhbHRoU3RhdHVzXCI6XCJBY3RpdmVcIixcImRldmljZVZhbHVlXCI6XCJOb3JtYWxcIixcInJiYWNHcm91cElkXCI6MTg3MixcInJiYWNHcm91cE5hbWVcIjpcIlhEUiBCQU8gZ3JvdXBcIixcInJpc2tTY29yZVwiOlwiTWVkaXVtXCIsXCJleHBvc3VyZUxldmVsXCI6XCJNZWRpdW1cIixcImlzQWFkSm9pbmVkXCI6ZmFsc2UsXCJhYWREZXZpY2VJZFwiOm51bGwsXCJtYWNoaW5lVGFnc1wiOltcIk1TUyBRb1hcIl0sXCJkZWZlbmRlckF2U3RhdHVzXCI6XCJVcGRhdGVkXCIsXCJvbmJvYXJkaW5nU3RhdHVzXCI6XCJPbmJvYXJkZWRcIixcIm9zQXJjaGl0ZWN0dXJlXCI6XCI2NC1iaXRcIixcImlwQWRkcmVzc2VzXCI6W3tcImlwQWRkcmVzc1wiOlwiMTAuMTAuMjAuMTBcIixcIm1hY0FkZHJlc3NcIjpcIjAwMEMyOTQxRDQ4N1wiLFwidHlwZVwiOlwiRXRoZXJuZXRcIixcIm9wZXJhdGlvbmFsU3RhdHVzXCI6XCJVcFwifSx7XCJpcEFkZHJlc3NcIjpcImZlODA6OjM0ZjQ6YTk3ODozNDg5OmMyMjZcIixcIm1hY0FkZHJlc3NcIjpcIjAwMEMyOTQxRDQ4N1wiLFwidHlwZVwiOlwiRXRoZXJuZXRcIixcIm9wZXJhdGlvbmFsU3RhdHVzXCI6XCJVcFwifV0sXCJ2bU1ldGFkYXRhXCI6bnVsbH0iCn0="
+				},
+				"13": {
+					"type": "x-ibm-finding",
+					"severity": 100,
+					"file_ref": "6",
+					"name": "Known Phishing Malware associated with data exfiltration",
+					"ttp_tagging_refs": [
+						"14",
+						"16"
+					]
+				},
+				"14": {
+					"type": "x-ibm-ttp-tagging",
+					"extensions": {
+						"mitre-attack-ext": {
+							"tactic_name": "Execution"
+						}
+					},
+					"kill_chain_phases": [
+						"15"
+					]
+				},
+				"15": {
+					"type": "kill-chain-phase",
+					"phase_name": "Execution"
+				},
+				"16": {
+					"type": "x-ibm-ttp-tagging",
+					"extensions": {
+						"mitre-attack-ext": {
+							"technique_name": "User Execution: Malicious Link (T1204.001)"
+						}
+					}
+				}
+			},
+			"modified": "2023-09-29T12:12:07.335Z",
+			"last_observed": "2023-09-29T12:12:07.335Z",
+			"created_by_ref": "identity--3079a446-1a08-40d0-a1bb-e998f369b1e6",
+			"first_observed": "2023-09-29T12:12:07.335Z",
+			"number_observed": 1
+		},
+		{
+			"id": "observed-data--287f2859-d67b-4c41-855c-5d07917c7972",
+			"type": "observed-data",
+			"created": "2023-09-29T12:12:50.857Z",
+			"objects": {
+				"0": {
+					"id": "CIDD706957",
+					"type": "x-mss"
+				},
+				"1": {
+					"id": "PR0000000044749",
+					"ip": "10.1.34.5",
+					"name": "Crowdstrike",
+					"type": "x-mss-device",
+					"vendor": "2188",
+					"version": "Undefined"
+				},
+				"2": {
+					"type": "artifact",
+					"payload_bin": "ewoJImlkIjogImVkNjM3NTgyOTQ4MjIzOTY2MDIzXy0xNzA2Njg5NDE4IiwKCSJpbmNpZGVudElkIjogMTQyMCwKCSJzZXZlcml0eSI6ICJNZWRpdW0iLAoJInN0YXR1cyI6ICJOZXciLAoJImludmVzdGlnYXRpb25TdGF0ZSI6ICJVbnN1cHBvcnRlZEFsZXJ0VHlwZSIsCgkiZGV0ZWN0aW9uU291cmNlIjogIkN1c3RvbURldGVjdGlvbiIsCgkiZGV0ZWN0b3JJZCI6ICJhNzA4OGUwMy1jMzY3LTRjYzItYmM1MC0yZWViMzJkYjczNmIiLAoJImNhdGVnb3J5IjogIlN1c3BpY2lvdXNBY3Rpdml0eSIsCgkidGl0bGUiOiAiV2luZG93cyBzaGVsbCBmaWxlIHdyaXRlIHRvIHN1c3BpY2lvdXMgZm9sZGVyIiwKCSJkZXNjcmlwdGlvbiI6ICJDb3VsZCBiZSBpbmRpY2F0aXZlIG9mIG1hbGljaW91cyBwZXJzaXN0ZW5jZSBtZWNoYW5pc21zLiIsCgkiYWxlcnRDcmVhdGlvblRpbWUiOiAiMjAyMy0wOS0yOVQxMjoxMjo1MC4zNDY2Mjg4WiIsCgkiZmlyc3RFdmVudFRpbWUiOiAiMjAyMy0wOS0yOVQxMjowNzo1Mi40NjY5NDE5WiIsCgkibGFzdEV2ZW50VGltZSI6ICIyMDIzLTA5LTI5VDEyOjEyOjUwLjQ2Njk0MTlaIiwKCSJsYXN0VXBkYXRlVGltZSI6ICIyMDIzLTA5LTI5VDEyOjEyOjUwLjI0WiIsCgkibWFjaGluZUlkIjogIjZhODEzYmJkODQ1YzJiZjMxMTVlMjRjNDBmZDlhOTAyYTMwNDdlOGIiLAoJImNvbXB1dGVyRG5zTmFtZSI6ICJmcmFuay1hZGFtcy1wYy5iYW5lYW5kb3guY29tIiwKCSJyYmFjR3JvdXBOYW1lIjogIlhEUiBCQU8gZ3JvdXAiLAoJImFhZFRlbmFudElkIjogIjkwZDA3MzEzLTE3MzktNDI4My04YTk0LTFhZGQ5M2JmZDBlYiIsCgkibWl0cmVUZWNobmlxdWVzIjogW10sCgkicmVsYXRlZFVzZXIiOiB7CgkJInVzZXJOYW1lIjogIlMtMS01LTE4IiwKCQkiZG9tYWluTmFtZSI6ICJiYW5lYW5kb3guY29tIgoJfSwKCSJjb21tZW50cyI6IFtdLAoJImV2aWRlbmNlIjogW3siZW50aXR5VHlwZSI6ICJQcm9jZXNzIiwiZXZpZGVuY2VDcmVhdGlvblRpbWUiOiAiMjAyMy0wOS0yOVQxMjoxMjo1MC40NVoiLCJzaGExIjogIjU0NWVjMTFkZWU2NDJkZTYzM2ViMmM2ZjZmZmM5MGNjZTRkZWNmOGQiLAoJCQkJInNoYTI1NiI6ICJjZTlmNzBlMTA0YzA3ZDkyZmMwNWZiZDYwMDA4MzlmZDZhODdmZjAxMGU3MDYzOTZmODdkZDY3OTI0NGVkOTdiIiwKCQkJCSJmaWxlTmFtZSI6ICJ3c2NyaXB0LmV4ZSIsCgkJCQkiZmlsZVBhdGgiOiAiQzpcXFdpbmRvd3NcXFN5c3RlbTMyIiwKCQkJCSJwcm9jZXNzSWQiOiA5MDI4LAoJCQkJInByb2Nlc3NDb21tYW5kTGluZSI6ICJ3c2NyaXB0LmV4ZSAvL2IgL2U6anNjcmlwdCBDOlxcVXNlcnNcXEZyYW5rLUFkYW1zXFxBcHBEYXRhXFxSb2FtaW5nXFxNaWNyb3NvZnRcXFdpbmRvd3NcXHs1YTczNWU1NC02M2U0LTRhNTYtNjRhMi03Yzc5NzM1NzdlNGJ9XFxjcmFzaHBhZC5sb2cgMTI4LjIxMC4xNTcuMjUxIDgwIiwKCQkJCSJwcm9jZXNzQ3JlYXRpb25UaW1lIjogIjIwMjMtMDktMjlUMTI6MDc6NTJaIiwKCQkJCSJwYXJlbnRQcm9jZXNzSWQiOiAyMTU2LAoJCQkJInBhcmVudFByb2Nlc3NDcmVhdGlvblRpbWUiOiAiMjAyMy0wOS0yOVQxMjowNjoyNVoiLAoJCQkJInBhcmVudFByb2Nlc3NGaWxlTmFtZSI6ICJzdmNob3N0LmV4ZSIsCgkJCQkicGFyZW50UHJvY2Vzc0ZpbGVQYXRoIjogImM6XFx3aW5kb3dzXFxzeXN0ZW0zMiIsCgkJCQkiYWNjb3VudE5hbWUiOiAiUy0xLTUtMTgiLCJkb21haW5OYW1lIjogImJhbmVhbmRveC5jb20iLCJ1c2VyU2lkIjogIlMtMS01LTE4LTE4ODExMzE0NDQtMjQ3Mzg5MTMzNS0zNDcwMjY2LTUwMCJ9LCB7ImVudGl0eVR5cGUiOiAiVXNlciIsImV2aWRlbmNlQ3JlYXRpb25UaW1lIjogIjIwMjMtMDktMjlUMTI6MDY6NTIuNDVaIiwiYWNjb3VudE5hbWUiOiAiUy0xLTUtMTgiLCJkb21haW5OYW1lIjogImJhbmVhbmRveC5jb20sInVzZXJTaWQgIjoiUyAtIDEgLSA1IC0gMTggLSAxODgxMTMxNDQ0IC0gMjQ3Mzg5MTMzNSAtIDM0NzAyNjYgLSA1MDAgIn0seyJlbnRpdHlUeXBlICI6IlByb2Nlc3MgIiwiZXZpZGVuY2VDcmVhdGlvblRpbWUgIjoiMjAyMy0wOS0yOVQxMjogMDY6IDUyLjQ1IFogIiwic2hhMSAiOiIwMTAgZGIwNzQ2MWU0NWI0MWM4ODYxOTJkZjZmZDQyNWJhOGQ0MmQ4MiAiLCJzaGEyNTYgIjoiNjQzIGVjNThlODJlMDI3MmM5N2MyYTU5ZjYwMjA5NzBkODgxYWYxOWMwYWQ1MDI5ZGI5Yzk1OGMxM2I2NTU4YzcgIiwiZmlsZU5hbWUgIjoic3ZjaG9zdC5leGUgIiwiZmlsZVBhdGggIjoiYzogXFx3aW5kb3dzXFwgc3lzdGVtMzIgIiwicHJvY2Vzc0lkICI6MjE1NiwicHJvY2Vzc0NvbW1hbmRMaW5lICI6InN2Y2hvc3QuZXhlIC0gayBuZXRzdmNzIC0gcCAtIHMgU2NoZWR1bGUgIiwicHJvY2Vzc0NyZWF0aW9uVGltZSAiOiIyMDIzLTA5LTI5VDEyOiAxMDogMjUgWiAiLCJwYXJlbnRQcm9jZXNzSWQgIjo3NDAsInBhcmVudFByb2Nlc3NDcmVhdGlvblRpbWUgIjoiMjAyMy0wOS0yOVQxMjogMDk6IDQ1IFogIiwicGFyZW50UHJvY2Vzc0ZpbGVOYW1lICI6InNlcnZpY2VzLmV4ZSAiLCJhY2NvdW50TmFtZSAiOiJzeXN0ZW0gIiwiZG9tYWluTmFtZSAiOiJudCBhdXRob3JpdHkgIiwidXNlclNpZCAiOiJTIC0gMSAtIDUgLSAxOCAifV0sIm1hY2hpbmVEYXRhICI6IiB7XCJAb2RhdGEuY29udGV4dFwiOlwiaHR0cHM6Ly9hcGkuc2VjdXJpdHljZW50ZXIud2luZG93cy5jb20vYXBpLyRtZXRhZGF0YSNNYWNoaW5lcy8kZW50aXR5XCIsXCJpZFwiOlwiNmE4MTNiYmQ4NDVjMmJmMzExNWUyNGM0MGZkOWE5MDJhMzA0N2U4YlwiLFwiY29tcHV0ZXJEbnNOYW1lXCI6XCJmcmFuay1hZGFtcy1wYy5iYW5lYW5kb3guY29tXCIsXCJmaXJzdFNlZW5cIjpcIjIwMjMtMDktMjlUMTI6MDA6MDEuNDgzNzA0NFpcIixcImxhc3RTZWVuXCI6XCIyMDIzLTA5LTI5VDEzOjE4OjQzLjEyNjgzNjNaXCIsXCJvc1BsYXRmb3JtXCI6XCJXaW5kb3dzMTBcIixcIm9zVmVyc2lvblwiOm51bGwsXCJvc1Byb2Nlc3NvclwiOlwieDY0XCIsXCJ2ZXJzaW9uXCI6XCIyMDA0XCIsXCJsYXN0SXBBZGRyZXNzXCI6XCIxMC4xMC4yMC4xMFwiLFwibGFzdEV4dGVybmFsSXBBZGRyZXNzXCI6XCIxNzIuMTYuMTAwLjExXCIsXCJhZ2VudFZlcnNpb25cIjpcIjEwLjc3NDAuMTkwNDEuOTg1XCIsXCJvc0J1aWxkXCI6MTkwNDEsXCJoZWFsdGhTdGF0dXNcIjpcIkFjdGl2ZVwiLFwiZGV2aWNlVmFsdWVcIjpcIk5vcm1hbFwiLFwicmJhY0dyb3VwSWRcIjoxODcyLFwicmJhY0dyb3VwTmFtZVwiOlwiWERSIEJBTyBncm91cFwiLFwicmlza1Njb3JlXCI6XCJNZWRpdW1cIixcImV4cG9zdXJlTGV2ZWxcIjpcIk1lZGl1bVwiLFwiaXNBYWRKb2luZWRcIjpmYWxzZSxcImFhZERldmljZUlkXCI6bnVsbCxcIm1hY2hpbmVUYWdzXCI6W1wiTVNTIFFvWFwiXSxcImRlZmVuZGVyQXZTdGF0dXNcIjpcIlVwZGF0ZWRcIixcIm9uYm9hcmRpbmdTdGF0dXNcIjpcIk9uYm9hcmRlZFwiLFwib3NBcmNoaXRlY3R1cmVcIjpcIjY0LWJpdFwiLFwiaXBBZGRyZXNzZXNcIjpbe1wiaXBBZGRyZXNzXCI6XCIxMC4xMC4yMC4xMFwiLFwibWFjQWRkcmVzc1wiOlwiMDAwQzI5NDFENDg3XCIsXCJ0eXBlXCI6XCJFdGhlcm5ldFwiLFwib3BlcmF0aW9uYWxTdGF0dXNcIjpcIlVwXCJ9LHtcImlwQWRkcmVzc1wiOlwiZmU4MDo6MzRmNDphOTc4OjM0ODk6YzIyNlwiLFwibWFjQWRkcmVzc1wiOlwiMDAwQzI5NDFENDg3XCIsXCJ0eXBlXCI6XCJFdGhlcm5ldFwiLFwib3BlcmF0aW9uYWxTdGF0dXNcIjpcIlVwXCJ9XSxcInZtTWV0YWRhdGFcIjpudWxsfSIKCQkJCX0="
+				},
+				"3": {
+					"type": "x-oca-event",
+					"action": "Windows Shell File Write to Suspicious Folder",
+					"ip_refs": [
+						"7"
+					],
+					"file_ref": "4",
+					"host_ref": "6",
+					"user_ref": "5",
+					"original_ref": "2"
+				},
+				"4": {
+					"name": "ice9f70e104c07.bin",
+					"type": "file",
+					"hashes": {
+						"MD5": "7e37ab34ecdcc3e77e24522ddfd4852d",
+						"SHA-256": "02ef73bd2458627ed7b397ec26ee2de2e92c71a0e7588f78734761d8edbdcd9f"
+					}
+				},
+				"5": {
+					"type": "user-account",
+					"user_id": "frank-adams@baneandox.com"
+				},
+				"6": {
+					"type": "x-oca-asset",
+					"ip_refs": [
+						"7"
+					],
+					"hostname": "frank-adams-pc.baneandox.com"
+				},
+				"7": {
+					"type": "ipv4-addr",
+					"value": "10.10.20.10"
+				},
+				"8": {
+					"type": "x-ibm-finding",
+					"severity": 100,
+					"file_ref": "4",
+					"name": "Windows Shell File Write to Suspicious Folder",
+					"ttp_tagging_refs": [
+						"9",
+						"11"
+					]
+				},
+				"9": {
+					"type": "x-ibm-ttp-tagging",
+					"extensions": {
+						"mitre-attack-ext": {
+							"tactic_name": "Execution"
+						}
+					},
+					"kill_chain_phases": [
+						"10"
+					]
+				},
+				"10": {
+					"type": "kill-chain-phase",
+					"phase_name": "Execution"
+				},
+				"11": {
+					"type": "x-ibm-ttp-tagging",
+					"extensions": {
+						"mitre-attack-ext": {
+							"technique_name": "User Execution: Malicious File (T1204.002)"
+						}
+					}
+				}
+
+			},
+			"modified": "2023-09-29T12:12:50.857Z",
+			"last_observed": "2023-09-29T12:12:50.857Z",
+			"created_by_ref": "identity--3079a446-1a08-40d0-a1bb-e998f369b1e6",
+			"first_observed": "2023-09-29T12:12:50.857Z",
+			"number_observed": 1
+		}
+
+	]
+}
