@@ -1,0 +1,114 @@
+{
+	"type": "bundle",
+	"id": "bundle--281fe97a-35d8-4b84-be2e-253047cc6274",
+	"spec_version": "2.0",
+	"objects": [{
+			"type": "identity",
+			"id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+			"name": "msatp",
+			"identity_class": "events",
+			"created": "2023-09-29T13:01:38.295Z",
+			"modified": "2023-09-29T13:01:38.295Z"
+		},
+		{
+			"id": "observed-data--495f50ac-b43f-4e9f-952c-38c88d2b8cf9",
+			"type": "observed-data",
+			"created_by_ref": "identity--d06281b8-b746-447b-bc22-15eaf23dee91",
+			"created": "2023-09-29T12:09:27.034Z",
+			"modified": "2023-09-29T12:09:27.034Z",
+			"objects": {
+			    "0": {
+                    "code": 1,
+                    "type": "x-oca-event",
+                    "agent": "WindowsEmailClient @ Frank-Adams-PC",
+                    "action": "Email Received",
+                    "created": "2023-09-29T13:09:27.034Z",
+                    "outcome": "Success",
+                    "category": [
+                        "Email"
+                    ],
+                    "url_ref": "1",
+                    "nt_ref": "3",
+                    "host_ref": "1",
+                    "provider": "MS365Defender"
+                },
+					"1": {
+					"type": "url",
+					"value": "https://baneand0xe.com"
+				},
+				"2": {
+					"type": "ipv4-addr",
+					"value": "10.10.20.10"
+				},
+					"3": {
+					"type": "network-traffic",
+					"src_ref": "7",
+                    "dst_ref": "2",
+                    "dst_port": 80,
+                    "src_port": 49888,
+                    "protocols": [
+                        "tcp"
+                    ]
+				},
+				"4": {
+					"type": "email-addr",
+					"value": "davesmith@baneand0xe.com"
+				},
+				"5": {
+					"type": "email-message",
+					"sender_ref": "4",
+					"to_refs": "6"
+				},
+				"6": {
+					"type": "email-addr",
+					"value": "frank-adams@baneandox.com"
+				},
+				"7": {
+					"type": "ipv4-addr",
+					"value": "45.81.243.34"
+				},
+				"8": {
+					"type": "x-ibm-finding",
+					"severity": 100,
+					"name": "Known Phishing URL associated with Spearphishing Campaigns",
+					"ttp_tagging_refs": [
+						"9",
+						"11"
+					]
+				},
+				"9": {
+					"type": "x-ibm-ttp-tagging",
+					"extensions": {
+						"mitre-attack-ext": {
+							"tactic_name": "InitialAccess"
+						}
+					},
+					"kill_chain_phases": [
+						"10"
+					]
+				},
+				"10": {
+					"type": "kill-chain-phase",
+					"phase_name": "InitialAccess"
+				},
+				"11": {
+					"type": "x-ibm-ttp-tagging",
+					"extensions": {
+						"mitre-attack-ext": {
+							"technique_name": "Phishing: Spearphishing Link (T1566.002)"
+						}
+					}					
+				},
+				"12": {
+                    "type": "x-oca-asset",
+                    "hostanme": "frank-adams-pc.baneandox.com",
+                    "ip_refs": ["2"]
+                }
+			},
+			"first_observed": "2023-09-29T12:09:27.034Z",
+			"last_observed": "2023-09-29T12:09:29.034Z",
+			"number_observed": 1
+		}
+
+	]
+}
