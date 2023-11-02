@@ -36,7 +36,7 @@
 				},
 				"3": {
 					"type": "ipv4-addr",
-					"value": "10.10.20.11"
+					"value": "10.10.10.10"
 				},
 				"4": {
 					"type": "x-ibm-finding",
