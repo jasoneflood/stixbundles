@@ -54,7 +54,7 @@
 				},
 				"5": {
 					"type": "ipv4-addr",
-					"value": "10.10.20.11"
+					"value": "10.10.10.10"
 				},
 				"6": {
 					"type": "ipv4-addr",
@@ -98,7 +98,7 @@
 				},
 				"1": {
 					"type": "ipv4-addr",
-					"value": "10.10.20.11",
+					"value": "10.10.10.10",
 					"resolves_to_refs": [
 						"12"
 					]
@@ -226,7 +226,7 @@
 				},
 				"1": {
 					"type": "ipv4-addr",
-					"value": "10.10.20.11",
+					"value": "10.10.10.10",
 					"resolves_to_refs": [
 						"13"
 					]
