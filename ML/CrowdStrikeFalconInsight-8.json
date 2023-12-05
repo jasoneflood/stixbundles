@@ -1,0 +1,387 @@
+{
+	"stix_bundle": {
+		"type": "bundle",
+		"id": "bundle--532acde0-e4c1-58e2-afb1-9ceaef5ba8a7",
+		"objects": [
+			{
+				"type": "x-ibm-finding",
+				"id": "x-ibm-finding--b9269f3c-0dd7-4cb1-8530-3842894230b3",
+				"spec_version": "2.1",
+				"event_ids": [],
+				"event_type": "ALERT",
+				"truncated": false,
+				"name": "Unknown CrowdStrike Falcon Insight Event",
+				"description": "Unknown CrowdStrike Falcon Insight Event",
+				"customer_id": "da497f16-b998-4a40-9631-0a3ed33ade10",
+				"data_source_id": "759fc451-aa43-439b-9a1d-6856ccb060aa",
+				"qid_data_source_type_id": 509,
+				"qid": 129250001,
+				"qid_event_id": "Data Encrypted for Impact",
+				"qid_event_category": "CrowdStrikeFalconInsight",
+				"protocol_config_id": 0,
+				"low_level_categories": [
+					10001
+				],
+				"original_time": "2022-12-07T15:28:57.505Z",
+				"receive_time": "2022-12-07T15:28:57.475Z",
+				"parse_time": "2022-12-07T15:28:57.499Z",
+				"storage_time": "1969-12-31T23:59:59.999Z",
+				"external_mitre_ids": [],
+				"mitre_ids": [
+					"T1486"
+				],
+				"data_source_type_id": 509,
+				"data_source_type_categories": [],
+				"external_detection_id": "",
+				"external_alert_id": "",
+				"internal_account_id": "da497f16-b998-4a40-9631-0a3ed33ade10",
+				"external_severity": "",
+				"severity": 7,
+				"external_credibility": "",
+				"credibility": 0,
+				"retention_bucket": 0,
+				"observable_ref_list": [
+					{
+						"context": "",
+						"observable_ref": "directory--d8c6e904-0e80-587d-97fc-5f259a112657",
+						"time_observed": "2022-12-07T15:28:57.5Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--95677224-4e29-5496-b403-3dcb90607a98",
+						"time_observed": "2022-12-07T15:28:57.5Z"
+					},
+					{
+						"context": "Source IP",
+						"observable_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+						"time_observed": "2022-12-07T15:28:57.499Z"
+					},
+					{
+						"context": "Destination IP",
+						"observable_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+						"time_observed": "2022-12-07T15:28:57.499Z"
+					},
+					{
+						"context": "ip.public",
+						"observable_ref": "ipv4-addr--5da2f0da-9895-5534-98ca-af36364ae565",
+						"time_observed": "2022-12-07T15:28:57.5Z"
+					},
+					{
+						"context": "ip.private",
+						"observable_ref": "ipv4-addr--d500758c-27ab-5bda-9639-290086c54ff7",
+						"time_observed": "2022-12-07T15:28:57.5Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "network-traffic--97c474d6-803f-5d64-924a-ab21556ec2b2",
+						"time_observed": "2022-12-07T15:28:57.499Z"
+					},
+					{
+						"context": "process.child",
+						"observable_ref": "process--e2e93459-b917-4c6e-b1c6-b06938d4aac8",
+						"time_observed": "2022-12-07T15:28:57.5Z"
+					},
+					{
+						"context": "process.parent",
+						"observable_ref": "process--d7612e03-03d2-415d-bde3-9d1ae8f40aa2",
+						"time_observed": "2022-12-07T15:28:57.5Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "software--83b50d90-63f7-5839-a8a1-131c61b1de78",
+						"time_observed": "2022-12-07T15:28:57.5Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--155063c0-98d9-5fc3-b302-d2b9d1eeedc9",
+						"time_observed": "2022-12-07T15:28:57.5Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "endpoint--a4a7df84-0d72-5d30-8ce3-4a01da9c9414",
+						"time_observed": "2022-12-07T15:28:57.5Z"
+					}
+				]
+			},
+			{
+				"type": "directory",
+				"id": "directory--d8c6e904-0e80-587d-97fc-5f259a112657",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--95677224-4e29-5496-b403-3dcb90607a98"
+				],
+				"path": "Device\\HarddiskVolume4\\Users\\redlab-admin\\Desktop\\7659576166\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--95677224-4e29-5496-b403-3dcb90607a98",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "c5ad3534e1c939661b71f56144d19ff36e9ea365fdb47e4f8e2d267c39376486",
+					"SHA_1": "",
+					"MD5": "c681038bc738ff0a816176c4cd21150c"
+				},
+				"name": "blackcat.exe",
+				"parent_directory_ref": "directory--d8c6e904-0e80-587d-97fc-5f259a112657",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "127.0.0.1"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "127.0.0.1"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--5da2f0da-9895-5534-98ca-af36364ae565",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "198.23.124.3"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--d500758c-27ab-5bda-9639-290086c54ff7",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.100.11"
+			},
+			{
+				"type": "network-traffic",
+				"id": "network-traffic--97c474d6-803f-5d64-924a-ab21556ec2b2",
+				"spec_version": "2.1",
+				"is_active": false,
+				"src_byte_count": -1,
+				"dst_byte_count": -1,
+				"src_packets": -1,
+				"dst_packets": -1,
+				"src_payload_ref": "",
+				"dst_payload_ref": "",
+				"encapsulates_refs": [
+					""
+				],
+				"encapsulated_by_ref": "",
+				"src_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"dst_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"src_port": 0,
+				"dst_port": 0,
+				"protocols": [
+					"255"
+				],
+				"start": "1969-12-31T23:59:59.999Z",
+				"end": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--e2e93459-b917-4c6e-b1c6-b06938d4aac8",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "\"C:\\Users\\redlab-admin\\Desktop\\7659576166\\blackcat.exe\" \"--access-token\" \"12345\"",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "user-account--155063c0-98d9-5fc3-b302-d2b9d1eeedc9",
+				"image_ref": "file--95677224-4e29-5496-b403-3dcb90607a98",
+				"parent_ref": "process--d7612e03-03d2-415d-bde3-9d1ae8f40aa2",
+				"child_refs": [
+					""
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--d7612e03-03d2-415d-bde3-9d1ae8f40aa2",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "C:\\WINDOWS\\SysWOW64\\DllHost.exe /Processid:{3E5FC7F9-9A51-4367-9063-A120244FBEC7}",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "",
+				"parent_ref": "",
+				"child_refs": [
+					"process--e2e93459-b917-4c6e-b1c6-b06938d4aac8"
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "software",
+				"id": "software--83b50d90-63f7-5839-a8a1-131c61b1de78",
+				"spec_version": "2.1",
+				"languages": [
+					""
+				],
+				"name": "Windows",
+				"cpe": "",
+				"swid": "",
+				"vendor": "",
+				"version": "Windows 10"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--155063c0-98d9-5fc3-b302-d2b9d1eeedc9",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "redlab-admin",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "S-1-5-21-402316820-4189770315-2196101002-1001",
+				"account_login": "",
+				"account_type": "",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "x-ibm-endpoint",
+				"id": "endpoint--a4a7df84-0d72-5d30-8ce3-4a01da9c9414",
+				"spec_version": "2.1",
+				"hostname": "QOX-WIN-CLIENT1",
+				"device_id": "83e1e031801a43b898008da4d1b1baf3",
+				"groups": [
+					""
+				],
+				"group_ids": [
+					""
+				],
+				"os_software_ref": "software--83b50d90-63f7-5839-a8a1-131c61b1de78",
+				"agent_version": "6.39.15314.0",
+				"bios_manufacturer": "Phoenix Technologies LTD",
+				"bios_version": "6.00",
+				"hardware_architecture": "",
+				"public_ip_values": [
+					"198.23.124.3"
+				],
+				"public_ip_refs": [
+					"ipv4-addr--5da2f0da-9895-5534-98ca-af36364ae565"
+				],
+				"private_ip_refs": [
+					"ipv4-addr--d500758c-27ab-5bda-9639-290086c54ff7"
+				],
+				"private_ip_values": [
+					"172.16.100.11"
+				],
+				"first_seen": "2020-09-30T12:36:41Z",
+				"last_seen": "2022-10-29T04:15:45Z",
+				"mac_address_refs": [
+					""
+				],
+				"device_type": "",
+				"service_provider_account_external_id": ""
+			}
+		]
+	},
+	"enrichments": {
+		"ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b": {
+			"cumulative_severity": -1,
+			"enrichments": [
+				{
+					"category": "Known IP Address",
+					"description": "Localhost IPv4 address observed: 127.0.0.1",
+					"module": "RULE_ENGINE:99703564-1621-4684-a50b-966baa8dd525:{\"name\":\"Localhost IPv4 Address\",\"id\":\"b58379cb-fcd1-4652-ae5d-6048acbb3330\",\"version\":1,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/b58379cb-fcd1-4652-ae5d-6048acbb3330?version=1\"}",
+					"timestamp": 1670426941126,
+					"severity": -1
+				}
+			]
+		},
+		"x-ibm-finding--b9269f3c-0dd7-4cb1-8530-3842894230b3": {
+			"cumulative_severity": 0.23333333333333334,
+			"enrichments": [
+				{
+					"category": "Vendor Severity",
+					"description": "Normalized severity set by detection source: 0.233333333333",
+					"module": "RULE_ENGINE:33f3da62-46fd-46b9-bd2f-5d6bfddc04b7:{\"name\":\"Vendor Severity\",\"id\":\"c0b9ed2b-23b6-456b-856c-d3c17a3bd834\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/c0b9ed2b-23b6-456b-856c-d3c17a3bd834?version=4\"}",
+					"timestamp": 1670426941126,
+					"severity": 0.23333333333333334
+				}
+			]
+		}
+	},
+	"correlation_keys": [
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:user-account--155063c0-98d9-5fc3-b302-d2b9d1eeedc9"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--e2e93459-b917-4c6e-b1c6-b06938d4aac8"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--d7612e03-03d2-415d-bde3-9d1ae8f40aa2"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--95677224-4e29-5496-b403-3dcb90607a98"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--d8c6e904-0e80-587d-97fc-5f259a112657"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:endpoint--a4a7df84-0d72-5d30-8ce3-4a01da9c9414"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:ipv4-addr--5da2f0da-9895-5534-98ca-af36364ae565"
+		}
+	]
+}

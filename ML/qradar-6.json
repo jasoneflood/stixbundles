@@ -1,0 +1,1800 @@
+{
+	"stix_bundle": {
+		"type": "bundle",
+		"id": "bundle--13b78220-1bc6-5dd4-8141-974c9625ce17",
+		"objects": [
+			{
+				"type": "x-ibm-finding",
+				"id": "x-ibm-finding--3952c5e8-f628-45b6-b4af-0367aa5bf4ff",
+				"spec_version": "2.1",
+				"event_ids": [],
+				"event_type": "ALERT",
+				"truncated": false,
+				"name": "QRadar Offense - Magnitude 6",
+				"description": "QRadar Offense - Magnitude 6",
+				"customer_id": "da497f16-b998-4a40-9631-0a3ed33ade10",
+				"data_source_id": "599f7d52-b58e-4eb3-b2b1-0e59856672ee",
+				"qid_data_source_type_id": 514,
+				"qid": 130500011,
+				"qid_event_id": "qradar_offense_magnitude_6",
+				"qid_event_category": "IBMSecurityQRadar",
+				"protocol_config_id": 0,
+				"low_level_categories": [
+					8055
+				],
+				"original_time": "2022-12-07T19:16:34.393Z",
+				"receive_time": "2022-12-07T19:16:34.374Z",
+				"parse_time": "2022-12-07T19:16:34.385Z",
+				"storage_time": "1969-12-31T23:59:59.999Z",
+				"external_mitre_ids": [],
+				"mitre_ids": [],
+				"data_source_type_id": 514,
+				"data_source_type_categories": [],
+				"external_detection_id": "",
+				"external_alert_id": "",
+				"internal_account_id": "da497f16-b998-4a40-9631-0a3ed33ade10",
+				"external_severity": "",
+				"severity": 9,
+				"external_credibility": "",
+				"credibility": 5,
+				"retention_bucket": 0,
+				"observable_ref_list": [
+					{
+						"context": "",
+						"observable_ref": "directory--7ea86118-d2d2-5274-b510-960c3650667b",
+						"time_observed": "2022-12-07T19:16:34.386Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--75ceb3b1-7682-5ccd-b966-50d64c3cb457",
+						"time_observed": "2022-12-07T19:16:34.386Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--aed3d5ef-d6d7-5726-a4eb-83db6de1dd69",
+						"time_observed": "2022-12-07T19:16:34.386Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--234be89f-636f-573b-a922-b2e29da87077",
+						"time_observed": "2022-12-07T19:16:34.386Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--3a57dd26-3062-5eb4-aa4a-91540ed6cc8d",
+						"time_observed": "2022-12-07T19:16:34.387Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--60511ead-514e-5a10-9def-743a16a9143a",
+						"time_observed": "2022-12-07T19:16:34.388Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--aecd3a5a-d954-5721-bf29-ec6504e2583c",
+						"time_observed": "2022-12-07T19:16:34.388Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--d98dd8d5-a90f-5600-ae25-8eefbdee2b95",
+						"time_observed": "2022-12-07T19:16:34.392Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--97cb5345-5d5c-57fe-b27e-0695907ed8ca",
+						"time_observed": "2022-12-07T19:16:34.392Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--1152de88-c933-595f-811e-366cc022b99c",
+						"time_observed": "2022-12-07T19:16:34.392Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "domain-name--74abb17e-7dc5-5450-b3df-52fee97f58e7",
+						"time_observed": "2022-12-07T19:16:34.39Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "domain-name--7679ea55-c88b-5ad4-807e-c9791a00e022",
+						"time_observed": "2022-12-07T19:16:34.39Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "domain-name--7b3a0443-5508-50cd-935a-c3758d567701",
+						"time_observed": "2022-12-07T19:16:34.39Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--e87af03d-a64f-5017-af44-6ed51b455f9c",
+						"time_observed": "2022-12-07T19:16:34.386Z"
+					},
+					{
+						"context": "file.child",
+						"observable_ref": "file--3a2605bd-5d2d-5926-b923-02f868df740c",
+						"time_observed": "2022-12-07T19:16:34.386Z"
+					},
+					{
+						"context": "file.parent",
+						"observable_ref": "file--f2c84a70-fa89-53e6-8464-e7dc55d4dc9c",
+						"time_observed": "2022-12-07T19:16:34.386Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--960e6f37-8ee1-5f70-a86f-c5f2a5382a17",
+						"time_observed": "2022-12-07T19:16:34.386Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--826d5ffa-45ea-51bf-a8e4-1a2efac51d85",
+						"time_observed": "2022-12-07T19:16:34.386Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--22429766-69ed-5e78-9e46-3224a855d843",
+						"time_observed": "2022-12-07T19:16:34.386Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--2e5ff940-fb87-5cb3-9310-68e3e6a6413d",
+						"time_observed": "2022-12-07T19:16:34.386Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--ef12f765-d8ce-52bb-b588-781539350ed1",
+						"time_observed": "2022-12-07T19:16:34.386Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--927de562-f66b-5522-a830-57a10ab5a634",
+						"time_observed": "2022-12-07T19:16:34.387Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--e9ccc0ea-d93f-5211-83e8-ad1d3e8cdc5e",
+						"time_observed": "2022-12-07T19:16:34.387Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--4e6980a5-54ae-53a1-a4a7-91c2c344b580",
+						"time_observed": "2022-12-07T19:16:34.387Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--8e6c4864-52a8-53b6-baf7-77f98e9d0f2b",
+						"time_observed": "2022-12-07T19:16:34.387Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--f23cb11f-6c09-5d0b-a2ba-2fa3dc30683b",
+						"time_observed": "2022-12-07T19:16:34.387Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--a36b285c-d825-50d8-8402-ddc71e42f310",
+						"time_observed": "2022-12-07T19:16:34.387Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--b98ad9eb-20ef-50c4-b12f-95bb9b8b2f62",
+						"time_observed": "2022-12-07T19:16:34.388Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--9a8de11a-f1da-598a-a68e-9e42c6e31850",
+						"time_observed": "2022-12-07T19:16:34.388Z"
+					},
+					{
+						"context": "file.child",
+						"observable_ref": "file--999dd5c2-4333-52a4-8ac8-81836d905c20",
+						"time_observed": "2022-12-07T19:16:34.392Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--f73591e7-fedb-5e40-a970-38d3610eedea",
+						"time_observed": "2022-12-07T19:16:34.392Z"
+					},
+					{
+						"context": "file.parent",
+						"observable_ref": "file--7f14601d-b2e4-579b-bcf3-7a3da5780bec",
+						"time_observed": "2022-12-07T19:16:34.392Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--a0ae9075-6070-50bf-bca9-4cb9b16b6a93",
+						"time_observed": "2022-12-07T19:16:34.392Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--64531390-840d-57ee-b818-1ecb8b3da09e",
+						"time_observed": "2022-12-07T19:16:34.392Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--7dbe1efc-afa6-5243-8599-344fbdb979a8",
+						"time_observed": "2022-12-07T19:16:34.392Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--992b27bb-9c4b-5b1b-b41e-9dcf5e1566e1",
+						"time_observed": "2022-12-07T19:16:34.392Z"
+					},
+					{
+						"context": "Source IP",
+						"observable_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+						"time_observed": "2022-12-07T19:16:34.385Z"
+					},
+					{
+						"context": "Destination IP",
+						"observable_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+						"time_observed": "2022-12-07T19:16:34.386Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--7dd44d27-f473-5ba9-b12b-0d3a61bbed2e",
+						"time_observed": "2022-12-07T19:16:34.388Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--2013cff3-6fa4-53ef-b956-e078b939419c",
+						"time_observed": "2022-12-07T19:16:34.388Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "network-traffic--97c474d6-803f-5d64-924a-ab21556ec2b2",
+						"time_observed": "2022-12-07T19:16:34.386Z"
+					},
+					{
+						"context": "process.child",
+						"observable_ref": "process--b914080e-364c-4cab-b692-263796f3d195",
+						"time_observed": "2022-12-07T19:16:34.386Z"
+					},
+					{
+						"context": "process.parent",
+						"observable_ref": "process--50d180c7-3dc2-4cbe-bd97-af03ebd4fe87",
+						"time_observed": "2022-12-07T19:16:34.386Z"
+					},
+					{
+						"context": "process.child",
+						"observable_ref": "process--df8ff0f3-171d-4d2e-bc7c-0cb7f0249b31",
+						"time_observed": "2022-12-07T19:16:34.392Z"
+					},
+					{
+						"context": "process.parent",
+						"observable_ref": "process--3d8db20c-9a6d-4ea7-b09a-45a74701f6b5",
+						"time_observed": "2022-12-07T19:16:34.392Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "process--212665a9-f728-4779-b53a-e0a732960f9f",
+						"time_observed": "2022-12-07T19:16:34.392Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "software--28ac0b62-2e55-5c4f-b51d-2b2e53540563",
+						"time_observed": "2022-12-07T19:16:34.391Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "url--7c6bdf73-1282-54c2-af52-04560eff4bde",
+						"time_observed": "2022-12-07T19:16:34.39Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "url--5a153d1a-bdfe-5a7c-9d62-07d0485378fd",
+						"time_observed": "2022-12-07T19:16:34.391Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--a6cb8149-c2de-5bf5-a2cf-984043df363c",
+						"time_observed": "2022-12-07T19:16:34.388Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--68f0e4cd-dc87-5d7f-9d2e-14846f940697",
+						"time_observed": "2022-12-07T19:16:34.388Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--e1228881-0247-5994-a9bb-98048ef42807",
+						"time_observed": "2022-12-07T19:16:34.388Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--11a3a6f5-312f-5bcb-be75-b690606dc307",
+						"time_observed": "2022-12-07T19:16:34.388Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--e480820f-786c-572f-9188-edf3850eb358",
+						"time_observed": "2022-12-07T19:16:34.389Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--c0784566-d2eb-5de7-bce2-49d23a1a2f79",
+						"time_observed": "2022-12-07T19:16:34.389Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--a872c462-538c-5d1c-8082-f1c60701f1d4",
+						"time_observed": "2022-12-07T19:16:34.389Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--2d47eb1f-30fd-519d-8c31-8a9d1945442e",
+						"time_observed": "2022-12-07T19:16:34.389Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--2ac31a3f-d199-5f17-b798-ca222642f344",
+						"time_observed": "2022-12-07T19:16:34.389Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--56bc801b-1bda-5b77-96ae-6605d819e49c",
+						"time_observed": "2022-12-07T19:16:34.389Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--2b80cd3e-ff15-517e-914d-d4279f5ad300",
+						"time_observed": "2022-12-07T19:16:34.389Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--4d7a0845-2b08-5613-8eb1-55718faa0d3b",
+						"time_observed": "2022-12-07T19:16:34.389Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--093c14f6-851b-56a3-800c-a6f44bb35a45",
+						"time_observed": "2022-12-07T19:16:34.39Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--83e11db1-2b30-59c1-a835-68aaa8ecac8b",
+						"time_observed": "2022-12-07T19:16:34.39Z"
+					}
+				]
+			},
+			{
+				"type": "directory",
+				"id": "directory--7ea86118-d2d2-5274-b510-960c3650667b",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--e87af03d-a64f-5017-af44-6ed51b455f9c"
+				],
+				"path": "/path/to/FileDirectory/",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--75ceb3b1-7682-5ccd-b966-50d64c3cb457",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--3a2605bd-5d2d-5926-b923-02f868df740c"
+				],
+				"path": "/path/to/ProcessPath/",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--aed3d5ef-d6d7-5726-a4eb-83db6de1dd69",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--f2c84a70-fa89-53e6-8464-e7dc55d4dc9c"
+				],
+				"path": "/path/to/ParentProcessPath/",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--234be89f-636f-573b-a922-b2e29da87077",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--960e6f37-8ee1-5f70-a86f-c5f2a5382a17"
+				],
+				"path": "/tmp/path/to/ImageTempPath",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--3a57dd26-3062-5eb4-aa4a-91540ed6cc8d",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--f23cb11f-6c09-5d0b-a2ba-2fa3dc30683b"
+				],
+				"path": "/tmp/path/to/SourceImageTempPath/",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--60511ead-514e-5a10-9def-743a16a9143a",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--b98ad9eb-20ef-50c4-b12f-95bb9b8b2f62"
+				],
+				"path": "/path/to/ParentFileDirectory/",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--aecd3a5a-d954-5721-bf29-ec6504e2583c",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--9a8de11a-f1da-598a-a68e-9e42c6e31850"
+				],
+				"path": "/path/to/EncodedFileDirectory/",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--d98dd8d5-a90f-5600-ae25-8eefbdee2b95",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--999dd5c2-4333-52a4-8ac8-81836d905c20"
+				],
+				"path": "/tmp/path/to/EcImageTempPath/",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--97cb5345-5d5c-57fe-b27e-0695907ed8ca",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--64531390-840d-57ee-b818-1ecb8b3da09e"
+				],
+				"path": "/tmp/path/to/EcSourceImageTempPath/",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--1152de88-c933-595f-811e-366cc022b99c",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--992b27bb-9c4b-5b1b-b41e-9dcf5e1566e1"
+				],
+				"path": "C:\\path\\to\\EcFilePath\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "domain-name",
+				"id": "domain-name--74abb17e-7dc5-5450-b3df-52fee97f58e7",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"value": "UrlHost.example.com"
+			},
+			{
+				"type": "domain-name",
+				"id": "domain-name--7679ea55-c88b-5ad4-807e-c9791a00e022",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"value": "FwdDomain.example.com"
+			},
+			{
+				"type": "domain-name",
+				"id": "domain-name--7b3a0443-5508-50cd-935a-c3758d567701",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"value": "ProxyDomain.example.com"
+			},
+			{
+				"type": "file",
+				"id": "file--e87af03d-a64f-5017-af44-6ed51b455f9c",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "000000000000000000000000000000000000000000000000000000000000000b",
+					"SHA_1": "000000000000000000000000000000000000000a",
+					"MD5": "00000000000000000000000000000009"
+				},
+				"name": "Filename",
+				"parent_directory_ref": "directory--7ea86118-d2d2-5274-b510-960c3650667b",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--3a2605bd-5d2d-5926-b923-02f868df740c",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "ProcessName.sh",
+				"parent_directory_ref": "directory--75ceb3b1-7682-5ccd-b966-50d64c3cb457",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--f2c84a70-fa89-53e6-8464-e7dc55d4dc9c",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "ParentProcessName.sh",
+				"parent_directory_ref": "directory--aed3d5ef-d6d7-5726-a4eb-83db6de1dd69",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--960e6f37-8ee1-5f70-a86f-c5f2a5382a17",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "Image.img",
+				"parent_directory_ref": "directory--234be89f-636f-573b-a922-b2e29da87077",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--826d5ffa-45ea-51bf-a8e4-1a2efac51d85",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "TerminatedProcessName.sh",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--22429766-69ed-5e78-9e46-3224a855d843",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "ImageId.img",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--2e5ff940-fb87-5cb3-9310-68e3e6a6413d",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "ContainerImage.img",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--ef12f765-d8ce-52bb-b588-781539350ed1",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "ContainerImageID.img",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--927de562-f66b-5522-a830-57a10ab5a634",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "ParentImage.img",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--e9ccc0ea-d93f-5211-83e8-ad1d3e8cdc5e",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "ParentImageName.img",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--4e6980a5-54ae-53a1-a4a7-91c2c344b580",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "TargetImageName.img",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--8e6c4864-52a8-53b6-baf7-77f98e9d0f2b",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "SourceProcess.sh",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--f23cb11f-6c09-5d0b-a2ba-2fa3dc30683b",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "SourceImage.img",
+				"parent_directory_ref": "directory--3a57dd26-3062-5eb4-aa4a-91540ed6cc8d",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--a36b285c-d825-50d8-8402-ddc71e42f310",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "InstallerFilename",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--b98ad9eb-20ef-50c4-b12f-95bb9b8b2f62",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "ParentFilename",
+				"parent_directory_ref": "directory--60511ead-514e-5a10-9def-743a16a9143a",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--9a8de11a-f1da-598a-a68e-9e42c6e31850",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "EncodedFileName.txt",
+				"parent_directory_ref": "directory--aecd3a5a-d954-5721-bf29-ec6504e2583c",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--999dd5c2-4333-52a4-8ac8-81836d905c20",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "EcImage.img",
+				"parent_directory_ref": "directory--d98dd8d5-a90f-5600-ae25-8eefbdee2b95",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--f73591e7-fedb-5e40-a970-38d3610eedea",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "EcImageName.img",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--7f14601d-b2e4-579b-bcf3-7a3da5780bec",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "EcParentImage.img",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--a0ae9075-6070-50bf-bca9-4cb9b16b6a93",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "EcParentImageName.img",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--64531390-840d-57ee-b818-1ecb8b3da09e",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "EcSourceImage.img",
+				"parent_directory_ref": "directory--97cb5345-5d5c-57fe-b27e-0695907ed8ca",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--7dbe1efc-afa6-5243-8599-344fbdb979a8",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "EcTargetImageName.img",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--992b27bb-9c4b-5b1b-b41e-9dcf5e1566e1",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "0000000000000000000000000000000000000000000000000000000000000005",
+					"SHA_1": "0000000000000000000000000000000000000004",
+					"MD5": "00000000000000000000000000000003"
+				},
+				"name": "EcFilename.txt",
+				"parent_directory_ref": "directory--1152de88-c933-595f-811e-366cc022b99c",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "127.0.0.1"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "127.0.0.1"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--7dd44d27-f473-5ba9-b12b-0d3a61bbed2e",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "10.0.0.1"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--2013cff3-6fa4-53ef-b956-e078b939419c",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "10.0.0.2"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--593118d3-f9cd-5a72-babc-4128b379d15e",
+				"spec_version": "2.1",
+				"value": "00:00:5E:00:53:01"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--a75c41d0-bb1e-5935-bc9d-365fbce3398d",
+				"spec_version": "2.1",
+				"value": "00:00:5E:00:53:02"
+			},
+			{
+				"type": "network-traffic",
+				"id": "network-traffic--97c474d6-803f-5d64-924a-ab21556ec2b2",
+				"spec_version": "2.1",
+				"is_active": false,
+				"src_byte_count": -1,
+				"dst_byte_count": -1,
+				"src_packets": -1,
+				"dst_packets": -1,
+				"src_payload_ref": "",
+				"dst_payload_ref": "",
+				"encapsulates_refs": [
+					""
+				],
+				"encapsulated_by_ref": "",
+				"src_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"dst_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"src_port": 0,
+				"dst_port": 0,
+				"protocols": [
+					"255"
+				],
+				"start": "1969-12-31T23:59:59.999Z",
+				"end": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--b914080e-364c-4cab-b692-263796f3d195",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "ProcessCommandLine.sh --args 'args'",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--3a2605bd-5d2d-5926-b923-02f868df740c",
+				"parent_ref": "process--50d180c7-3dc2-4cbe-bd97-af03ebd4fe87",
+				"child_refs": [
+					""
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--50d180c7-3dc2-4cbe-bd97-af03ebd4fe87",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "ParentCommandLine.sh --args 'args'",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--f2c84a70-fa89-53e6-8464-e7dc55d4dc9c",
+				"parent_ref": "",
+				"child_refs": [
+					"process--b914080e-364c-4cab-b692-263796f3d195"
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--df8ff0f3-171d-4d2e-bc7c-0cb7f0249b31",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": 123,
+				"cwd": "",
+				"command_line": "EcProcessCommandLine.sh --args 'args'",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--999dd5c2-4333-52a4-8ac8-81836d905c20",
+				"parent_ref": "process--3d8db20c-9a6d-4ea7-b09a-45a74701f6b5",
+				"child_refs": [
+					""
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--3d8db20c-9a6d-4ea7-b09a-45a74701f6b5",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "EcParentCommandLine.sh --args 'args'",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--7f14601d-b2e4-579b-bcf3-7a3da5780bec",
+				"parent_ref": "",
+				"child_refs": [
+					"process--df8ff0f3-171d-4d2e-bc7c-0cb7f0249b31"
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--212665a9-f728-4779-b53a-e0a732960f9f",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "EcPsEncodedCommand.sh --args 'args'",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "",
+				"parent_ref": "",
+				"child_refs": [
+					""
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "software",
+				"id": "software--28ac0b62-2e55-5c4f-b51d-2b2e53540563",
+				"spec_version": "2.1",
+				"languages": [
+					""
+				],
+				"name": "Windows 10",
+				"cpe": "",
+				"swid": "",
+				"vendor": "",
+				"version": ""
+			},
+			{
+				"type": "url",
+				"id": "url--7c6bdf73-1282-54c2-af52-04560eff4bde",
+				"spec_version": "2.1",
+				"value": "https://URL.example.com/endpoint"
+			},
+			{
+				"type": "url",
+				"id": "url--5a153d1a-bdfe-5a7c-9d62-07d0485378fd",
+				"spec_version": "2.1",
+				"value": "https://ReferrerURL.example.com/endpoint"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--a6cb8149-c2de-5bf5-a2cf-984043df363c",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "userName",
+				"account_login": "",
+				"account_type": "",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--68f0e4cd-dc87-5d7f-9d2e-14846f940697",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "AccountID",
+				"account_login": "",
+				"account_type": "UserType1",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--e1228881-0247-5994-a9bb-98048ef42807",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "Account Name",
+				"account_login": "",
+				"account_type": "UserType1",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--11a3a6f5-312f-5bcb-be75-b690606dc307",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "AccountName",
+				"account_login": "",
+				"account_type": "UserType1",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--e480820f-786c-572f-9188-edf3850eb358",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "UserAccount",
+				"account_login": "",
+				"account_type": "UserType1",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--c0784566-d2eb-5de7-bce2-49d23a1a2f79",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "UserId",
+				"account_login": "",
+				"account_type": "UserType1",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--a872c462-538c-5d1c-8082-f1c60701f1d4",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "EcTargetAccountName",
+				"account_login": "",
+				"account_type": "UserType1",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--2d47eb1f-30fd-519d-8c31-8a9d1945442e",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "EffectiveUserId",
+				"account_login": "",
+				"account_type": "UserType1",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--2ac31a3f-d199-5f17-b798-ca222642f344",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "FederatedUser",
+				"account_login": "",
+				"account_type": "UserType1",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--56bc801b-1bda-5b77-96ae-6605d819e49c",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "InitiatorUserName",
+				"account_login": "",
+				"account_type": "UserType1",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--2b80cd3e-ff15-517e-914d-d4279f5ad300",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "Originating_User",
+				"account_login": "",
+				"account_type": "UserType1",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--4d7a0845-2b08-5613-8eb1-55718faa0d3b",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "Recipient_User",
+				"account_login": "",
+				"account_type": "UserType1",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--093c14f6-851b-56a3-800c-a6f44bb35a45",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "TargetUserId",
+				"account_login": "",
+				"account_type": "TargetUserType1",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--83e11db1-2b30-59c1-a835-68aaa8ecac8b",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "TargetUserName",
+				"account_login": "",
+				"account_type": "TargetUserType1",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			}
+		]
+	},
+	"enrichments": {
+		"ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b": {
+			"cumulative_severity": -1,
+			"enrichments": [
+				{
+					"category": "Known IP Address",
+					"description": "Localhost IPv4 address observed: 127.0.0.1",
+					"module": "RULE_ENGINE:99703564-1621-4684-a50b-966baa8dd525:{\"name\":\"Localhost IPv4 Address\",\"id\":\"b58379cb-fcd1-4652-ae5d-6048acbb3330\",\"version\":1,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/b58379cb-fcd1-4652-ae5d-6048acbb3330?version=1\"}",
+					"timestamp": 1670440596341,
+					"severity": -1
+				}
+			]
+		},
+		"x-ibm-finding--3952c5e8-f628-45b6-b4af-0367aa5bf4ff": {
+			"cumulative_severity": 0.3,
+			"enrichments": [
+				{
+					"category": "Vendor Severity",
+					"description": "Normalized severity set by detection source: 0.3",
+					"module": "RULE_ENGINE:33f3da62-46fd-46b9-bd2f-5d6bfddc04b7:{\"name\":\"Vendor Severity\",\"id\":\"c0b9ed2b-23b6-456b-856c-d3c17a3bd834\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/c0b9ed2b-23b6-456b-856c-d3c17a3bd834?version=4\"}",
+					"timestamp": 1670440596341,
+					"severity": 0.3
+				}
+			]
+		}
+	},
+	"correlation_keys": [
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--b914080e-364c-4cab-b692-263796f3d195"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--f23cb11f-6c09-5d0b-a2ba-2fa3dc30683b"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--826d5ffa-45ea-51bf-a8e4-1a2efac51d85"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:url--5a153d1a-bdfe-5a7c-9d62-07d0485378fd"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--df8ff0f3-171d-4d2e-bc7c-0cb7f0249b31"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--3d8db20c-9a6d-4ea7-b09a-45a74701f6b5"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--ef12f765-d8ce-52bb-b588-781539350ed1"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:user-account--11a3a6f5-312f-5bcb-be75-b690606dc307"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--9a8de11a-f1da-598a-a68e-9e42c6e31850"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--999dd5c2-4333-52a4-8ac8-81836d905c20"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:user-account--83e11db1-2b30-59c1-a835-68aaa8ecac8b"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:user-account--2d47eb1f-30fd-519d-8c31-8a9d1945442e"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:user-account--093c14f6-851b-56a3-800c-a6f44bb35a45"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--f73591e7-fedb-5e40-a970-38d3610eedea"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:url--7c6bdf73-1282-54c2-af52-04560eff4bde"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--7f14601d-b2e4-579b-bcf3-7a3da5780bec"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:user-account--a6cb8149-c2de-5bf5-a2cf-984043df363c"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:user-account--c0784566-d2eb-5de7-bce2-49d23a1a2f79"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:user-account--e480820f-786c-572f-9188-edf3850eb358"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--aed3d5ef-d6d7-5726-a4eb-83db6de1dd69"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--a0ae9075-6070-50bf-bca9-4cb9b16b6a93"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--64531390-840d-57ee-b818-1ecb8b3da09e"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--75ceb3b1-7682-5ccd-b966-50d64c3cb457"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--e87af03d-a64f-5017-af44-6ed51b455f9c"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--50d180c7-3dc2-4cbe-bd97-af03ebd4fe87"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--7ea86118-d2d2-5274-b510-960c3650667b"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--b98ad9eb-20ef-50c4-b12f-95bb9b8b2f62"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:user-account--2b80cd3e-ff15-517e-914d-d4279f5ad300"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--22429766-69ed-5e78-9e46-3224a855d843"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--60511ead-514e-5a10-9def-743a16a9143a"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--1152de88-c933-595f-811e-366cc022b99c"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:user-account--68f0e4cd-dc87-5d7f-9d2e-14846f940697"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--7dbe1efc-afa6-5243-8599-344fbdb979a8"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--f2c84a70-fa89-53e6-8464-e7dc55d4dc9c"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--a36b285c-d825-50d8-8402-ddc71e42f310"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--2e5ff940-fb87-5cb3-9310-68e3e6a6413d"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:user-account--56bc801b-1bda-5b77-96ae-6605d819e49c"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--4e6980a5-54ae-53a1-a4a7-91c2c344b580"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:user-account--e1228881-0247-5994-a9bb-98048ef42807"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--960e6f37-8ee1-5f70-a86f-c5f2a5382a17"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--992b27bb-9c4b-5b1b-b41e-9dcf5e1566e1"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--d98dd8d5-a90f-5600-ae25-8eefbdee2b95"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:user-account--4d7a0845-2b08-5613-8eb1-55718faa0d3b"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--3a57dd26-3062-5eb4-aa4a-91540ed6cc8d"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--97cb5345-5d5c-57fe-b27e-0695907ed8ca"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--212665a9-f728-4779-b53a-e0a732960f9f"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--e9ccc0ea-d93f-5211-83e8-ad1d3e8cdc5e"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--8e6c4864-52a8-53b6-baf7-77f98e9d0f2b"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--aecd3a5a-d954-5721-bf29-ec6504e2583c"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--234be89f-636f-573b-a922-b2e29da87077"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:user-account--a872c462-538c-5d1c-8082-f1c60701f1d4"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--3a2605bd-5d2d-5926-b923-02f868df740c"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--927de562-f66b-5522-a830-57a10ab5a634"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:user-account--2ac31a3f-d199-5f17-b798-ca222642f344"
+		}
+	]
+}

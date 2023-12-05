@@ -1,0 +1,272 @@
+{
+	"stix_bundle": {
+		"type": "bundle",
+		"id": "bundle--ed857978-c4fb-5f55-829e-a3b802b947b9",
+		"objects": [
+			{
+				"type": "x-ibm-finding",
+				"id": "x-ibm-finding--395fdcb1-6572-4ac4-a366-d0a75b47bd36",
+				"spec_version": "2.1",
+				"event_ids": [],
+				"event_type": "ALERT",
+				"truncated": false,
+				"name": "QRadar Offense - Magnitude 3",
+				"description": "QRadar Offense - Magnitude 3",
+				"customer_id": "da497f16-b998-4a40-9631-0a3ed33ade10",
+				"data_source_id": "599f7d52-b58e-4eb3-b2b1-0e59856672ee",
+				"qid_data_source_type_id": 514,
+				"qid": 130500008,
+				"qid_event_id": "qradar_offense_magnitude_3",
+				"qid_event_category": "IBMSecurityQRadar",
+				"protocol_config_id": 0,
+				"low_level_categories": [
+					8053
+				],
+				"original_time": "2022-12-07T19:16:34.407Z",
+				"receive_time": "2022-12-07T19:16:34.402Z",
+				"parse_time": "2022-12-07T19:16:34.405Z",
+				"storage_time": "1969-12-31T23:59:59.999Z",
+				"external_mitre_ids": [],
+				"mitre_ids": [],
+				"data_source_type_id": 514,
+				"data_source_type_categories": [],
+				"external_detection_id": "",
+				"external_alert_id": "",
+				"internal_account_id": "da497f16-b998-4a40-9631-0a3ed33ade10",
+				"external_severity": "",
+				"severity": 1,
+				"external_credibility": "",
+				"credibility": 5,
+				"retention_bucket": 0,
+				"observable_ref_list": [
+					{
+						"context": "",
+						"observable_ref": "directory--ab82f84a-5afc-5ea7-8d98-9fcbc277eda6",
+						"time_observed": "2022-12-07T19:16:34.406Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--43f50542-a481-5a49-8187-8596a9156a7c",
+						"time_observed": "2022-12-07T19:16:34.406Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--d5339002-1351-5995-9a77-565a8e70b00d",
+						"time_observed": "2022-12-07T19:16:34.406Z"
+					},
+					{
+						"context": "Source IP",
+						"observable_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+						"time_observed": "2022-12-07T19:16:34.405Z"
+					},
+					{
+						"context": "Destination IP",
+						"observable_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+						"time_observed": "2022-12-07T19:16:34.405Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+						"time_observed": "2022-12-07T19:16:34.406Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+						"time_observed": "2022-12-07T19:16:34.406Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "network-traffic--97c474d6-803f-5d64-924a-ab21556ec2b2",
+						"time_observed": "2022-12-07T19:16:34.406Z"
+					}
+				]
+			},
+			{
+				"type": "directory",
+				"id": "directory--ab82f84a-5afc-5ea7-8d98-9fcbc277eda6",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--43f50542-a481-5a49-8187-8596a9156a7c"
+				],
+				"path": "C:\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--43f50542-a481-5a49-8187-8596a9156a7c",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "regedit.exe",
+				"parent_directory_ref": "directory--ab82f84a-5afc-5ea7-8d98-9fcbc277eda6",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--d5339002-1351-5995-9a77-565a8e70b00d",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "fsutil.exe",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "127.0.0.1"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "127.0.0.1"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.89.201"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.89.201"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "network-traffic",
+				"id": "network-traffic--97c474d6-803f-5d64-924a-ab21556ec2b2",
+				"spec_version": "2.1",
+				"is_active": false,
+				"src_byte_count": -1,
+				"dst_byte_count": -1,
+				"src_packets": -1,
+				"dst_packets": -1,
+				"src_payload_ref": "",
+				"dst_payload_ref": "",
+				"encapsulates_refs": [
+					""
+				],
+				"encapsulated_by_ref": "",
+				"src_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"dst_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"src_port": 0,
+				"dst_port": 0,
+				"protocols": [
+					"255"
+				],
+				"start": "1969-12-31T23:59:59.999Z",
+				"end": "1969-12-31T23:59:59.999Z"
+			}
+		]
+	},
+	"enrichments": {
+		"ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b": {
+			"cumulative_severity": -1,
+			"enrichments": [
+				{
+					"category": "Known IP Address",
+					"description": "Localhost IPv4 address observed: 127.0.0.1",
+					"module": "RULE_ENGINE:99703564-1621-4684-a50b-966baa8dd525:{\"name\":\"Localhost IPv4 Address\",\"id\":\"b58379cb-fcd1-4652-ae5d-6048acbb3330\",\"version\":1,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/b58379cb-fcd1-4652-ae5d-6048acbb3330?version=1\"}",
+					"timestamp": 1670440596777,
+					"severity": -1
+				}
+			]
+		},
+		"x-ibm-finding--395fdcb1-6572-4ac4-a366-d0a75b47bd36": {
+			"cumulative_severity": 0.03333333333333333,
+			"enrichments": [
+				{
+					"category": "Vendor Severity",
+					"description": "Normalized severity set by detection source: 0.0333333333333",
+					"module": "RULE_ENGINE:33f3da62-46fd-46b9-bd2f-5d6bfddc04b7:{\"name\":\"Vendor Severity\",\"id\":\"c0b9ed2b-23b6-456b-856c-d3c17a3bd834\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/c0b9ed2b-23b6-456b-856c-d3c17a3bd834?version=4\"}",
+					"timestamp": 1670440596777,
+					"severity": 0.03333333333333333
+				}
+			]
+		}
+	},
+	"correlation_keys": [
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--43f50542-a481-5a49-8187-8596a9156a7c"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--d5339002-1351-5995-9a77-565a8e70b00d"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--ab82f84a-5afc-5ea7-8d98-9fcbc277eda6"
+		}
+	]
+}

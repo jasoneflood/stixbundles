@@ -1,0 +1,229 @@
+{
+	"stix_bundle": {
+		"type": "bundle",
+		"id": "bundle--493e5b76-ad38-5dca-adfb-77ca02103e0f",
+		"objects": [
+			{
+				"type": "x-ibm-finding",
+				"id": "x-ibm-finding--ab45cca0-a99c-4bba-9c99-3d6b3b7fb263",
+				"spec_version": "2.1",
+				"event_ids": [],
+				"event_type": "ALERT",
+				"truncated": false,
+				"name": "QRadar Offense - Magnitude 6",
+				"description": "QRadar Offense - Magnitude 6",
+				"customer_id": "da497f16-b998-4a40-9631-0a3ed33ade10",
+				"data_source_id": "599f7d52-b58e-4eb3-b2b1-0e59856672ee",
+				"qid_data_source_type_id": 514,
+				"qid": 130500011,
+				"qid_event_id": "qradar_offense_magnitude_6",
+				"qid_event_category": "IBMSecurityQRadar",
+				"protocol_config_id": 0,
+				"low_level_categories": [
+					8055
+				],
+				"original_time": "2022-12-07T19:16:34.37Z",
+				"receive_time": "2022-12-07T19:16:34.362Z",
+				"parse_time": "2022-12-07T19:16:34.368Z",
+				"storage_time": "1969-12-31T23:59:59.999Z",
+				"external_mitre_ids": [],
+				"mitre_ids": [],
+				"data_source_type_id": 514,
+				"data_source_type_categories": [],
+				"external_detection_id": "",
+				"external_alert_id": "",
+				"internal_account_id": "da497f16-b998-4a40-9631-0a3ed33ade10",
+				"external_severity": "",
+				"severity": 9,
+				"external_credibility": "",
+				"credibility": 5,
+				"retention_bucket": 0,
+				"observable_ref_list": [
+					{
+						"context": "Source IP",
+						"observable_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+						"time_observed": "2022-12-07T19:16:34.369Z"
+					},
+					{
+						"context": "Destination IP",
+						"observable_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+						"time_observed": "2022-12-07T19:16:34.369Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--0429c085-2100-5689-aae7-cbe21679c27a",
+						"time_observed": "2022-12-07T19:16:34.369Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--0429c085-2100-5689-aae7-cbe21679c27a",
+						"time_observed": "2022-12-07T19:16:34.369Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--0429c085-2100-5689-aae7-cbe21679c27a",
+						"time_observed": "2022-12-07T19:16:34.37Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--0429c085-2100-5689-aae7-cbe21679c27a",
+						"time_observed": "2022-12-07T19:16:34.37Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "network-traffic--97c474d6-803f-5d64-924a-ab21556ec2b2",
+						"time_observed": "2022-12-07T19:16:34.369Z"
+					}
+				]
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "127.0.0.1"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "127.0.0.1"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--0429c085-2100-5689-aae7-cbe21679c27a",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.4.10"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--0429c085-2100-5689-aae7-cbe21679c27a",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.4.10"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--0429c085-2100-5689-aae7-cbe21679c27a",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.4.10"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--0429c085-2100-5689-aae7-cbe21679c27a",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.4.10"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "network-traffic",
+				"id": "network-traffic--97c474d6-803f-5d64-924a-ab21556ec2b2",
+				"spec_version": "2.1",
+				"is_active": false,
+				"src_byte_count": -1,
+				"dst_byte_count": -1,
+				"src_packets": -1,
+				"dst_packets": -1,
+				"src_payload_ref": "",
+				"dst_payload_ref": "",
+				"encapsulates_refs": [
+					""
+				],
+				"encapsulated_by_ref": "",
+				"src_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"dst_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"src_port": 0,
+				"dst_port": 0,
+				"protocols": [
+					"255"
+				],
+				"start": "1969-12-31T23:59:59.999Z",
+				"end": "1969-12-31T23:59:59.999Z"
+			}
+		]
+	},
+	"enrichments": {
+		"ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b": {
+			"cumulative_severity": -1,
+			"enrichments": [
+				{
+					"category": "Known IP Address",
+					"description": "Localhost IPv4 address observed: 127.0.0.1",
+					"module": "RULE_ENGINE:99703564-1621-4684-a50b-966baa8dd525:{\"name\":\"Localhost IPv4 Address\",\"id\":\"b58379cb-fcd1-4652-ae5d-6048acbb3330\",\"version\":1,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/b58379cb-fcd1-4652-ae5d-6048acbb3330?version=1\"}",
+					"timestamp": 1670440595120,
+					"severity": -1
+				}
+			]
+		},
+		"x-ibm-finding--ab45cca0-a99c-4bba-9c99-3d6b3b7fb263": {
+			"cumulative_severity": 0.3,
+			"enrichments": [
+				{
+					"category": "Vendor Severity",
+					"description": "Normalized severity set by detection source: 0.3",
+					"module": "RULE_ENGINE:33f3da62-46fd-46b9-bd2f-5d6bfddc04b7:{\"name\":\"Vendor Severity\",\"id\":\"c0b9ed2b-23b6-456b-856c-d3c17a3bd834\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/c0b9ed2b-23b6-456b-856c-d3c17a3bd834?version=4\"}",
+					"timestamp": 1670440595120,
+					"severity": 0.3
+				}
+			]
+		}
+	},
+	"correlation_keys": []
+}

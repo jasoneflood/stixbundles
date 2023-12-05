@@ -1,0 +1,2218 @@
+{
+	"stix_bundle": {
+		"type": "bundle",
+		"id": "bundle--38160419-4ec6-5928-ba00-db946cb5095c",
+		"objects": [
+			{
+				"type": "x-ibm-finding",
+				"id": "x-ibm-finding--c4d7cabe-e881-4f48-a7fc-1897773677d0",
+				"spec_version": "2.1",
+				"event_ids": [],
+				"event_type": "ALERT",
+				"truncated": false,
+				"name": "QRadar Offense - Magnitude 5",
+				"description": "QRadar Offense - Magnitude 5",
+				"customer_id": "da497f16-b998-4a40-9631-0a3ed33ade10",
+				"data_source_id": "599f7d52-b58e-4eb3-b2b1-0e59856672ee",
+				"qid_data_source_type_id": 514,
+				"qid": 130500010,
+				"qid_event_id": "qradar_offense_magnitude_5",
+				"qid_event_category": "IBMSecurityQRadar",
+				"protocol_config_id": 0,
+				"low_level_categories": [
+					8054
+				],
+				"original_time": "2022-12-07T19:16:26.28Z",
+				"receive_time": "2022-12-07T19:16:26.243Z",
+				"parse_time": "2022-12-07T19:16:26.274Z",
+				"storage_time": "1969-12-31T23:59:59.999Z",
+				"external_mitre_ids": [],
+				"mitre_ids": [],
+				"data_source_type_id": 514,
+				"data_source_type_categories": [],
+				"external_detection_id": "",
+				"external_alert_id": "",
+				"internal_account_id": "da497f16-b998-4a40-9631-0a3ed33ade10",
+				"external_severity": "",
+				"severity": 7,
+				"external_credibility": "",
+				"credibility": 5,
+				"retention_bucket": 0,
+				"observable_ref_list": [
+					{
+						"context": "",
+						"observable_ref": "directory--ccfcfda7-162e-5551-aa57-8cb5dc1c8e5e",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--bf7039a5-3e5e-5391-845a-b2fb6a54b5b3",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--111e0865-5dd4-572f-8509-8332cff77b8b",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--ffa029a6-a518-53b4-afae-82e6ec95efa0",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--3691215a-36b1-5676-89ad-cf90d7e6b360",
+						"time_observed": "2022-12-07T19:16:26.276Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--111e0865-5dd4-572f-8509-8332cff77b8b",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--ffa029a6-a518-53b4-afae-82e6ec95efa0",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--ccfcfda7-162e-5551-aa57-8cb5dc1c8e5e",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--bf7039a5-3e5e-5391-845a-b2fb6a54b5b3",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--ccfcfda7-162e-5551-aa57-8cb5dc1c8e5e",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--bf7039a5-3e5e-5391-845a-b2fb6a54b5b3",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--77d95dba-cc87-50dd-8d2b-f1d8edaf2768",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--ffa029a6-a518-53b4-afae-82e6ec95efa0",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--111e0865-5dd4-572f-8509-8332cff77b8b",
+						"time_observed": "2022-12-07T19:16:26.279Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "directory--ffa029a6-a518-53b4-afae-82e6ec95efa0",
+						"time_observed": "2022-12-07T19:16:26.279Z"
+					},
+					{
+						"context": "file.child",
+						"observable_ref": "file--02ecdc74-abe5-58ec-9df8-61d1fd1d8e13",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "file.parent",
+						"observable_ref": "file--f0ddedbf-cbad-592a-b9d7-1628ed3fc20f",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "file.child",
+						"observable_ref": "file--0a02a26d-1fcd-5935-ba1b-a5303d62cf46",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "file.parent",
+						"observable_ref": "file--cbf5c398-69d5-5211-b7d6-7286a4f0a30a",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--1b3197be-1b16-5d5e-87b5-07a598ae8a3e",
+						"time_observed": "2022-12-07T19:16:26.276Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--b4c772b7-7fb5-5559-b474-149952f753dd",
+						"time_observed": "2022-12-07T19:16:26.276Z"
+					},
+					{
+						"context": "file.child",
+						"observable_ref": "file--0a02a26d-1fcd-5935-ba1b-a5303d62cf46",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "file.parent",
+						"observable_ref": "file--cbf5c398-69d5-5211-b7d6-7286a4f0a30a",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "file.child",
+						"observable_ref": "file--02ecdc74-abe5-58ec-9df8-61d1fd1d8e13",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "file.parent",
+						"observable_ref": "file--f0ddedbf-cbad-592a-b9d7-1628ed3fc20f",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "file.child",
+						"observable_ref": "file--02ecdc74-abe5-58ec-9df8-61d1fd1d8e13",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "file.parent",
+						"observable_ref": "file--f0ddedbf-cbad-592a-b9d7-1628ed3fc20f",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "file.child",
+						"observable_ref": "file--b2fb3cd6-7ff9-5718-abec-dab860a32c8e",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--207718ef-80be-5296-8f66-00a500a6f471",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "file.child",
+						"observable_ref": "file--0a02a26d-1fcd-5935-ba1b-a5303d62cf46",
+						"time_observed": "2022-12-07T19:16:26.279Z"
+					},
+					{
+						"context": "file.parent",
+						"observable_ref": "file--cbf5c398-69d5-5211-b7d6-7286a4f0a30a",
+						"time_observed": "2022-12-07T19:16:26.279Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "file--8bd494fa-74f7-5583-b379-470b2288b3c4",
+						"time_observed": "2022-12-07T19:16:26.279Z"
+					},
+					{
+						"context": "Source IP",
+						"observable_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+						"time_observed": "2022-12-07T19:16:26.274Z"
+					},
+					{
+						"context": "Destination IP",
+						"observable_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.276Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.276Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.276Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.276Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.279Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.279Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.279Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+						"time_observed": "2022-12-07T19:16:26.279Z"
+					},
+					{
+						"context": "ip.dst",
+						"observable_ref": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+						"time_observed": "2022-12-07T19:16:26.279Z"
+					},
+					{
+						"context": "ip.src",
+						"observable_ref": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+						"time_observed": "2022-12-07T19:16:26.28Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "network-traffic--97c474d6-803f-5d64-924a-ab21556ec2b2",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "process.child",
+						"observable_ref": "process--21a7839f-64b3-440b-be61-1ecd61f51ec4",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "process.parent",
+						"observable_ref": "process--e1aa7c2b-119a-4f21-88eb-8877b1ea78c4",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "process.child",
+						"observable_ref": "process--9f161d76-5c96-4419-98da-c49280890e10",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "process.parent",
+						"observable_ref": "process--a5a87fd0-61de-41a6-9983-c9465c4a2fde",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "process.child",
+						"observable_ref": "process--e1eb82c2-ab4e-4055-aeb6-3d105ca1c8bf",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "process.parent",
+						"observable_ref": "process--348716b0-9b98-4cfa-9372-4e881e24475a",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "process.child",
+						"observable_ref": "process--6e5cea4e-395f-4374-9c3b-662bdd9b2444",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "process.parent",
+						"observable_ref": "process--af75516a-12a1-45b4-92ab-7dde425bf283",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "process.child",
+						"observable_ref": "process--d551d3dd-bbb4-45b6-a523-91e117ec40e9",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "process.parent",
+						"observable_ref": "process--c2ee8426-b8fd-446e-89bc-ae1de6e8175d",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "process--0a2eeaae-6a11-408f-845a-ce0c8646d687",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "process.child",
+						"observable_ref": "process--e32d3914-2756-4c21-a6aa-d00516a646ae",
+						"time_observed": "2022-12-07T19:16:26.279Z"
+					},
+					{
+						"context": "process.parent",
+						"observable_ref": "process--afe49983-c0b9-4c66-9d6e-85e8426bf447",
+						"time_observed": "2022-12-07T19:16:26.279Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+						"time_observed": "2022-12-07T19:16:26.275Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+						"time_observed": "2022-12-07T19:16:26.276Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+						"time_observed": "2022-12-07T19:16:26.277Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--9c8baa86-7434-5287-8f53-fd11cb3c5571",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--9c8baa86-7434-5287-8f53-fd11cb3c5571",
+						"time_observed": "2022-12-07T19:16:26.278Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+						"time_observed": "2022-12-07T19:16:26.279Z"
+					},
+					{
+						"context": "",
+						"observable_ref": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+						"time_observed": "2022-12-07T19:16:26.279Z"
+					}
+				]
+			},
+			{
+				"type": "directory",
+				"id": "directory--ccfcfda7-162e-5551-aa57-8cb5dc1c8e5e",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--02ecdc74-abe5-58ec-9df8-61d1fd1d8e13"
+				],
+				"path": "C:\\Users\\Administrator\\Downloads\\PingCastle_2.8.1.0\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--bf7039a5-3e5e-5391-845a-b2fb6a54b5b3",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--f0ddedbf-cbad-592a-b9d7-1628ed3fc20f"
+				],
+				"path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--111e0865-5dd4-572f-8509-8332cff77b8b",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--0a02a26d-1fcd-5935-ba1b-a5303d62cf46"
+				],
+				"path": "C:\\Users\\Administrator\\Downloads\\Ingestors\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--ffa029a6-a518-53b4-afae-82e6ec95efa0",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--cbf5c398-69d5-5211-b7d6-7286a4f0a30a"
+				],
+				"path": "C:\\Windows\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--3691215a-36b1-5676-89ad-cf90d7e6b360",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--1b3197be-1b16-5d5e-87b5-07a598ae8a3e"
+				],
+				"path": "C:\\Users\\Administrator\\Downloads\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--111e0865-5dd4-572f-8509-8332cff77b8b",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--0a02a26d-1fcd-5935-ba1b-a5303d62cf46"
+				],
+				"path": "C:\\Users\\Administrator\\Downloads\\Ingestors\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--ffa029a6-a518-53b4-afae-82e6ec95efa0",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--cbf5c398-69d5-5211-b7d6-7286a4f0a30a"
+				],
+				"path": "C:\\Windows\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--ccfcfda7-162e-5551-aa57-8cb5dc1c8e5e",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--02ecdc74-abe5-58ec-9df8-61d1fd1d8e13"
+				],
+				"path": "C:\\Users\\Administrator\\Downloads\\PingCastle_2.8.1.0\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--bf7039a5-3e5e-5391-845a-b2fb6a54b5b3",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--f0ddedbf-cbad-592a-b9d7-1628ed3fc20f"
+				],
+				"path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--ccfcfda7-162e-5551-aa57-8cb5dc1c8e5e",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--02ecdc74-abe5-58ec-9df8-61d1fd1d8e13"
+				],
+				"path": "C:\\Users\\Administrator\\Downloads\\PingCastle_2.8.1.0\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--bf7039a5-3e5e-5391-845a-b2fb6a54b5b3",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--f0ddedbf-cbad-592a-b9d7-1628ed3fc20f"
+				],
+				"path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--77d95dba-cc87-50dd-8d2b-f1d8edaf2768",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--b2fb3cd6-7ff9-5718-abec-dab860a32c8e"
+				],
+				"path": "C:\\Windows\\System32\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--ffa029a6-a518-53b4-afae-82e6ec95efa0",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--207718ef-80be-5296-8f66-00a500a6f471"
+				],
+				"path": "C:\\Windows\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--111e0865-5dd4-572f-8509-8332cff77b8b",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--0a02a26d-1fcd-5935-ba1b-a5303d62cf46"
+				],
+				"path": "C:\\Users\\Administrator\\Downloads\\Ingestors\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "directory",
+				"id": "directory--ffa029a6-a518-53b4-afae-82e6ec95efa0",
+				"spec_version": "2.1",
+				"path_enc": "",
+				"contains_refs": [
+					"file--cbf5c398-69d5-5211-b7d6-7286a4f0a30a"
+				],
+				"path": "C:\\Windows\\",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--02ecdc74-abe5-58ec-9df8-61d1fd1d8e13",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "DCA2B1B824CB28BD15577EACE45BDE7FF8F8F44705B17085524659DE31761DE4",
+					"SHA_1": "",
+					"MD5": "3ED3CDB6D12AA1AC562AD185CDBF2D1D"
+				},
+				"name": "PingCastle.exe",
+				"parent_directory_ref": "directory--ccfcfda7-162e-5551-aa57-8cb5dc1c8e5e",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--f0ddedbf-cbad-592a-b9d7-1628ed3fc20f",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "powershell.exe",
+				"parent_directory_ref": "directory--bf7039a5-3e5e-5391-845a-b2fb6a54b5b3",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--0a02a26d-1fcd-5935-ba1b-a5303d62cf46",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "E9E646A9DBA31A8E3DEBF4202ED34B0B22C483F1ACA75FFA43E684CB417837FA",
+					"SHA_1": "",
+					"MD5": "513D35B572B05CAA1571A48DB1AE24DE"
+				},
+				"name": "SharpHound.exe",
+				"parent_directory_ref": "directory--111e0865-5dd4-572f-8509-8332cff77b8b",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--cbf5c398-69d5-5211-b7d6-7286a4f0a30a",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "explorer.exe",
+				"parent_directory_ref": "directory--ffa029a6-a518-53b4-afae-82e6ec95efa0",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--1b3197be-1b16-5d5e-87b5-07a598ae8a3e",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "ad_carto_simple_node_map.html",
+				"parent_directory_ref": "directory--3691215a-36b1-5676-89ad-cf90d7e6b360",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--b4c772b7-7fb5-5559-b474-149952f753dd",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "PingCastle.exe",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--0a02a26d-1fcd-5935-ba1b-a5303d62cf46",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "E9E646A9DBA31A8E3DEBF4202ED34B0B22C483F1ACA75FFA43E684CB417837FA",
+					"SHA_1": "",
+					"MD5": "513D35B572B05CAA1571A48DB1AE24DE"
+				},
+				"name": "SharpHound.exe",
+				"parent_directory_ref": "directory--111e0865-5dd4-572f-8509-8332cff77b8b",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--cbf5c398-69d5-5211-b7d6-7286a4f0a30a",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "explorer.exe",
+				"parent_directory_ref": "directory--ffa029a6-a518-53b4-afae-82e6ec95efa0",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--02ecdc74-abe5-58ec-9df8-61d1fd1d8e13",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "DCA2B1B824CB28BD15577EACE45BDE7FF8F8F44705B17085524659DE31761DE4",
+					"SHA_1": "",
+					"MD5": "3ED3CDB6D12AA1AC562AD185CDBF2D1D"
+				},
+				"name": "PingCastle.exe",
+				"parent_directory_ref": "directory--ccfcfda7-162e-5551-aa57-8cb5dc1c8e5e",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--f0ddedbf-cbad-592a-b9d7-1628ed3fc20f",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "powershell.exe",
+				"parent_directory_ref": "directory--bf7039a5-3e5e-5391-845a-b2fb6a54b5b3",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--02ecdc74-abe5-58ec-9df8-61d1fd1d8e13",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "DCA2B1B824CB28BD15577EACE45BDE7FF8F8F44705B17085524659DE31761DE4",
+					"SHA_1": "",
+					"MD5": "3ED3CDB6D12AA1AC562AD185CDBF2D1D"
+				},
+				"name": "PingCastle.exe",
+				"parent_directory_ref": "directory--ccfcfda7-162e-5551-aa57-8cb5dc1c8e5e",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--f0ddedbf-cbad-592a-b9d7-1628ed3fc20f",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "powershell.exe",
+				"parent_directory_ref": "directory--bf7039a5-3e5e-5391-845a-b2fb6a54b5b3",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--b2fb3cd6-7ff9-5718-abec-dab860a32c8e",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "win32calc.exe",
+				"parent_directory_ref": "directory--77d95dba-cc87-50dd-8d2b-f1d8edaf2768",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--207718ef-80be-5296-8f66-00a500a6f471",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "lsass.exe",
+				"parent_directory_ref": "directory--ffa029a6-a518-53b4-afae-82e6ec95efa0",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--0a02a26d-1fcd-5935-ba1b-a5303d62cf46",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "E9E646A9DBA31A8E3DEBF4202ED34B0B22C483F1ACA75FFA43E684CB417837FA",
+					"SHA_1": "",
+					"MD5": "513D35B572B05CAA1571A48DB1AE24DE"
+				},
+				"name": "SharpHound.exe",
+				"parent_directory_ref": "directory--111e0865-5dd4-572f-8509-8332cff77b8b",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--cbf5c398-69d5-5211-b7d6-7286a4f0a30a",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "explorer.exe",
+				"parent_directory_ref": "directory--ffa029a6-a518-53b4-afae-82e6ec95efa0",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "file",
+				"id": "file--8bd494fa-74f7-5583-b379-470b2288b3c4",
+				"spec_version": "2.1",
+				"size": -1,
+				"name_enc": "",
+				"magic_number_hex": "",
+				"mime_type": "",
+				"contains_refs": [
+					""
+				],
+				"content_ref": "",
+				"hashes": {
+					"SHA_512": "",
+					"SHA_256": "",
+					"SHA_1": "",
+					"MD5": ""
+				},
+				"name": "regedit.exe",
+				"parent_directory_ref": "",
+				"ctime": "1969-12-31T23:59:59.999Z",
+				"mtime": "1969-12-31T23:59:59.999Z",
+				"atime": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "127.0.0.1"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "127.0.0.1"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.89.201"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.89.201"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--73fa2a5a-8f2a-5a63-8ba5-84666f90b36b",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.0.0"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.89.201"
+			},
+			{
+				"type": "ipv4-addr",
+				"id": "ipv4-addr--be2c498e-490d-5c2b-bd8c-2bb79b4f2317",
+				"spec_version": "2.1",
+				"resolves_to_refs": [
+					""
+				],
+				"belongs_to_refs": [
+					""
+				],
+				"value": "172.16.89.201"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "mac-addr",
+				"id": "mac-addr--48fb9f9d-9359-5d38-8e1a-f084bac8652d",
+				"spec_version": "2.1",
+				"value": "00:00:00:00:00:00"
+			},
+			{
+				"type": "network-traffic",
+				"id": "network-traffic--97c474d6-803f-5d64-924a-ab21556ec2b2",
+				"spec_version": "2.1",
+				"is_active": false,
+				"src_byte_count": -1,
+				"dst_byte_count": -1,
+				"src_packets": -1,
+				"dst_packets": -1,
+				"src_payload_ref": "",
+				"dst_payload_ref": "",
+				"encapsulates_refs": [
+					""
+				],
+				"encapsulated_by_ref": "",
+				"src_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"dst_ref": "ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b",
+				"src_port": 0,
+				"dst_port": 0,
+				"protocols": [
+					"255"
+				],
+				"start": "1969-12-31T23:59:59.999Z",
+				"end": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--21a7839f-64b3-440b-be61-1ecd61f51ec4",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "\"C:\\Users\\Administrator\\Downloads\\PingCastle_2.8.1.0\\PingCastle.exe\"",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--02ecdc74-abe5-58ec-9df8-61d1fd1d8e13",
+				"parent_ref": "process--e1aa7c2b-119a-4f21-88eb-8877b1ea78c4",
+				"child_refs": [
+					""
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--e1aa7c2b-119a-4f21-88eb-8877b1ea78c4",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" ",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--f0ddedbf-cbad-592a-b9d7-1628ed3fc20f",
+				"parent_ref": "",
+				"child_refs": [
+					"process--21a7839f-64b3-440b-be61-1ecd61f51ec4"
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--9f161d76-5c96-4419-98da-c49280890e10",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "\"C:\\Users\\Administrator\\Downloads\\Ingestors\\SharpHound.exe\"",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--0a02a26d-1fcd-5935-ba1b-a5303d62cf46",
+				"parent_ref": "process--a5a87fd0-61de-41a6-9983-c9465c4a2fde",
+				"child_refs": [
+					""
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--a5a87fd0-61de-41a6-9983-c9465c4a2fde",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "C:\\Windows\\explorer.exe /NOUACCHECK",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--cbf5c398-69d5-5211-b7d6-7286a4f0a30a",
+				"parent_ref": "",
+				"child_refs": [
+					"process--9f161d76-5c96-4419-98da-c49280890e10"
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--e1eb82c2-ab4e-4055-aeb6-3d105ca1c8bf",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "\"C:\\Users\\Administrator\\Downloads\\Ingestors\\SharpHound.exe\"",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--0a02a26d-1fcd-5935-ba1b-a5303d62cf46",
+				"parent_ref": "process--348716b0-9b98-4cfa-9372-4e881e24475a",
+				"child_refs": [
+					""
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--348716b0-9b98-4cfa-9372-4e881e24475a",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "C:\\Windows\\explorer.exe /NOUACCHECK",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--cbf5c398-69d5-5211-b7d6-7286a4f0a30a",
+				"parent_ref": "",
+				"child_refs": [
+					"process--e1eb82c2-ab4e-4055-aeb6-3d105ca1c8bf"
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--6e5cea4e-395f-4374-9c3b-662bdd9b2444",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "\"C:\\Users\\Administrator\\Downloads\\PingCastle_2.8.1.0\\PingCastle.exe\"",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--02ecdc74-abe5-58ec-9df8-61d1fd1d8e13",
+				"parent_ref": "process--af75516a-12a1-45b4-92ab-7dde425bf283",
+				"child_refs": [
+					""
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--af75516a-12a1-45b4-92ab-7dde425bf283",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" ",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--f0ddedbf-cbad-592a-b9d7-1628ed3fc20f",
+				"parent_ref": "",
+				"child_refs": [
+					"process--6e5cea4e-395f-4374-9c3b-662bdd9b2444"
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--d551d3dd-bbb4-45b6-a523-91e117ec40e9",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "\"C:\\Users\\Administrator\\Downloads\\PingCastle_2.8.1.0\\PingCastle.exe\"",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--02ecdc74-abe5-58ec-9df8-61d1fd1d8e13",
+				"parent_ref": "process--c2ee8426-b8fd-446e-89bc-ae1de6e8175d",
+				"child_refs": [
+					""
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--c2ee8426-b8fd-446e-89bc-ae1de6e8175d",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" ",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--f0ddedbf-cbad-592a-b9d7-1628ed3fc20f",
+				"parent_ref": "",
+				"child_refs": [
+					"process--d551d3dd-bbb4-45b6-a523-91e117ec40e9"
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--0a2eeaae-6a11-408f-845a-ce0c8646d687",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "powershell.exe -encodedCommand a8Dj1d1S8al18f4naSAF81MF41al8",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--b2fb3cd6-7ff9-5718-abec-dab860a32c8e",
+				"parent_ref": "",
+				"child_refs": [
+					""
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--e32d3914-2756-4c21-a6aa-d00516a646ae",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "\"C:\\Users\\Administrator\\Downloads\\Ingestors\\SharpHound.exe\"",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--0a02a26d-1fcd-5935-ba1b-a5303d62cf46",
+				"parent_ref": "process--afe49983-c0b9-4c66-9d6e-85e8426bf447",
+				"child_refs": [
+					""
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "process",
+				"id": "process--afe49983-c0b9-4c66-9d6e-85e8426bf447",
+				"spec_version": "2.1",
+				"is_hidden": false,
+				"pid": -1,
+				"cwd": "",
+				"command_line": "C:\\Windows\\explorer.exe /NOUACCHECK",
+				"environment_variables": {
+					"": ""
+				},
+				"opened_connection_refs": [
+					""
+				],
+				"creator_user_ref": "",
+				"image_ref": "file--cbf5c398-69d5-5211-b7d6-7286a4f0a30a",
+				"parent_ref": "",
+				"child_refs": [
+					"process--e32d3914-2756-4c21-a6aa-d00516a646ae"
+				],
+				"created_time": "1969-12-31T23:59:59.999Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "Administrator",
+				"account_login": "",
+				"account_type": "",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "Administrator",
+				"account_login": "",
+				"account_type": "",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "Administrator",
+				"account_login": "",
+				"account_type": "",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "Administrator",
+				"account_login": "",
+				"account_type": "",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "Administrator",
+				"account_login": "",
+				"account_type": "",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "Administrator",
+				"account_login": "",
+				"account_type": "",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--9c8baa86-7434-5287-8f53-fd11cb3c5571",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "usertest",
+				"account_login": "",
+				"account_type": "",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--9c8baa86-7434-5287-8f53-fd11cb3c5571",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "usertest",
+				"account_login": "",
+				"account_type": "",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "Administrator",
+				"account_login": "",
+				"account_type": "",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			},
+			{
+				"type": "user-account",
+				"id": "user-account--2838785b-9c11-5dfb-a9e2-024e64ba1382",
+				"spec_version": "2.1",
+				"credential": "",
+				"display_name": "",
+				"is_service_account": false,
+				"is_privileged": false,
+				"can_escalate_privs": false,
+				"is_disabled": false,
+				"user_id": "Administrator",
+				"account_login": "",
+				"account_type": "",
+				"account_created": "1969-12-31T23:59:59.999Z",
+				"account_expires": "1970-01-01T00:00:00.001Z",
+				"credential_last_changed": "1970-01-01T00:00:00.001Z",
+				"account_first_login": "1970-01-01T00:00:00.001Z",
+				"account_last_login": "1970-01-01T00:00:00.001Z"
+			}
+		]
+	},
+	"enrichments": {
+		"ipv4-addr--679c6c82-b4be-52e2-9c7a-198689f6f77b": {
+			"cumulative_severity": -1,
+			"enrichments": [
+				{
+					"category": "Known IP Address",
+					"description": "Localhost IPv4 address observed: 127.0.0.1",
+					"module": "RULE_ENGINE:99703564-1621-4684-a50b-966baa8dd525:{\"name\":\"Localhost IPv4 Address\",\"id\":\"b58379cb-fcd1-4652-ae5d-6048acbb3330\",\"version\":1,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/b58379cb-fcd1-4652-ae5d-6048acbb3330?version=1\"}",
+					"timestamp": 1670440588051,
+					"severity": -1
+				}
+			]
+		},
+		"process--0a2eeaae-6a11-408f-845a-ce0c8646d687": {
+			"cumulative_severity": 0.5,
+			"enrichments": [
+				{
+					"category": "Suspicious PowerShell Command Execution",
+					"description": "PowerShell command with suspicious parameters executed: powershell.exe -encodedCommand a8Dj1d1S8al18f4naSAF81MF41al8",
+					"module": "RULE_ENGINE:9ba94abd-8b8d-4266-b645-a7285341b710:{\"name\":\"Suspicious PowerShell Command Execution\",\"id\":\"847a96ac-7f79-459f-853e-2bab1717a640\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/847a96ac-7f79-459f-853e-2bab1717a640?version=4\"}",
+					"timestamp": 1670440588051,
+					"severity": 0.5
+				}
+			]
+		},
+		"process--e1eb82c2-ab4e-4055-aeb6-3d105ca1c8bf": {
+			"cumulative_severity": 0.3,
+			"enrichments": [
+				{
+					"category": "Reconnaissance Tool",
+					"description": "Process activity associated with recon tool observed: \"C:\\Users\\Administrator\\Downloads\\Ingestors\\SharpHound.exe\"",
+					"module": "RULE_ENGINE:3839eaa3-6277-4799-9e94-1e5bbb5f4333:{\"name\":\"Reconnaissance Tool Process\",\"id\":\"c8e5bafd-2727-446f-9cf0-a45f5de66227\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/c8e5bafd-2727-446f-9cf0-a45f5de66227?version=4\"}",
+					"timestamp": 1670440588051,
+					"severity": 0.3
+				}
+			]
+		},
+		"process--d551d3dd-bbb4-45b6-a523-91e117ec40e9": {
+			"cumulative_severity": 0.3,
+			"enrichments": [
+				{
+					"category": "Reconnaissance Tool",
+					"description": "Process activity associated with recon tool observed: \"C:\\Users\\Administrator\\Downloads\\PingCastle_2.8.1.0\\PingCastle.exe\"",
+					"module": "RULE_ENGINE:3839eaa3-6277-4799-9e94-1e5bbb5f4333:{\"name\":\"Reconnaissance Tool Process\",\"id\":\"c8e5bafd-2727-446f-9cf0-a45f5de66227\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/c8e5bafd-2727-446f-9cf0-a45f5de66227?version=4\"}",
+					"timestamp": 1670440588051,
+					"severity": 0.3
+				}
+			]
+		},
+		"x-ibm-finding--c4d7cabe-e881-4f48-a7fc-1897773677d0": {
+			"cumulative_severity": 0.23333333333333334,
+			"enrichments": [
+				{
+					"category": "Vendor Severity",
+					"description": "Normalized severity set by detection source: 0.233333333333",
+					"module": "RULE_ENGINE:33f3da62-46fd-46b9-bd2f-5d6bfddc04b7:{\"name\":\"Vendor Severity\",\"id\":\"c0b9ed2b-23b6-456b-856c-d3c17a3bd834\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/c0b9ed2b-23b6-456b-856c-d3c17a3bd834?version=4\"}",
+					"timestamp": 1670440588051,
+					"severity": 0.23333333333333334
+				}
+			]
+		},
+		"process--6e5cea4e-395f-4374-9c3b-662bdd9b2444": {
+			"cumulative_severity": 0.3,
+			"enrichments": [
+				{
+					"category": "Reconnaissance Tool",
+					"description": "Process activity associated with recon tool observed: \"C:\\Users\\Administrator\\Downloads\\PingCastle_2.8.1.0\\PingCastle.exe\"",
+					"module": "RULE_ENGINE:3839eaa3-6277-4799-9e94-1e5bbb5f4333:{\"name\":\"Reconnaissance Tool Process\",\"id\":\"c8e5bafd-2727-446f-9cf0-a45f5de66227\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/c8e5bafd-2727-446f-9cf0-a45f5de66227?version=4\"}",
+					"timestamp": 1670440588051,
+					"severity": 0.3
+				}
+			]
+		},
+		"process--9f161d76-5c96-4419-98da-c49280890e10": {
+			"cumulative_severity": 0.3,
+			"enrichments": [
+				{
+					"category": "Reconnaissance Tool",
+					"description": "Process activity associated with recon tool observed: \"C:\\Users\\Administrator\\Downloads\\Ingestors\\SharpHound.exe\"",
+					"module": "RULE_ENGINE:3839eaa3-6277-4799-9e94-1e5bbb5f4333:{\"name\":\"Reconnaissance Tool Process\",\"id\":\"c8e5bafd-2727-446f-9cf0-a45f5de66227\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/c8e5bafd-2727-446f-9cf0-a45f5de66227?version=4\"}",
+					"timestamp": 1670440588051,
+					"severity": 0.3
+				}
+			]
+		},
+		"file--b4c772b7-7fb5-5559-b474-149952f753dd": {
+			"cumulative_severity": 0.3,
+			"enrichments": [
+				{
+					"category": "Reconnaissance Tool File",
+					"description": "Filename associated with recon tool observed: PingCastle.exe",
+					"module": "RULE_ENGINE:dc324fec-70b5-4491-ae87-126cc7c20660:{\"name\":\"Detection of Malicious Filename\",\"id\":\"cb9fb235-978a-4a32-98a3-341b8f7bd762\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/cb9fb235-978a-4a32-98a3-341b8f7bd762?version=4\"}",
+					"timestamp": 1670440588051,
+					"severity": 0.3
+				}
+			]
+		},
+		"process--e32d3914-2756-4c21-a6aa-d00516a646ae": {
+			"cumulative_severity": 0.3,
+			"enrichments": [
+				{
+					"category": "Reconnaissance Tool",
+					"description": "Process activity associated with recon tool observed: \"C:\\Users\\Administrator\\Downloads\\Ingestors\\SharpHound.exe\"",
+					"module": "RULE_ENGINE:3839eaa3-6277-4799-9e94-1e5bbb5f4333:{\"name\":\"Reconnaissance Tool Process\",\"id\":\"c8e5bafd-2727-446f-9cf0-a45f5de66227\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/c8e5bafd-2727-446f-9cf0-a45f5de66227?version=4\"}",
+					"timestamp": 1670440588051,
+					"severity": 0.3
+				}
+			]
+		},
+		"process--21a7839f-64b3-440b-be61-1ecd61f51ec4": {
+			"cumulative_severity": 0.3,
+			"enrichments": [
+				{
+					"category": "Reconnaissance Tool",
+					"description": "Process activity associated with recon tool observed: \"C:\\Users\\Administrator\\Downloads\\PingCastle_2.8.1.0\\PingCastle.exe\"",
+					"module": "RULE_ENGINE:3839eaa3-6277-4799-9e94-1e5bbb5f4333:{\"name\":\"Reconnaissance Tool Process\",\"id\":\"c8e5bafd-2727-446f-9cf0-a45f5de66227\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/c8e5bafd-2727-446f-9cf0-a45f5de66227?version=4\"}",
+					"timestamp": 1670440588051,
+					"severity": 0.3
+				}
+			]
+		},
+		"file--0a02a26d-1fcd-5935-ba1b-a5303d62cf46": {
+			"cumulative_severity": 0.3,
+			"enrichments": [
+				{
+					"category": "Reconnaissance Tool File",
+					"description": "Filename associated with recon tool observed: SharpHound.exe",
+					"module": "RULE_ENGINE:dc324fec-70b5-4491-ae87-126cc7c20660:{\"name\":\"Detection of Malicious Filename\",\"id\":\"cb9fb235-978a-4a32-98a3-341b8f7bd762\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/cb9fb235-978a-4a32-98a3-341b8f7bd762?version=4\"}",
+					"timestamp": 1670440588051,
+					"severity": 0.3
+				}
+			]
+		},
+		"file--02ecdc74-abe5-58ec-9df8-61d1fd1d8e13": {
+			"cumulative_severity": 0.3,
+			"enrichments": [
+				{
+					"category": "Reconnaissance Tool File",
+					"description": "Filename associated with recon tool observed: PingCastle.exe",
+					"module": "RULE_ENGINE:dc324fec-70b5-4491-ae87-126cc7c20660:{\"name\":\"Detection of Malicious Filename\",\"id\":\"cb9fb235-978a-4a32-98a3-341b8f7bd762\",\"version\":4,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/cb9fb235-978a-4a32-98a3-341b8f7bd762?version=4\"}",
+					"timestamp": 1670440588050,
+					"severity": 0.3
+				}
+			]
+		}
+	},
+	"correlation_keys": [
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--e1eb82c2-ab4e-4055-aeb6-3d105ca1c8bf"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--a5a87fd0-61de-41a6-9983-c9465c4a2fde"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--ccfcfda7-162e-5551-aa57-8cb5dc1c8e5e"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--0a02a26d-1fcd-5935-ba1b-a5303d62cf46"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--348716b0-9b98-4cfa-9372-4e881e24475a"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--02ecdc74-abe5-58ec-9df8-61d1fd1d8e13"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--6e5cea4e-395f-4374-9c3b-662bdd9b2444"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--c2ee8426-b8fd-446e-89bc-ae1de6e8175d"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--d551d3dd-bbb4-45b6-a523-91e117ec40e9"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--9f161d76-5c96-4419-98da-c49280890e10"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--ffa029a6-a518-53b4-afae-82e6ec95efa0"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--b4c772b7-7fb5-5559-b474-149952f753dd"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--afe49983-c0b9-4c66-9d6e-85e8426bf447"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--0a2eeaae-6a11-408f-845a-ce0c8646d687"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--207718ef-80be-5296-8f66-00a500a6f471"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:user-account--9c8baa86-7434-5287-8f53-fd11cb3c5571"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--e32d3914-2756-4c21-a6aa-d00516a646ae"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--3691215a-36b1-5676-89ad-cf90d7e6b360"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--8bd494fa-74f7-5583-b379-470b2288b3c4"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--b2fb3cd6-7ff9-5718-abec-dab860a32c8e"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:directory--111e0865-5dd4-572f-8509-8332cff77b8b"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--af75516a-12a1-45b4-92ab-7dde425bf283"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:file--1b3197be-1b16-5d5e-87b5-07a598ae8a3e"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--21a7839f-64b3-440b-be61-1ecd61f51ec4"
+		},
+		{
+			"module": "RULE_ENGINE:f8ae0106-43f5-4b52-9eda-9b6a44e9360a:{\"name\":\"Correlation conditions\",\"id\":\"91dfadf3-90c9-490b-94b6-a07288809b6e\",\"version\":16,\"api_relative_path\":\"api/drc/v1/rules/da497f16-b998-4a40-9631-0a3ed33ade10/91dfadf3-90c9-490b-94b6-a07288809b6e?version=16\",\"correlationConditionsMeta\":[{\"name\":\"directory\"},{\"name\":\"endpoint\"},{\"name\":\"file\"},{\"name\":\"ipv4\"},{\"name\":\"process\"},{\"name\":\"registry_key\"},{\"name\":\"url\"},{\"name\":\"user\"}]}",
+			"correlation_key": "da497f16-b998-4a40-9631-0a3ed33ade10:process--e1aa7c2b-119a-4f21-88eb-8877b1ea78c4"
+		}
+	]
+}
